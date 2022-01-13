@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E4B39628278F9FC300301C15 /* Palindrome_Number_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B39627278F9FC300301C15 /* Palindrome_Number_Test.swift */; };
+		E4B39628278F9FC300301C15 /* Palindrome_Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B39627278F9FC300301C15 /* Palindrome_Number.swift */; };
 		E4B3962C278F9FEB00301C15 /* solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B395FB278F9CFF00301C15 /* solution.swift */; };
 		E4B39636278FA15300301C15 /* Two_Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B39635278FA15300301C15 /* Two_Sum.swift */; };
 		E4B3963B278FA16600301C15 /* solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B3963A278FA16500301C15 /* solution.swift */; };
@@ -15,8 +15,8 @@
 
 /* Begin PBXFileReference section */
 		E4B395FB278F9CFF00301C15 /* solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = solution.swift; sourceTree = "<group>"; };
-		E4B39625278F9FC300301C15 /* Palindrome Number Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Palindrome Number Test.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4B39627278F9FC300301C15 /* Palindrome_Number_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palindrome_Number_Test.swift; sourceTree = "<group>"; };
+		E4B39625278F9FC300301C15 /* Palindrome Number.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Palindrome Number.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B39627278F9FC300301C15 /* Palindrome_Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palindrome_Number.swift; sourceTree = "<group>"; };
 		E4B39633278FA15300301C15 /* Two Sum.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Two Sum.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B39635278FA15300301C15 /* Two_Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Two_Sum.swift; sourceTree = "<group>"; };
 		E4B3963A278FA16500301C15 /* solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = solution.swift; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		E4B3959A278F972F00301C15 = {
 			isa = PBXGroup;
 			children = (
-				E4B39626278F9FC300301C15 /* Palindrome Number Test */,
+				E4B39626278F9FC300301C15 /* Palindrome Number */,
 				E4B39634278FA15300301C15 /* Two Sum */,
 				E4B395A4278F972F00301C15 /* Products */,
 			);
@@ -52,19 +52,19 @@
 		E4B395A4278F972F00301C15 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E4B39625278F9FC300301C15 /* Palindrome Number Test.xctest */,
+				E4B39625278F9FC300301C15 /* Palindrome Number.xctest */,
 				E4B39633278FA15300301C15 /* Two Sum.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E4B39626278F9FC300301C15 /* Palindrome Number Test */ = {
+		E4B39626278F9FC300301C15 /* Palindrome Number */ = {
 			isa = PBXGroup;
 			children = (
 				E4B395FB278F9CFF00301C15 /* solution.swift */,
-				E4B39627278F9FC300301C15 /* Palindrome_Number_Test.swift */,
+				E4B39627278F9FC300301C15 /* Palindrome_Number.swift */,
 			);
-			path = "Palindrome Number Test";
+			path = "Palindrome Number";
 			sourceTree = "<group>";
 		};
 		E4B39634278FA15300301C15 /* Two Sum */ = {
@@ -79,9 +79,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E4B39624278F9FC300301C15 /* Palindrome Number Test */ = {
+		E4B39624278F9FC300301C15 /* Palindrome Number */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4B39629278F9FC300301C15 /* Build configuration list for PBXNativeTarget "Palindrome Number Test" */;
+			buildConfigurationList = E4B39629278F9FC300301C15 /* Build configuration list for PBXNativeTarget "Palindrome Number" */;
 			buildPhases = (
 				E4B39621278F9FC300301C15 /* Sources */,
 				E4B39622278F9FC300301C15 /* Frameworks */,
@@ -91,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = "Palindrome Number Test";
+			name = "Palindrome Number";
 			productName = "Palindrome Number Test";
-			productReference = E4B39625278F9FC300301C15 /* Palindrome Number Test.xctest */;
+			productReference = E4B39625278F9FC300301C15 /* Palindrome Number.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		E4B39632278FA15300301C15 /* Two Sum */ = {
@@ -144,7 +144,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E4B39624278F9FC300301C15 /* Palindrome Number Test */,
+				E4B39624278F9FC300301C15 /* Palindrome Number */,
 				E4B39632278FA15300301C15 /* Two Sum */,
 			);
 		};
@@ -173,7 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4B3962C278F9FEB00301C15 /* solution.swift in Sources */,
-				E4B39628278F9FC300301C15 /* Palindrome_Number_Test.swift in Sources */,
+				E4B39628278F9FC300301C15 /* Palindrome_Number.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,7 +376,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4B39629278F9FC300301C15 /* Build configuration list for PBXNativeTarget "Palindrome Number Test" */ = {
+		E4B39629278F9FC300301C15 /* Build configuration list for PBXNativeTarget "Palindrome Number" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4B3962A278F9FC300301C15 /* Debug */,

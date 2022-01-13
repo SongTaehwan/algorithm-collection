@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Palindrome Number Test.xcscheme_^#shared#^_</key>
+		<key>Palindrome Number.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -33,6 +33,11 @@
 			<true/>
 		</dict>
 		<key>E4B3960E278F9EBF00301C15</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E4B39624278F9FC300301C15</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -8,7 +8,7 @@
 import XCTest
 @testable import algorithms
 
-class Palindrome_Number_Test: XCTestCase {
+class Palindrome_Number: XCTestCase {
     var sol: Solution!
 
     override func setUpWithError() throws {
