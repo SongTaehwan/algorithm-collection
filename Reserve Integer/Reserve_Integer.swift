@@ -6,7 +6,6 @@
 //
 
 import XCTest
-@testable import algorithms
 
 /// [Check out the problem](https://leetcode.com/problems/reverse-integer/)
 class Reserve_Integer: TestCase {

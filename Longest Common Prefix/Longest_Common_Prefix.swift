@@ -6,7 +6,6 @@
 //
 
 import XCTest
-@testable import algorithms
 
 /// [Check out the problem](https://leetcode.com/problems/longest-common-prefix/)
 class Longest_Common_Prefix: TestCase {

@@ -6,7 +6,6 @@
 //
 
 import XCTest
-@testable import algorithms
 
 /// [Check out the problem](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
 class Remove_Duplicates_from_Sorted_List: TestCase {

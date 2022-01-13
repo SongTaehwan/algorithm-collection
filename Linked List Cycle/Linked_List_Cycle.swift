@@ -6,7 +6,6 @@
 //
 
 import XCTest
-@testable import algorithms
 
 /// [Check out the problem](https://leetcode.com/problems/linked-list-cycle/)
 class Linked_List_Cycle: TestCase {

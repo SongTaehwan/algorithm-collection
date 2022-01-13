@@ -21,6 +21,9 @@
 		E416F363278FC06D00F19A0B /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E416F364278FC07000F19A0B /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E416F365278FC07500F19A0B /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
+		E49244C92790451B005B4241 /* Convert_Binary_Number_in_a_Linked_List_to_Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49244C82790451B005B4241 /* Convert_Binary_Number_in_a_Linked_List_to_Integer.swift */; };
+		E49244CE27904524005B4241 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49244CD27904524005B4241 /* Solution.swift */; };
+		E49244CF2790453F005B4241 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E4B39628278F9FC300301C15 /* Palindrome_Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B39627278F9FC300301C15 /* Palindrome_Number.swift */; };
 		E4B3962C278F9FEB00301C15 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B395FB278F9CFF00301C15 /* Solution.swift */; };
 		E4B39636278FA15300301C15 /* Two_Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B39635278FA15300301C15 /* Two_Sum.swift */; };
@@ -41,6 +44,9 @@
 		E416F358278FBF4200F19A0B /* Linked List Cycle.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Linked List Cycle.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E416F35A278FBF4200F19A0B /* Linked_List_Cycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Linked_List_Cycle.swift; sourceTree = "<group>"; };
 		E416F35F278FBF4A00F19A0B /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E49244C62790451B005B4241 /* Convert Binary Number in a Linked List to Integer.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Convert Binary Number in a Linked List to Integer.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49244C82790451B005B4241 /* Convert_Binary_Number_in_a_Linked_List_to_Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Convert_Binary_Number_in_a_Linked_List_to_Integer.swift; sourceTree = "<group>"; };
+		E49244CD27904524005B4241 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E4B395FB278F9CFF00301C15 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E4B39625278F9FC300301C15 /* Palindrome Number.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Palindrome Number.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B39627278F9FC300301C15 /* Palindrome_Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palindrome_Number.swift; sourceTree = "<group>"; };
@@ -72,6 +78,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E416F355278FBF4200F19A0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E49244C32790451B005B4241 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -131,6 +144,15 @@
 			path = "Linked List Cycle";
 			sourceTree = "<group>";
 		};
+		E49244C72790451B005B4241 /* Convert Binary Number in a Linked List to Integer */ = {
+			isa = PBXGroup;
+			children = (
+				E49244C82790451B005B4241 /* Convert_Binary_Number_in_a_Linked_List_to_Integer.swift */,
+				E49244CD27904524005B4241 /* Solution.swift */,
+			);
+			path = "Convert Binary Number in a Linked List to Integer";
+			sourceTree = "<group>";
+		};
 		E4B3959A278F972F00301C15 = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +163,7 @@
 				E4B39626278F9FC300301C15 /* Palindrome Number */,
 				E416F34C278FBD5A00F19A0B /* Longest Common Prefix */,
 				E416F359278FBF4200F19A0B /* Linked List Cycle */,
+				E49244C72790451B005B4241 /* Convert Binary Number in a Linked List to Integer */,
 				E4B395A4278F972F00301C15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -154,6 +177,7 @@
 				E416F331278FBBFE00F19A0B /* Remove Duplicates from Sorted List.xctest */,
 				E416F34B278FBD5A00F19A0B /* Longest Common Prefix.xctest */,
 				E416F358278FBF4200F19A0B /* Linked List Cycle.xctest */,
+				E49244C62790451B005B4241 /* Convert Binary Number in a Linked List to Integer.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -247,6 +271,23 @@
 			productReference = E416F358278FBF4200F19A0B /* Linked List Cycle.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E49244C52790451B005B4241 /* Convert Binary Number in a Linked List to Integer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E49244CC2790451B005B4241 /* Build configuration list for PBXNativeTarget "Convert Binary Number in a Linked List to Integer" */;
+			buildPhases = (
+				E49244C22790451B005B4241 /* Sources */,
+				E49244C32790451B005B4241 /* Frameworks */,
+				E49244C42790451B005B4241 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Convert Binary Number in a Linked List to Integer";
+			productName = "Convert Binary Number in a Linked List to Integer";
+			productReference = E49244C62790451B005B4241 /* Convert Binary Number in a Linked List to Integer.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E4B39624278F9FC300301C15 /* Palindrome Number */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4B39629278F9FC300301C15 /* Build configuration list for PBXNativeTarget "Palindrome Number" */;
@@ -303,6 +344,9 @@
 					E416F357278FBF4200F19A0B = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					E49244C52790451B005B4241 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					E4B39624278F9FC300301C15 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -330,6 +374,7 @@
 				E416F330278FBBFE00F19A0B /* Remove Duplicates from Sorted List */,
 				E416F34A278FBD5A00F19A0B /* Longest Common Prefix */,
 				E416F357278FBF4200F19A0B /* Linked List Cycle */,
+				E49244C52790451B005B4241 /* Convert Binary Number in a Linked List to Integer */,
 			);
 		};
 /* End PBXProject section */
@@ -357,6 +402,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E416F356278FBF4200F19A0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E49244C42790451B005B4241 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -417,6 +469,16 @@
 				E416F362278FBFCC00F19A0B /* Utility.swift in Sources */,
 				E416F360278FBF4A00F19A0B /* Solution.swift in Sources */,
 				E416F35B278FBF4200F19A0B /* Linked_List_Cycle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E49244C22790451B005B4241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E49244CF2790453F005B4241 /* Utility.swift in Sources */,
+				E49244CE27904524005B4241 /* Solution.swift in Sources */,
+				E49244C92790451B005B4241 /* Convert_Binary_Number_in_a_Linked_List_to_Integer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,6 +619,36 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Linked-List-Cycle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E49244CA2790451B005B4241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Convert-Binary-Number-in-a-Linked-List-to-Integer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E49244CB2790451B005B4241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Convert-Binary-Number-in-a-Linked-List-to-Integer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -773,6 +865,15 @@
 			buildConfigurations = (
 				E416F35D278FBF4200F19A0B /* Debug */,
 				E416F35E278FBF4200F19A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E49244CC2790451B005B4241 /* Build configuration list for PBXNativeTarget "Convert Binary Number in a Linked List to Integer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E49244CA2790451B005B4241 /* Debug */,
+				E49244CB2790451B005B4241 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
