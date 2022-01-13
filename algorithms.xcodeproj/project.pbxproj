@@ -7,22 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E416F327278FB21600F19A0B /* Reserve_Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F326278FB21600F19A0B /* Reserve_Integer.swift */; };
+		E416F32C278FB22000F19A0B /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F32B278FB22000F19A0B /* Solution.swift */; };
+		E416F334278FBBFE00F19A0B /* Remove_Duplicates_from_Sorted_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F333278FBBFE00F19A0B /* Remove_Duplicates_from_Sorted_List.swift */; };
+		E416F339278FBC3600F19A0B /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F338278FBC3600F19A0B /* Solution.swift */; };
+		E416F33B278FBCA500F19A0B /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
+		E416F34E278FBD5A00F19A0B /* Longest_Common_Prefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F34D278FBD5A00F19A0B /* Longest_Common_Prefix.swift */; };
+		E416F353278FBD6500F19A0B /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F352278FBD6500F19A0B /* Solution.swift */; };
+		E416F35B278FBF4200F19A0B /* Linked_List_Cycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F35A278FBF4200F19A0B /* Linked_List_Cycle.swift */; };
+		E416F360278FBF4A00F19A0B /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F35F278FBF4A00F19A0B /* Solution.swift */; };
+		E416F361278FBFC900F19A0B /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
+		E416F362278FBFCC00F19A0B /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
+		E416F363278FC06D00F19A0B /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
+		E416F364278FC07000F19A0B /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
+		E416F365278FC07500F19A0B /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E4B39628278F9FC300301C15 /* Palindrome_Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B39627278F9FC300301C15 /* Palindrome_Number.swift */; };
-		E4B3962C278F9FEB00301C15 /* solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B395FB278F9CFF00301C15 /* solution.swift */; };
+		E4B3962C278F9FEB00301C15 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B395FB278F9CFF00301C15 /* Solution.swift */; };
 		E4B39636278FA15300301C15 /* Two_Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B39635278FA15300301C15 /* Two_Sum.swift */; };
-		E4B3963B278FA16600301C15 /* solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B3963A278FA16500301C15 /* solution.swift */; };
+		E4B3963B278FA16600301C15 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B3963A278FA16500301C15 /* Solution.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E4B395FB278F9CFF00301C15 /* solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = solution.swift; sourceTree = "<group>"; };
+		E416F324278FB21600F19A0B /* Reserve Integer.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reserve Integer.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E416F326278FB21600F19A0B /* Reserve_Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reserve_Integer.swift; sourceTree = "<group>"; };
+		E416F32B278FB22000F19A0B /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E416F331278FBBFE00F19A0B /* Remove Duplicates from Sorted List.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Remove Duplicates from Sorted List.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E416F333278FBBFE00F19A0B /* Remove_Duplicates_from_Sorted_List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remove_Duplicates_from_Sorted_List.swift; sourceTree = "<group>"; };
+		E416F338278FBC3600F19A0B /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E416F33A278FBCA500F19A0B /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		E416F34B278FBD5A00F19A0B /* Longest Common Prefix.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Longest Common Prefix.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E416F34D278FBD5A00F19A0B /* Longest_Common_Prefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Longest_Common_Prefix.swift; sourceTree = "<group>"; };
+		E416F352278FBD6500F19A0B /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E416F358278FBF4200F19A0B /* Linked List Cycle.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Linked List Cycle.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E416F35A278FBF4200F19A0B /* Linked_List_Cycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Linked_List_Cycle.swift; sourceTree = "<group>"; };
+		E416F35F278FBF4A00F19A0B /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E4B395FB278F9CFF00301C15 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E4B39625278F9FC300301C15 /* Palindrome Number.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Palindrome Number.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B39627278F9FC300301C15 /* Palindrome_Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palindrome_Number.swift; sourceTree = "<group>"; };
 		E4B39633278FA15300301C15 /* Two Sum.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Two Sum.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B39635278FA15300301C15 /* Two_Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Two_Sum.swift; sourceTree = "<group>"; };
-		E4B3963A278FA16500301C15 /* solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = solution.swift; sourceTree = "<group>"; };
+		E4B3963A278FA16500301C15 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E416F321278FB21600F19A0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E416F32E278FBBFE00F19A0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E416F348278FBD5A00F19A0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E416F355278FBF4200F19A0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E4B39622278F9FC300301C15 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -40,11 +95,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E416F325278FB21600F19A0B /* Reserve Integer */ = {
+			isa = PBXGroup;
+			children = (
+				E416F326278FB21600F19A0B /* Reserve_Integer.swift */,
+				E416F32B278FB22000F19A0B /* Solution.swift */,
+			);
+			path = "Reserve Integer";
+			sourceTree = "<group>";
+		};
+		E416F332278FBBFE00F19A0B /* Remove Duplicates from Sorted List */ = {
+			isa = PBXGroup;
+			children = (
+				E416F333278FBBFE00F19A0B /* Remove_Duplicates_from_Sorted_List.swift */,
+				E416F338278FBC3600F19A0B /* Solution.swift */,
+			);
+			path = "Remove Duplicates from Sorted List";
+			sourceTree = "<group>";
+		};
+		E416F34C278FBD5A00F19A0B /* Longest Common Prefix */ = {
+			isa = PBXGroup;
+			children = (
+				E416F34D278FBD5A00F19A0B /* Longest_Common_Prefix.swift */,
+				E416F352278FBD6500F19A0B /* Solution.swift */,
+			);
+			path = "Longest Common Prefix";
+			sourceTree = "<group>";
+		};
+		E416F359278FBF4200F19A0B /* Linked List Cycle */ = {
+			isa = PBXGroup;
+			children = (
+				E416F35A278FBF4200F19A0B /* Linked_List_Cycle.swift */,
+				E416F35F278FBF4A00F19A0B /* Solution.swift */,
+			);
+			path = "Linked List Cycle";
+			sourceTree = "<group>";
+		};
 		E4B3959A278F972F00301C15 = {
 			isa = PBXGroup;
 			children = (
-				E4B39626278F9FC300301C15 /* Palindrome Number */,
+				E416F33A278FBCA500F19A0B /* Utility.swift */,
 				E4B39634278FA15300301C15 /* Two Sum */,
+				E416F325278FB21600F19A0B /* Reserve Integer */,
+				E416F332278FBBFE00F19A0B /* Remove Duplicates from Sorted List */,
+				E4B39626278F9FC300301C15 /* Palindrome Number */,
+				E416F34C278FBD5A00F19A0B /* Longest Common Prefix */,
+				E416F359278FBF4200F19A0B /* Linked List Cycle */,
 				E4B395A4278F972F00301C15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +150,10 @@
 			children = (
 				E4B39625278F9FC300301C15 /* Palindrome Number.xctest */,
 				E4B39633278FA15300301C15 /* Two Sum.xctest */,
+				E416F324278FB21600F19A0B /* Reserve Integer.xctest */,
+				E416F331278FBBFE00F19A0B /* Remove Duplicates from Sorted List.xctest */,
+				E416F34B278FBD5A00F19A0B /* Longest Common Prefix.xctest */,
+				E416F358278FBF4200F19A0B /* Linked List Cycle.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,8 +161,8 @@
 		E4B39626278F9FC300301C15 /* Palindrome Number */ = {
 			isa = PBXGroup;
 			children = (
-				E4B395FB278F9CFF00301C15 /* solution.swift */,
 				E4B39627278F9FC300301C15 /* Palindrome_Number.swift */,
+				E4B395FB278F9CFF00301C15 /* Solution.swift */,
 			);
 			path = "Palindrome Number";
 			sourceTree = "<group>";
@@ -71,7 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				E4B39635278FA15300301C15 /* Two_Sum.swift */,
-				E4B3963A278FA16500301C15 /* solution.swift */,
+				E4B3963A278FA16500301C15 /* Solution.swift */,
 			);
 			path = "Two Sum";
 			sourceTree = "<group>";
@@ -79,6 +179,74 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E416F323278FB21600F19A0B /* Reserve Integer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E416F328278FB21600F19A0B /* Build configuration list for PBXNativeTarget "Reserve Integer" */;
+			buildPhases = (
+				E416F320278FB21600F19A0B /* Sources */,
+				E416F321278FB21600F19A0B /* Frameworks */,
+				E416F322278FB21600F19A0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Reserve Integer";
+			productName = "Reserve Integer";
+			productReference = E416F324278FB21600F19A0B /* Reserve Integer.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E416F330278FBBFE00F19A0B /* Remove Duplicates from Sorted List */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E416F335278FBBFE00F19A0B /* Build configuration list for PBXNativeTarget "Remove Duplicates from Sorted List" */;
+			buildPhases = (
+				E416F32D278FBBFE00F19A0B /* Sources */,
+				E416F32E278FBBFE00F19A0B /* Frameworks */,
+				E416F32F278FBBFE00F19A0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Remove Duplicates from Sorted List";
+			productName = "Remove Duplicates from Sorted List";
+			productReference = E416F331278FBBFE00F19A0B /* Remove Duplicates from Sorted List.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E416F34A278FBD5A00F19A0B /* Longest Common Prefix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E416F34F278FBD5A00F19A0B /* Build configuration list for PBXNativeTarget "Longest Common Prefix" */;
+			buildPhases = (
+				E416F347278FBD5A00F19A0B /* Sources */,
+				E416F348278FBD5A00F19A0B /* Frameworks */,
+				E416F349278FBD5A00F19A0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Longest Common Prefix";
+			productName = "Longest Common Prefix";
+			productReference = E416F34B278FBD5A00F19A0B /* Longest Common Prefix.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E416F357278FBF4200F19A0B /* Linked List Cycle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E416F35C278FBF4200F19A0B /* Build configuration list for PBXNativeTarget "Linked List Cycle" */;
+			buildPhases = (
+				E416F354278FBF4200F19A0B /* Sources */,
+				E416F355278FBF4200F19A0B /* Frameworks */,
+				E416F356278FBF4200F19A0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Linked List Cycle";
+			productName = "Linked List Cycle";
+			productReference = E416F358278FBF4200F19A0B /* Linked List Cycle.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E4B39624278F9FC300301C15 /* Palindrome Number */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4B39629278F9FC300301C15 /* Build configuration list for PBXNativeTarget "Palindrome Number" */;
@@ -123,6 +291,18 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					E416F323278FB21600F19A0B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					E416F330278FBBFE00F19A0B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					E416F34A278FBD5A00F19A0B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					E416F357278FBF4200F19A0B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					E4B39624278F9FC300301C15 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -146,11 +326,43 @@
 			targets = (
 				E4B39624278F9FC300301C15 /* Palindrome Number */,
 				E4B39632278FA15300301C15 /* Two Sum */,
+				E416F323278FB21600F19A0B /* Reserve Integer */,
+				E416F330278FBBFE00F19A0B /* Remove Duplicates from Sorted List */,
+				E416F34A278FBD5A00F19A0B /* Longest Common Prefix */,
+				E416F357278FBF4200F19A0B /* Linked List Cycle */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E416F322278FB21600F19A0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E416F32F278FBBFE00F19A0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E416F349278FBD5A00F19A0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E416F356278FBF4200F19A0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E4B39623278F9FC300301C15 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -168,11 +380,52 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E416F320278FB21600F19A0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E416F363278FC06D00F19A0B /* Utility.swift in Sources */,
+				E416F32C278FB22000F19A0B /* Solution.swift in Sources */,
+				E416F327278FB21600F19A0B /* Reserve_Integer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E416F32D278FBBFE00F19A0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E416F339278FBC3600F19A0B /* Solution.swift in Sources */,
+				E416F334278FBBFE00F19A0B /* Remove_Duplicates_from_Sorted_List.swift in Sources */,
+				E416F33B278FBCA500F19A0B /* Utility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E416F347278FBD5A00F19A0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E416F361278FBFC900F19A0B /* Utility.swift in Sources */,
+				E416F353278FBD6500F19A0B /* Solution.swift in Sources */,
+				E416F34E278FBD5A00F19A0B /* Longest_Common_Prefix.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E416F354278FBF4200F19A0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E416F362278FBFCC00F19A0B /* Utility.swift in Sources */,
+				E416F360278FBF4A00F19A0B /* Solution.swift in Sources */,
+				E416F35B278FBF4200F19A0B /* Linked_List_Cycle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E4B39621278F9FC300301C15 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4B3962C278F9FEB00301C15 /* solution.swift in Sources */,
+				E416F365278FC07500F19A0B /* Utility.swift in Sources */,
+				E4B3962C278F9FEB00301C15 /* Solution.swift in Sources */,
 				E4B39628278F9FC300301C15 /* Palindrome_Number.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,7 +434,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4B3963B278FA16600301C15 /* solution.swift in Sources */,
+				E416F364278FC07000F19A0B /* Utility.swift in Sources */,
+				E4B3963B278FA16600301C15 /* Solution.swift in Sources */,
 				E4B39636278FA15300301C15 /* Two_Sum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -189,6 +443,126 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		E416F329278FB21600F19A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Reserve-Integer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E416F32A278FB21600F19A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Reserve-Integer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E416F336278FBBFE00F19A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Remove-Duplicates-from-Sorted-List";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E416F337278FBBFE00F19A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Remove-Duplicates-from-Sorted-List";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E416F350278FBD5A00F19A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Longest-Common-Prefix";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E416F351278FBD5A00F19A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Longest-Common-Prefix";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E416F35D278FBF4200F19A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Linked-List-Cycle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E416F35E278FBF4200F19A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Linked-List-Cycle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		E4B395A8278F972F00301C15 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -367,6 +741,42 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E416F328278FB21600F19A0B /* Build configuration list for PBXNativeTarget "Reserve Integer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E416F329278FB21600F19A0B /* Debug */,
+				E416F32A278FB21600F19A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E416F335278FBBFE00F19A0B /* Build configuration list for PBXNativeTarget "Remove Duplicates from Sorted List" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E416F336278FBBFE00F19A0B /* Debug */,
+				E416F337278FBBFE00F19A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E416F34F278FBD5A00F19A0B /* Build configuration list for PBXNativeTarget "Longest Common Prefix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E416F350278FBD5A00F19A0B /* Debug */,
+				E416F351278FBD5A00F19A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E416F35C278FBF4200F19A0B /* Build configuration list for PBXNativeTarget "Linked List Cycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E416F35D278FBF4200F19A0B /* Debug */,
+				E416F35E278FBF4200F19A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E4B3959E278F972F00301C15 /* Build configuration list for PBXProject "algorithms" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
