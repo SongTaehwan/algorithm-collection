@@ -7,7 +7,7 @@
 		<key>Linked List Cycle.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>3</integer>
 		</dict>
 		<key>Longest Common Prefix.xcscheme_^#shared#^_</key>
 		<dict>
@@ -27,7 +27,7 @@
 		<key>Reserve Integer.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>4</integer>
 		</dict>
 		<key>Two Sum.xcscheme_^#shared#^_</key>
 		<dict>
@@ -68,6 +68,11 @@
 			<true/>
 		</dict>
 		<key>E4B39632278FA15300301C15</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E4FA8B97278FC3B8006B362A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
