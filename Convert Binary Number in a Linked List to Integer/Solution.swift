@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// [Check out the problem](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)
 class Solution: Utility {
     func getDecimalValue(_ head: ListNode?) -> Int {
         var numbers = [Int]()

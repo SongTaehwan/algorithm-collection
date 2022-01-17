@@ -27,6 +27,9 @@
 		E49244C92790451B005B4241 /* Convert_Binary_Number_in_a_Linked_List_to_Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49244C82790451B005B4241 /* Convert_Binary_Number_in_a_Linked_List_to_Integer.swift */; };
 		E49244CE27904524005B4241 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49244CD27904524005B4241 /* Solution.swift */; };
 		E49244CF2790453F005B4241 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
+		E4AFB83427950B460010254D /* Word_Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AFB83327950B460010254D /* Word_Pattern.swift */; };
+		E4AFB83927950B4F0010254D /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AFB83827950B4F0010254D /* Solution.swift */; };
+		E4AFB83A27950BA90010254D /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E4B39628278F9FC300301C15 /* Palindrome_Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B39627278F9FC300301C15 /* Palindrome_Number.swift */; };
 		E4B3962C278F9FEB00301C15 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B395FB278F9CFF00301C15 /* Solution.swift */; };
 		E4B39636278FA15300301C15 /* Two_Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B39635278FA15300301C15 /* Two_Sum.swift */; };
@@ -53,6 +56,9 @@
 		E49244C62790451B005B4241 /* Convert Binary Number in a Linked List to Integer.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Convert Binary Number in a Linked List to Integer.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49244C82790451B005B4241 /* Convert_Binary_Number_in_a_Linked_List_to_Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Convert_Binary_Number_in_a_Linked_List_to_Integer.swift; sourceTree = "<group>"; };
 		E49244CD27904524005B4241 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E4AFB83127950B460010254D /* Word Pattern.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Word Pattern.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4AFB83327950B460010254D /* Word_Pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word_Pattern.swift; sourceTree = "<group>"; };
+		E4AFB83827950B4F0010254D /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E4B395FB278F9CFF00301C15 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E4B39625278F9FC300301C15 /* Palindrome Number.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Palindrome Number.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B39627278F9FC300301C15 /* Palindrome_Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palindrome_Number.swift; sourceTree = "<group>"; };
@@ -98,6 +104,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E49244C32790451B005B4241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4AFB82E27950B460010254D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -175,6 +188,15 @@
 			path = "Convert Binary Number in a Linked List to Integer";
 			sourceTree = "<group>";
 		};
+		E4AFB83227950B460010254D /* Word Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				E4AFB83327950B460010254D /* Word_Pattern.swift */,
+				E4AFB83827950B4F0010254D /* Solution.swift */,
+			);
+			path = "Word Pattern";
+			sourceTree = "<group>";
+		};
 		E4B3959A278F972F00301C15 = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +209,7 @@
 				E416F359278FBF4200F19A0B /* Linked List Cycle */,
 				E49244C72790451B005B4241 /* Convert Binary Number in a Linked List to Integer */,
 				E4145A4B2790F05500933E0E /* Binary Search */,
+				E4AFB83227950B460010254D /* Word Pattern */,
 				E4B395A4278F972F00301C15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -202,6 +225,7 @@
 				E416F358278FBF4200F19A0B /* Linked List Cycle.xctest */,
 				E49244C62790451B005B4241 /* Convert Binary Number in a Linked List to Integer.xctest */,
 				E4145A4A2790F05500933E0E /* Binary Search.xctest */,
+				E4AFB83127950B460010254D /* Word Pattern.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -329,6 +353,23 @@
 			productReference = E49244C62790451B005B4241 /* Convert Binary Number in a Linked List to Integer.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E4AFB83027950B460010254D /* Word Pattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4AFB83727950B460010254D /* Build configuration list for PBXNativeTarget "Word Pattern" */;
+			buildPhases = (
+				E4AFB82D27950B460010254D /* Sources */,
+				E4AFB82E27950B460010254D /* Frameworks */,
+				E4AFB82F27950B460010254D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Word Pattern";
+			productName = "Word Pattern";
+			productReference = E4AFB83127950B460010254D /* Word Pattern.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E4B39624278F9FC300301C15 /* Palindrome Number */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4B39629278F9FC300301C15 /* Build configuration list for PBXNativeTarget "Palindrome Number" */;
@@ -391,6 +432,9 @@
 					E49244C52790451B005B4241 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					E4AFB83027950B460010254D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					E4B39624278F9FC300301C15 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -420,6 +464,7 @@
 				E416F357278FBF4200F19A0B /* Linked List Cycle */,
 				E49244C52790451B005B4241 /* Convert Binary Number in a Linked List to Integer */,
 				E4145A492790F05500933E0E /* Binary Search */,
+				E4AFB83027950B460010254D /* Word Pattern */,
 			);
 		};
 /* End PBXProject section */
@@ -461,6 +506,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E49244C42790451B005B4241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4AFB82F27950B460010254D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -541,6 +593,16 @@
 				E49244CF2790453F005B4241 /* Utility.swift in Sources */,
 				E49244CE27904524005B4241 /* Solution.swift in Sources */,
 				E49244C92790451B005B4241 /* Convert_Binary_Number_in_a_Linked_List_to_Integer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4AFB82D27950B460010254D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4AFB83A27950BA90010254D /* Utility.swift in Sources */,
+				E4AFB83927950B4F0010254D /* Solution.swift in Sources */,
+				E4AFB83427950B460010254D /* Word_Pattern.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -741,6 +803,36 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Convert-Binary-Number-in-a-Linked-List-to-Integer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E4AFB83527950B460010254D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Word-Pattern";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E4AFB83627950B460010254D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Word-Pattern";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -975,6 +1067,15 @@
 			buildConfigurations = (
 				E49244CA2790451B005B4241 /* Debug */,
 				E49244CB2790451B005B4241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4AFB83727950B460010254D /* Build configuration list for PBXNativeTarget "Word Pattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4AFB83527950B460010254D /* Debug */,
+				E4AFB83627950B460010254D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
