@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E4145A4D2790F05500933E0E /* Binary_Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4145A4C2790F05500933E0E /* Binary_Search.swift */; };
+		E4145A522790F05C00933E0E /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4145A512790F05C00933E0E /* Solution.swift */; };
+		E4145A532790F07400933E0E /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E416F327278FB21600F19A0B /* Reserve_Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F326278FB21600F19A0B /* Reserve_Integer.swift */; };
 		E416F32C278FB22000F19A0B /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F32B278FB22000F19A0B /* Solution.swift */; };
 		E416F334278FBBFE00F19A0B /* Remove_Duplicates_from_Sorted_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F333278FBBFE00F19A0B /* Remove_Duplicates_from_Sorted_List.swift */; };
@@ -31,6 +34,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E4145A4A2790F05500933E0E /* Binary Search.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Binary Search.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4145A4C2790F05500933E0E /* Binary_Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binary_Search.swift; sourceTree = "<group>"; };
+		E4145A512790F05C00933E0E /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E416F324278FB21600F19A0B /* Reserve Integer.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reserve Integer.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E416F326278FB21600F19A0B /* Reserve_Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reserve_Integer.swift; sourceTree = "<group>"; };
 		E416F32B278FB22000F19A0B /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
@@ -56,6 +62,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E4145A472790F05500933E0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E416F321278FB21600F19A0B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -108,6 +121,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E4145A4B2790F05500933E0E /* Binary Search */ = {
+			isa = PBXGroup;
+			children = (
+				E4145A4C2790F05500933E0E /* Binary_Search.swift */,
+				E4145A512790F05C00933E0E /* Solution.swift */,
+			);
+			path = "Binary Search";
+			sourceTree = "<group>";
+		};
 		E416F325278FB21600F19A0B /* Reserve Integer */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +186,7 @@
 				E416F34C278FBD5A00F19A0B /* Longest Common Prefix */,
 				E416F359278FBF4200F19A0B /* Linked List Cycle */,
 				E49244C72790451B005B4241 /* Convert Binary Number in a Linked List to Integer */,
+				E4145A4B2790F05500933E0E /* Binary Search */,
 				E4B395A4278F972F00301C15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -178,6 +201,7 @@
 				E416F34B278FBD5A00F19A0B /* Longest Common Prefix.xctest */,
 				E416F358278FBF4200F19A0B /* Linked List Cycle.xctest */,
 				E49244C62790451B005B4241 /* Convert Binary Number in a Linked List to Integer.xctest */,
+				E4145A4A2790F05500933E0E /* Binary Search.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -203,6 +227,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E4145A492790F05500933E0E /* Binary Search */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4145A502790F05500933E0E /* Build configuration list for PBXNativeTarget "Binary Search" */;
+			buildPhases = (
+				E4145A462790F05500933E0E /* Sources */,
+				E4145A472790F05500933E0E /* Frameworks */,
+				E4145A482790F05500933E0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Binary Search";
+			productName = "Binary Search";
+			productReference = E4145A4A2790F05500933E0E /* Binary Search.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E416F323278FB21600F19A0B /* Reserve Integer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E416F328278FB21600F19A0B /* Build configuration list for PBXNativeTarget "Reserve Integer" */;
@@ -332,6 +373,9 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					E4145A492790F05500933E0E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					E416F323278FB21600F19A0B = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -375,11 +419,19 @@
 				E416F34A278FBD5A00F19A0B /* Longest Common Prefix */,
 				E416F357278FBF4200F19A0B /* Linked List Cycle */,
 				E49244C52790451B005B4241 /* Convert Binary Number in a Linked List to Integer */,
+				E4145A492790F05500933E0E /* Binary Search */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E4145A482790F05500933E0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E416F322278FB21600F19A0B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -432,6 +484,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E4145A462790F05500933E0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4145A532790F07400933E0E /* Utility.swift in Sources */,
+				E4145A522790F05C00933E0E /* Solution.swift in Sources */,
+				E4145A4D2790F05500933E0E /* Binary_Search.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E416F320278FB21600F19A0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -505,6 +567,36 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		E4145A4E2790F05500933E0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Binary-Search";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E4145A4F2790F05500933E0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Binary-Search";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		E416F329278FB21600F19A0B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -833,6 +925,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E4145A502790F05500933E0E /* Build configuration list for PBXNativeTarget "Binary Search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4145A4E2790F05500933E0E /* Debug */,
+				E4145A4F2790F05500933E0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E416F328278FB21600F19A0B /* Build configuration list for PBXNativeTarget "Reserve Integer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
