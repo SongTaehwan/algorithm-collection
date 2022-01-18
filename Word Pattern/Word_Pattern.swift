@@ -12,5 +12,6 @@ class Word_Pattern: TestCase {
         XCTAssertEqual(sol.wordPattern("abba", "dog cat cat dog"), true)
         XCTAssertEqual(sol.wordPattern("abba", "dog cat cat fish"), false)
         XCTAssertEqual(sol.wordPattern("aaaa", "dog cat cat dog"), false)
+        XCTAssertEqual(sol.wordPattern("abba", "dog dog dog dog"), false)
     }
 }
