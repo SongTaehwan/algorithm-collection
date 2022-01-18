@@ -24,6 +24,9 @@
 		E416F363278FC06D00F19A0B /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E416F364278FC07000F19A0B /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E416F365278FC07500F19A0B /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
+		E480630227963DD200D9B702 /* Can_Place_Flowers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E480630127963DD200D9B702 /* Can_Place_Flowers.swift */; };
+		E480630727963DDB00D9B702 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E480630627963DDB00D9B702 /* Solution.swift */; };
+		E480630827963DEC00D9B702 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E49244C92790451B005B4241 /* Convert_Binary_Number_in_a_Linked_List_to_Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49244C82790451B005B4241 /* Convert_Binary_Number_in_a_Linked_List_to_Integer.swift */; };
 		E49244CE27904524005B4241 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49244CD27904524005B4241 /* Solution.swift */; };
 		E49244CF2790453F005B4241 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
@@ -53,6 +56,9 @@
 		E416F358278FBF4200F19A0B /* Linked List Cycle.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Linked List Cycle.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E416F35A278FBF4200F19A0B /* Linked_List_Cycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Linked_List_Cycle.swift; sourceTree = "<group>"; };
 		E416F35F278FBF4A00F19A0B /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E48062FF27963DD200D9B702 /* Can Place Flowers.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Can Place Flowers.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E480630127963DD200D9B702 /* Can_Place_Flowers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Can_Place_Flowers.swift; sourceTree = "<group>"; };
+		E480630627963DDB00D9B702 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E49244C62790451B005B4241 /* Convert Binary Number in a Linked List to Integer.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Convert Binary Number in a Linked List to Integer.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49244C82790451B005B4241 /* Convert_Binary_Number_in_a_Linked_List_to_Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Convert_Binary_Number_in_a_Linked_List_to_Integer.swift; sourceTree = "<group>"; };
 		E49244CD27904524005B4241 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
@@ -97,6 +103,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E416F355278FBF4200F19A0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E48062FC27963DD200D9B702 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -179,6 +192,15 @@
 			path = "Linked List Cycle";
 			sourceTree = "<group>";
 		};
+		E480630027963DD200D9B702 /* Can Place Flowers */ = {
+			isa = PBXGroup;
+			children = (
+				E480630127963DD200D9B702 /* Can_Place_Flowers.swift */,
+				E480630627963DDB00D9B702 /* Solution.swift */,
+			);
+			path = "Can Place Flowers";
+			sourceTree = "<group>";
+		};
 		E49244C72790451B005B4241 /* Convert Binary Number in a Linked List to Integer */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +232,7 @@
 				E49244C72790451B005B4241 /* Convert Binary Number in a Linked List to Integer */,
 				E4145A4B2790F05500933E0E /* Binary Search */,
 				E4AFB83227950B460010254D /* Word Pattern */,
+				E480630027963DD200D9B702 /* Can Place Flowers */,
 				E4B395A4278F972F00301C15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -226,6 +249,7 @@
 				E49244C62790451B005B4241 /* Convert Binary Number in a Linked List to Integer.xctest */,
 				E4145A4A2790F05500933E0E /* Binary Search.xctest */,
 				E4AFB83127950B460010254D /* Word Pattern.xctest */,
+				E48062FF27963DD200D9B702 /* Can Place Flowers.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -336,6 +360,23 @@
 			productReference = E416F358278FBF4200F19A0B /* Linked List Cycle.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E48062FE27963DD200D9B702 /* Can Place Flowers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E480630527963DD200D9B702 /* Build configuration list for PBXNativeTarget "Can Place Flowers" */;
+			buildPhases = (
+				E48062FB27963DD200D9B702 /* Sources */,
+				E48062FC27963DD200D9B702 /* Frameworks */,
+				E48062FD27963DD200D9B702 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Can Place Flowers";
+			productName = "Can Place Flowers";
+			productReference = E48062FF27963DD200D9B702 /* Can Place Flowers.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E49244C52790451B005B4241 /* Convert Binary Number in a Linked List to Integer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E49244CC2790451B005B4241 /* Build configuration list for PBXNativeTarget "Convert Binary Number in a Linked List to Integer" */;
@@ -429,6 +470,9 @@
 					E416F357278FBF4200F19A0B = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					E48062FE27963DD200D9B702 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					E49244C52790451B005B4241 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -465,6 +509,7 @@
 				E49244C52790451B005B4241 /* Convert Binary Number in a Linked List to Integer */,
 				E4145A492790F05500933E0E /* Binary Search */,
 				E4AFB83027950B460010254D /* Word Pattern */,
+				E48062FE27963DD200D9B702 /* Can Place Flowers */,
 			);
 		};
 /* End PBXProject section */
@@ -499,6 +544,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E416F356278FBF4200F19A0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E48062FD27963DD200D9B702 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -583,6 +635,16 @@
 				E416F362278FBFCC00F19A0B /* Utility.swift in Sources */,
 				E416F360278FBF4A00F19A0B /* Solution.swift in Sources */,
 				E416F35B278FBF4200F19A0B /* Linked_List_Cycle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E48062FB27963DD200D9B702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E480630827963DEC00D9B702 /* Utility.swift in Sources */,
+				E480630727963DDB00D9B702 /* Solution.swift in Sources */,
+				E480630227963DD200D9B702 /* Can_Place_Flowers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -773,6 +835,36 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Linked-List-Cycle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E480630327963DD200D9B702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Can-Place-Flowers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E480630427963DD200D9B702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Can-Place-Flowers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -1058,6 +1150,15 @@
 			buildConfigurations = (
 				E416F35D278FBF4200F19A0B /* Debug */,
 				E416F35E278FBF4200F19A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E480630527963DD200D9B702 /* Build configuration list for PBXNativeTarget "Can Place Flowers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E480630327963DD200D9B702 /* Debug */,
+				E480630427963DD200D9B702 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
