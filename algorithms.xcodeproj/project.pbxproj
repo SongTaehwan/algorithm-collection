@@ -266,8 +266,8 @@
 			isa = PBXGroup;
 			children = (
 				E4A620E52797A49F00FD7CB3 /* Utility.swift */,
-				E4A620DA2797A30800FD7CB3 /* Nth Number */,
 				E4A620EE2797AAAE00FD7CB3 /* Weird String */,
+				E4A620DA2797A30800FD7CB3 /* Nth Number */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";

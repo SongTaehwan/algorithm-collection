@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// [Check out the problem](https://programmers.co.kr/learn/courses/30/lessons/12930?language=swift)
 func solution(_ s:String) -> String {
     var result = ""
     var index = 0
