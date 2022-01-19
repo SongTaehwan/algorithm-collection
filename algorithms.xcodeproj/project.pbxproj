@@ -38,6 +38,10 @@
 		E4A620E62797A49F00FD7CB3 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A620E52797A49F00FD7CB3 /* Utility.swift */; };
 		E4A620E72797A4CD00FD7CB3 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A620E52797A49F00FD7CB3 /* Utility.swift */; };
 		E4A620E82797A4D100FD7CB3 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A620E02797A31A00FD7CB3 /* Solution.swift */; };
+		E4A620F02797AAAE00FD7CB3 /* Weird_String.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A620EF2797AAAE00FD7CB3 /* Weird_String.swift */; };
+		E4A620F52797AAC300FD7CB3 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A620F42797AAC300FD7CB3 /* Solution.swift */; };
+		E4A620F62797AAE800FD7CB3 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A620F42797AAC300FD7CB3 /* Solution.swift */; };
+		E4A620F72797AAF100FD7CB3 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A620E52797A49F00FD7CB3 /* Utility.swift */; };
 		E4AFB83427950B460010254D /* Word_Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AFB83327950B460010254D /* Word_Pattern.swift */; };
 		E4AFB83927950B4F0010254D /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AFB83827950B4F0010254D /* Solution.swift */; };
 		E4AFB83A27950BA90010254D /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
@@ -77,6 +81,9 @@
 		E4A620DB2797A30800FD7CB3 /* Nth_Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nth_Number.swift; sourceTree = "<group>"; };
 		E4A620E02797A31A00FD7CB3 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E4A620E52797A49F00FD7CB3 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		E4A620ED2797AAAE00FD7CB3 /* Weird String.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weird String.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4A620EF2797AAAE00FD7CB3 /* Weird_String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weird_String.swift; sourceTree = "<group>"; };
+		E4A620F42797AAC300FD7CB3 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E4AFB83127950B460010254D /* Word Pattern.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Word Pattern.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4AFB83327950B460010254D /* Word_Pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word_Pattern.swift; sourceTree = "<group>"; };
 		E4AFB83827950B4F0010254D /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
@@ -146,6 +153,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4A620D62797A30800FD7CB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4A620EA2797AAAE00FD7CB3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,6 +267,7 @@
 			children = (
 				E4A620E52797A49F00FD7CB3 /* Utility.swift */,
 				E4A620DA2797A30800FD7CB3 /* Nth Number */,
+				E4A620EE2797AAAE00FD7CB3 /* Weird String */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
@@ -283,6 +298,15 @@
 				E4A620BD27977C3700FD7CB3 /* Reverse Bits */,
 			);
 			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		E4A620EE2797AAAE00FD7CB3 /* Weird String */ = {
+			isa = PBXGroup;
+			children = (
+				E4A620EF2797AAAE00FD7CB3 /* Weird_String.swift */,
+				E4A620F42797AAC300FD7CB3 /* Solution.swift */,
+			);
+			path = "Weird String";
 			sourceTree = "<group>";
 		};
 		E4AFB83227950B460010254D /* Word Pattern */ = {
@@ -318,6 +342,7 @@
 				E48062FF27963DD200D9B702 /* Can Place Flowers.xctest */,
 				E4A620BC27977C3700FD7CB3 /* Reverse Bits.xctest */,
 				E4A620D92797A30800FD7CB3 /* Nth Number.xctest */,
+				E4A620ED2797AAAE00FD7CB3 /* Weird String.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -496,6 +521,23 @@
 			productReference = E4A620D92797A30800FD7CB3 /* Nth Number.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E4A620EC2797AAAE00FD7CB3 /* Weird String */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4A620F12797AAAE00FD7CB3 /* Build configuration list for PBXNativeTarget "Weird String" */;
+			buildPhases = (
+				E4A620E92797AAAE00FD7CB3 /* Sources */,
+				E4A620EA2797AAAE00FD7CB3 /* Frameworks */,
+				E4A620EB2797AAAE00FD7CB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Weird String";
+			productName = "Weird String";
+			productReference = E4A620ED2797AAAE00FD7CB3 /* Weird String.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E4AFB83027950B460010254D /* Word Pattern */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4AFB83727950B460010254D /* Build configuration list for PBXNativeTarget "Word Pattern" */;
@@ -584,6 +626,9 @@
 					E4A620D82797A30800FD7CB3 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					E4A620EC2797AAAE00FD7CB3 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					E4AFB83027950B460010254D = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -620,6 +665,7 @@
 				E48062FE27963DD200D9B702 /* Can Place Flowers */,
 				E4A620BB27977C3700FD7CB3 /* Reverse Bits */,
 				E4A620D82797A30800FD7CB3 /* Nth Number */,
+				E4A620EC2797AAAE00FD7CB3 /* Weird String */,
 			);
 		};
 /* End PBXProject section */
@@ -682,6 +728,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4A620D72797A30800FD7CB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4A620EB2797AAAE00FD7CB3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -788,6 +841,7 @@
 			files = (
 				E4A620E62797A49F00FD7CB3 /* Utility.swift in Sources */,
 				E4A620C327977C4200FD7CB3 /* Utility.swift in Sources */,
+				E4A620F52797AAC300FD7CB3 /* Solution.swift in Sources */,
 				E4A620BF27977C3700FD7CB3 /* Reverse_Bits.swift in Sources */,
 				E4A620E12797A31A00FD7CB3 /* Solution.swift in Sources */,
 				E4A620C527977C4900FD7CB3 /* Solution.swift in Sources */,
@@ -801,6 +855,16 @@
 				E4A620E82797A4D100FD7CB3 /* Solution.swift in Sources */,
 				E4A620E72797A4CD00FD7CB3 /* Utility.swift in Sources */,
 				E4A620DC2797A30800FD7CB3 /* Nth_Number.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4A620E92797AAAE00FD7CB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4A620F72797AAF100FD7CB3 /* Utility.swift in Sources */,
+				E4A620F62797AAE800FD7CB3 /* Solution.swift in Sources */,
+				E4A620F02797AAAE00FD7CB3 /* Weird_String.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1107,6 +1171,36 @@
 			};
 			name = Release;
 		};
+		E4A620F22797AAAE00FD7CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Weird-String";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E4A620F32797AAAE00FD7CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Weird-String";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		E4AFB83527950B460010254D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1392,6 +1486,15 @@
 			buildConfigurations = (
 				E4A620DE2797A30800FD7CB3 /* Debug */,
 				E4A620DF2797A30800FD7CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4A620F12797AAAE00FD7CB3 /* Build configuration list for PBXNativeTarget "Weird String" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4A620F22797AAAE00FD7CB3 /* Debug */,
+				E4A620F32797AAAE00FD7CB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
