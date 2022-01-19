@@ -20,6 +20,8 @@ class TestCase: XCTestCase {
         try super.tearDownWithError()
         sol = nil
     }
+    
+    func testSolution() {}
 }
 
 class Utility {

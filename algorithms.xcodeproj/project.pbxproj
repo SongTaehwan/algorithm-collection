@@ -24,6 +24,9 @@
 		E416F363278FC06D00F19A0B /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E416F364278FC07000F19A0B /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E416F365278FC07500F19A0B /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
+		E42732F52798CE9900B1E94D /* Check_if_All_Characters_Have_Equal_Number_of_Occurrences.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42732F42798CE9900B1E94D /* Check_if_All_Characters_Have_Equal_Number_of_Occurrences.swift */; };
+		E42732FA2798CEA800B1E94D /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42732F92798CEA800B1E94D /* Solution.swift */; };
+		E42732FB2798CEB000B1E94D /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E480630227963DD200D9B702 /* Can_Place_Flowers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E480630127963DD200D9B702 /* Can_Place_Flowers.swift */; };
 		E480630727963DDB00D9B702 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E480630627963DDB00D9B702 /* Solution.swift */; };
 		E480630827963DEC00D9B702 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
@@ -76,6 +79,9 @@
 		E416F358278FBF4200F19A0B /* Linked List Cycle.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Linked List Cycle.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E416F35A278FBF4200F19A0B /* Linked_List_Cycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Linked_List_Cycle.swift; sourceTree = "<group>"; };
 		E416F35F278FBF4A00F19A0B /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E42732F22798CE9900B1E94D /* Check if All Characters Have Equal Number of Occurrences.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Check if All Characters Have Equal Number of Occurrences.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E42732F42798CE9900B1E94D /* Check_if_All_Characters_Have_Equal_Number_of_Occurrences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Check_if_All_Characters_Have_Equal_Number_of_Occurrences.swift; sourceTree = "<group>"; };
+		E42732F92798CEA800B1E94D /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E48062FF27963DD200D9B702 /* Can Place Flowers.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Can Place Flowers.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E480630127963DD200D9B702 /* Can_Place_Flowers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Can_Place_Flowers.swift; sourceTree = "<group>"; };
 		E480630627963DDB00D9B702 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
@@ -139,6 +145,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E416F355278FBF4200F19A0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42732EF2798CE9900B1E94D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -263,6 +276,15 @@
 			path = "Linked List Cycle";
 			sourceTree = "<group>";
 		};
+		E42732F32798CE9900B1E94D /* Check if All Characters Have Equal Number of Occurrences */ = {
+			isa = PBXGroup;
+			children = (
+				E42732F42798CE9900B1E94D /* Check_if_All_Characters_Have_Equal_Number_of_Occurrences.swift */,
+				E42732F92798CEA800B1E94D /* Solution.swift */,
+			);
+			path = "Check if All Characters Have Equal Number of Occurrences";
+			sourceTree = "<group>";
+		};
 		E480630027963DD200D9B702 /* Can Place Flowers */ = {
 			isa = PBXGroup;
 			children = (
@@ -311,25 +333,6 @@
 			path = "Nth Number";
 			sourceTree = "<group>";
 		};
-		E4A620E42797A48E00FD7CB3 /* LeetCode */ = {
-			isa = PBXGroup;
-			children = (
-				E416F33A278FBCA500F19A0B /* Utility.swift */,
-				E4B39634278FA15300301C15 /* Two Sum */,
-				E416F325278FB21600F19A0B /* Reserve Integer */,
-				E416F332278FBBFE00F19A0B /* Remove Duplicates from Sorted List */,
-				E4B39626278F9FC300301C15 /* Palindrome Number */,
-				E416F34C278FBD5A00F19A0B /* Longest Common Prefix */,
-				E416F359278FBF4200F19A0B /* Linked List Cycle */,
-				E49244C72790451B005B4241 /* Convert Binary Number in a Linked List to Integer */,
-				E4145A4B2790F05500933E0E /* Binary Search */,
-				E4AFB83227950B460010254D /* Word Pattern */,
-				E480630027963DD200D9B702 /* Can Place Flowers */,
-				E4A620BD27977C3700FD7CB3 /* Reverse Bits */,
-			);
-			path = LeetCode;
-			sourceTree = "<group>";
-		};
 		E4A620EE2797AAAE00FD7CB3 /* Weird String */ = {
 			isa = PBXGroup;
 			children = (
@@ -369,8 +372,20 @@
 		E4B3959A278F972F00301C15 = {
 			isa = PBXGroup;
 			children = (
-				E4A620E42797A48E00FD7CB3 /* LeetCode */,
 				E4A620D32797A2E100FD7CB3 /* Programmers */,
+				E416F33A278FBCA500F19A0B /* Utility.swift */,
+				E4B39634278FA15300301C15 /* Two Sum */,
+				E416F325278FB21600F19A0B /* Reserve Integer */,
+				E416F332278FBBFE00F19A0B /* Remove Duplicates from Sorted List */,
+				E4B39626278F9FC300301C15 /* Palindrome Number */,
+				E416F34C278FBD5A00F19A0B /* Longest Common Prefix */,
+				E416F359278FBF4200F19A0B /* Linked List Cycle */,
+				E49244C72790451B005B4241 /* Convert Binary Number in a Linked List to Integer */,
+				E4145A4B2790F05500933E0E /* Binary Search */,
+				E4AFB83227950B460010254D /* Word Pattern */,
+				E480630027963DD200D9B702 /* Can Place Flowers */,
+				E4A620BD27977C3700FD7CB3 /* Reverse Bits */,
+				E42732F32798CE9900B1E94D /* Check if All Characters Have Equal Number of Occurrences */,
 				E4B395A4278F972F00301C15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -393,6 +408,7 @@
 				E4A620ED2797AAAE00FD7CB3 /* Weird String.xctest */,
 				E4A620FC2797B1DB00FD7CB3 /* Mock Exam.xctest */,
 				E4A6210B2797B25C00FD7CB3 /* Crane Puppet Draw Game.xctest */,
+				E42732F22798CE9900B1E94D /* Check if All Characters Have Equal Number of Occurrences.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -501,6 +517,23 @@
 			name = "Linked List Cycle";
 			productName = "Linked List Cycle";
 			productReference = E416F358278FBF4200F19A0B /* Linked List Cycle.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E42732F12798CE9900B1E94D /* Check if All Characters Have Equal Number of Occurrences */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E42732F62798CE9900B1E94D /* Build configuration list for PBXNativeTarget "Check if All Characters Have Equal Number of Occurrences" */;
+			buildPhases = (
+				E42732EE2798CE9900B1E94D /* Sources */,
+				E42732EF2798CE9900B1E94D /* Frameworks */,
+				E42732F02798CE9900B1E94D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Check if All Characters Have Equal Number of Occurrences";
+			productName = "Check if All Characters Have Equal Number of Occurrences";
+			productReference = E42732F22798CE9900B1E94D /* Check if All Characters Have Equal Number of Occurrences.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		E48062FE27963DD200D9B702 /* Can Place Flowers */ = {
@@ -698,6 +731,9 @@
 					E416F357278FBF4200F19A0B = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					E42732F12798CE9900B1E94D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					E48062FE27963DD200D9B702 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -758,6 +794,7 @@
 				E4A620EC2797AAAE00FD7CB3 /* Weird String */,
 				E4A620FB2797B1DB00FD7CB3 /* Mock Exam */,
 				E4A6210A2797B25C00FD7CB3 /* Crane Puppet Draw Game */,
+				E42732F12798CE9900B1E94D /* Check if All Characters Have Equal Number of Occurrences */,
 			);
 		};
 /* End PBXProject section */
@@ -792,6 +829,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E416F356278FBF4200F19A0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42732F02798CE9900B1E94D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -918,6 +962,16 @@
 				E416F362278FBFCC00F19A0B /* Utility.swift in Sources */,
 				E416F360278FBF4A00F19A0B /* Solution.swift in Sources */,
 				E416F35B278FBF4200F19A0B /* Linked_List_Cycle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42732EE2798CE9900B1E94D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E42732FB2798CEB000B1E94D /* Utility.swift in Sources */,
+				E42732FA2798CEA800B1E94D /* Solution.swift in Sources */,
+				E42732F52798CE9900B1E94D /* Check_if_All_Characters_Have_Equal_Number_of_Occurrences.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1173,6 +1227,36 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Linked-List-Cycle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E42732F72798CE9900B1E94D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Check-if-All-Characters-Have-Equal-Number-of-Occurrences";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E42732F82798CE9900B1E94D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Check-if-All-Characters-Have-Equal-Number-of-Occurrences";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -1638,6 +1722,15 @@
 			buildConfigurations = (
 				E416F35D278FBF4200F19A0B /* Debug */,
 				E416F35E278FBF4200F19A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E42732F62798CE9900B1E94D /* Build configuration list for PBXNativeTarget "Check if All Characters Have Equal Number of Occurrences" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E42732F72798CE9900B1E94D /* Debug */,
+				E42732F82798CE9900B1E94D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
