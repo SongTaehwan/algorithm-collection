@@ -27,6 +27,6 @@ func solution(_ answers:[Int]) -> [Int] {
         }
     }
     
-    let maxValue = dict.values.reduce(0) { max($0, $1)}
+    let maxValue = dict.values.max()
     return dict.filter { $0.value == maxValue }.keys.sorted()
 }
