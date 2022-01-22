@@ -13,5 +13,7 @@ class Binary_Search: TestCase {
         XCTAssertEqual(sol.search([-1,0,3,5,9,12], 2), -1)
         XCTAssertEqual(sol.refactored([-1,0,3,5,9,12], 9), 4)
         XCTAssertEqual(sol.refactored([-1,0,3,5,9,12], 2), -1)
+        XCTAssertEqual(sol.better([-1,0,3,5,9,12], 9), 4)
+        XCTAssertEqual(sol.better([-1,0,3,5,9,12], 2), -1)
     }
 }

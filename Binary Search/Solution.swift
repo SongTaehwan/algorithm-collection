@@ -16,7 +16,7 @@ class Solution: Utility {
                 return i
             }
         }
-        
+
         return -1
     }
     
@@ -32,6 +32,25 @@ class Solution: Utility {
                 mid -= 1
             } else {
                 mid += 1
+            }
+        }
+        
+        return -1
+    }
+    
+    // Better
+    func better(_ nums: [Int], _ target: Int) -> Int {
+        var left = 0, right = nums.count - 1
+        
+        while left <= right {
+            let mid = (left + right) / 2
+
+            guard nums[mid] != target else { return mid }
+            
+            if nums[mid] < target {
+                left += 1
+            } else {
+                right -= 1
             }
         }
         
