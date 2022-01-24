@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// [Check out the problem](https://leetcode.com/problems/detect-capital/)
 class Solution {
     func detectCapitalUse(_ word: String) -> Bool {
         var count = 0

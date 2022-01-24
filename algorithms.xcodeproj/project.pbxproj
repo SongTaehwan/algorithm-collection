@@ -66,6 +66,9 @@
 		E4EBFBA9279EB7F700057DBB /* Detect_Capital.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBFBA8279EB7F700057DBB /* Detect_Capital.swift */; };
 		E4EBFBAE279EB80700057DBB /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBFBAD279EB80700057DBB /* Solution.swift */; };
 		E4EBFBAF279EB83B00057DBB /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
+		E4EBFBB7279EBEAD00057DBB /* Replace_All_Digits_with_Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBFBB6279EBEAD00057DBB /* Replace_All_Digits_with_Characters.swift */; };
+		E4EBFBBC279EBEB600057DBB /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBFBBB279EBEB600057DBB /* Solution.swift */; };
+		E4EBFBBD279EBF0D00057DBB /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -125,6 +128,9 @@
 		E4EBFBA6279EB7F700057DBB /* Detect Capital.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Detect Capital.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4EBFBA8279EB7F700057DBB /* Detect_Capital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detect_Capital.swift; sourceTree = "<group>"; };
 		E4EBFBAD279EB80700057DBB /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E4EBFBB4279EBEAD00057DBB /* Replace All Digits with Characters.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Replace All Digits with Characters.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EBFBB6279EBEAD00057DBB /* Replace_All_Digits_with_Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Replace_All_Digits_with_Characters.swift; sourceTree = "<group>"; };
+		E4EBFBBB279EBEB600057DBB /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,6 +254,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4EBFBA3279EB7F700057DBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EBFBB1279EBEAD00057DBB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -423,6 +436,7 @@
 				E42732F32798CE9900B1E94D /* Check if All Characters Have Equal Number of Occurrences */,
 				E4912F8F279BD48D00179FEB /* Sqrt */,
 				E4EBFBA7279EB7F700057DBB /* Detect Capital */,
+				E4EBFBB5279EBEAD00057DBB /* Replace All Digits with Characters */,
 				E4B395A4278F972F00301C15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -448,6 +462,7 @@
 				E42732F22798CE9900B1E94D /* Check if All Characters Have Equal Number of Occurrences.xctest */,
 				E4912F8E279BD48D00179FEB /* Sqrt.xctest */,
 				E4EBFBA6279EB7F700057DBB /* Detect Capital.xctest */,
+				E4EBFBB4279EBEAD00057DBB /* Replace All Digits with Characters.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -477,6 +492,15 @@
 				E4EBFBAD279EB80700057DBB /* Solution.swift */,
 			);
 			path = "Detect Capital";
+			sourceTree = "<group>";
+		};
+		E4EBFBB5279EBEAD00057DBB /* Replace All Digits with Characters */ = {
+			isa = PBXGroup;
+			children = (
+				E4EBFBB6279EBEAD00057DBB /* Replace_All_Digits_with_Characters.swift */,
+				E4EBFBBB279EBEB600057DBB /* Solution.swift */,
+			);
+			path = "Replace All Digits with Characters";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -788,6 +812,23 @@
 			productReference = E4EBFBA6279EB7F700057DBB /* Detect Capital.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E4EBFBB3279EBEAD00057DBB /* Replace All Digits with Characters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4EBFBB8279EBEAD00057DBB /* Build configuration list for PBXNativeTarget "Replace All Digits with Characters" */;
+			buildPhases = (
+				E4EBFBB0279EBEAD00057DBB /* Sources */,
+				E4EBFBB1279EBEAD00057DBB /* Frameworks */,
+				E4EBFBB2279EBEAD00057DBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Replace All Digits with Characters";
+			productName = "Replace All Digits with Characters";
+			productReference = E4EBFBB4279EBEAD00057DBB /* Replace All Digits with Characters.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -852,6 +893,9 @@
 					E4EBFBA5279EB7F700057DBB = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					E4EBFBB3279EBEAD00057DBB = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 				};
 			};
 			buildConfigurationList = E4B3959E278F972F00301C15 /* Build configuration list for PBXProject "algorithms" */;
@@ -885,6 +929,7 @@
 				E42732F12798CE9900B1E94D /* Check if All Characters Have Equal Number of Occurrences */,
 				E4912F8D279BD48D00179FEB /* Sqrt */,
 				E4EBFBA5279EB7F700057DBB /* Detect Capital */,
+				E4EBFBB3279EBEAD00057DBB /* Replace All Digits with Characters */,
 			);
 		};
 /* End PBXProject section */
@@ -1010,6 +1055,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4EBFBA4279EB7F700057DBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EBFBB2279EBEAD00057DBB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1201,6 +1253,16 @@
 				E4EBFBAF279EB83B00057DBB /* Utility.swift in Sources */,
 				E4EBFBAE279EB80700057DBB /* Solution.swift in Sources */,
 				E4EBFBA9279EB7F700057DBB /* Detect_Capital.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EBFBB0279EBEAD00057DBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EBFBBD279EBF0D00057DBB /* Utility.swift in Sources */,
+				E4EBFBBC279EBEB600057DBB /* Solution.swift in Sources */,
+				E4EBFBB7279EBEAD00057DBB /* Replace_All_Digits_with_Characters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1862,6 +1924,36 @@
 			};
 			name = Release;
 		};
+		E4EBFBB9279EBEAD00057DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Replace-All-Digits-with-Characters";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E4EBFBBA279EBEAD00057DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Replace-All-Digits-with-Characters";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2032,6 +2124,15 @@
 			buildConfigurations = (
 				E4EBFBAA279EB7F700057DBB /* Debug */,
 				E4EBFBAB279EB7F700057DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4EBFBB8279EBEAD00057DBB /* Build configuration list for PBXNativeTarget "Replace All Digits with Characters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4EBFBB9279EBEAD00057DBB /* Debug */,
+				E4EBFBBA279EBEAD00057DBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
