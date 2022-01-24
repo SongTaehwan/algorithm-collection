@@ -11,6 +11,8 @@ class Replace_All_Digits_with_Characters: TestCase {
     override func testSolution() {
         XCTAssertEqual(sol.replaceDigits("a1c1e1"), "abcdef")
         XCTAssertEqual(sol.replaceDigits("a1b2c3d4e"), "abbdcfdhe")
+        XCTAssertEqual(sol.refactored("a1c1e1"), "abcdef")
+        XCTAssertEqual(sol.refactored("a1b2c3d4e"), "abbdcfdhe")
     }
 }
 

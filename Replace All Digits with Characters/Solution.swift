@@ -27,4 +27,14 @@ class Solution {
         
         return result
     }
+    
+    func refactored(_ s: String) -> String {
+        var chars = Array(s)
+        
+        for i in stride(from: 1, to: s.count, by: 2) {
+            chars[i] = Character(UnicodeScalar((chars[i-1].asciiValue ?? 97) + (chars[i].asciiValue ?? 48) - 48))
+        }
+        
+        return String(chars)
+    }
 }
