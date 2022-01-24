@@ -29,6 +29,11 @@
 			<key>orderHint</key>
 			<integer>10</integer>
 		</dict>
+		<key>Detect Capital.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
 		<key>Linked List Cycle.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>

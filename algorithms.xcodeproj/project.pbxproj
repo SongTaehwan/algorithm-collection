@@ -63,6 +63,9 @@
 		E4B3962C278F9FEB00301C15 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B395FB278F9CFF00301C15 /* Solution.swift */; };
 		E4B39636278FA15300301C15 /* Two_Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B39635278FA15300301C15 /* Two_Sum.swift */; };
 		E4B3963B278FA16600301C15 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B3963A278FA16500301C15 /* Solution.swift */; };
+		E4EBFBA9279EB7F700057DBB /* Detect_Capital.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBFBA8279EB7F700057DBB /* Detect_Capital.swift */; };
+		E4EBFBAE279EB80700057DBB /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBFBAD279EB80700057DBB /* Solution.swift */; };
+		E4EBFBAF279EB83B00057DBB /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -119,6 +122,9 @@
 		E4B39633278FA15300301C15 /* Two Sum.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Two Sum.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B39635278FA15300301C15 /* Two_Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Two_Sum.swift; sourceTree = "<group>"; };
 		E4B3963A278FA16500301C15 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E4EBFBA6279EB7F700057DBB /* Detect Capital.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Detect Capital.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EBFBA8279EB7F700057DBB /* Detect_Capital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detect_Capital.swift; sourceTree = "<group>"; };
+		E4EBFBAD279EB80700057DBB /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +241,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4B39630278FA15300301C15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EBFBA3279EB7F700057DBB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -409,6 +422,7 @@
 				E4A620BD27977C3700FD7CB3 /* Reverse Bits */,
 				E42732F32798CE9900B1E94D /* Check if All Characters Have Equal Number of Occurrences */,
 				E4912F8F279BD48D00179FEB /* Sqrt */,
+				E4EBFBA7279EB7F700057DBB /* Detect Capital */,
 				E4B395A4278F972F00301C15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -433,6 +447,7 @@
 				E4A6210B2797B25C00FD7CB3 /* Crane Puppet Draw Game.xctest */,
 				E42732F22798CE9900B1E94D /* Check if All Characters Have Equal Number of Occurrences.xctest */,
 				E4912F8E279BD48D00179FEB /* Sqrt.xctest */,
+				E4EBFBA6279EB7F700057DBB /* Detect Capital.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -453,6 +468,15 @@
 				E4B3963A278FA16500301C15 /* Solution.swift */,
 			);
 			path = "Two Sum";
+			sourceTree = "<group>";
+		};
+		E4EBFBA7279EB7F700057DBB /* Detect Capital */ = {
+			isa = PBXGroup;
+			children = (
+				E4EBFBA8279EB7F700057DBB /* Detect_Capital.swift */,
+				E4EBFBAD279EB80700057DBB /* Solution.swift */,
+			);
+			path = "Detect Capital";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -747,6 +771,23 @@
 			productReference = E4B39633278FA15300301C15 /* Two Sum.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E4EBFBA5279EB7F700057DBB /* Detect Capital */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4EBFBAC279EB7F700057DBB /* Build configuration list for PBXNativeTarget "Detect Capital" */;
+			buildPhases = (
+				E4EBFBA2279EB7F700057DBB /* Sources */,
+				E4EBFBA3279EB7F700057DBB /* Frameworks */,
+				E4EBFBA4279EB7F700057DBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Detect Capital";
+			productName = "Detect Capital";
+			productReference = E4EBFBA6279EB7F700057DBB /* Detect Capital.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -808,6 +849,9 @@
 					E4B39632278FA15300301C15 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					E4EBFBA5279EB7F700057DBB = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 				};
 			};
 			buildConfigurationList = E4B3959E278F972F00301C15 /* Build configuration list for PBXProject "algorithms" */;
@@ -840,6 +884,7 @@
 				E4A6210A2797B25C00FD7CB3 /* Crane Puppet Draw Game */,
 				E42732F12798CE9900B1E94D /* Check if All Characters Have Equal Number of Occurrences */,
 				E4912F8D279BD48D00179FEB /* Sqrt */,
+				E4EBFBA5279EB7F700057DBB /* Detect Capital */,
 			);
 		};
 /* End PBXProject section */
@@ -958,6 +1003,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4B39631278FA15300301C15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EBFBA4279EB7F700057DBB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1139,6 +1191,16 @@
 				E416F364278FC07000F19A0B /* Utility.swift in Sources */,
 				E4B3963B278FA16600301C15 /* Solution.swift in Sources */,
 				E4B39636278FA15300301C15 /* Two_Sum.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EBFBA2279EB7F700057DBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EBFBAF279EB83B00057DBB /* Utility.swift in Sources */,
+				E4EBFBAE279EB80700057DBB /* Solution.swift in Sources */,
+				E4EBFBA9279EB7F700057DBB /* Detect_Capital.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1770,6 +1832,36 @@
 			};
 			name = Release;
 		};
+		E4EBFBAA279EB7F700057DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Detect-Capital";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E4EBFBAB279EB7F700057DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Detect-Capital";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1931,6 +2023,15 @@
 			buildConfigurations = (
 				E4B39638278FA15300301C15 /* Debug */,
 				E4B39639278FA15300301C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4EBFBAC279EB7F700057DBB /* Build configuration list for PBXNativeTarget "Detect Capital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4EBFBAA279EB7F700057DBB /* Debug */,
+				E4EBFBAB279EB7F700057DBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
