@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// [Checkout the problem](https://www.hackerrank.com/challenges/diagonal-difference/problem)
 func diagonalDifference(arr: [[Int]]) -> Int {
     var leftSum = 0
     var rightSum = 0
