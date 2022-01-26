@@ -36,6 +36,8 @@
 		E49244C92790451B005B4241 /* Convert_Binary_Number_in_a_Linked_List_to_Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49244C82790451B005B4241 /* Convert_Binary_Number_in_a_Linked_List_to_Integer.swift */; };
 		E49244CE27904524005B4241 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49244CD27904524005B4241 /* Solution.swift */; };
 		E49244CF2790453F005B4241 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
+		E496282427A0D7170002A8B5 /* Diagonal_Difference.swift in Sources */ = {isa = PBXBuildFile; fileRef = E496282327A0D7170002A8B5 /* Diagonal_Difference.swift */; };
+		E496282927A0D7240002A8B5 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E496282827A0D7240002A8B5 /* Solution.swift */; };
 		E4A620BF27977C3700FD7CB3 /* Reverse_Bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A620BE27977C3700FD7CB3 /* Reverse_Bits.swift */; };
 		E4A620C327977C4200FD7CB3 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E4A620C527977C4900FD7CB3 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A620C427977C4900FD7CB3 /* Solution.swift */; };
@@ -100,6 +102,9 @@
 		E49244C62790451B005B4241 /* Convert Binary Number in a Linked List to Integer.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Convert Binary Number in a Linked List to Integer.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49244C82790451B005B4241 /* Convert_Binary_Number_in_a_Linked_List_to_Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Convert_Binary_Number_in_a_Linked_List_to_Integer.swift; sourceTree = "<group>"; };
 		E49244CD27904524005B4241 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E496282127A0D7170002A8B5 /* Diagonal Difference.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Diagonal Difference.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E496282327A0D7170002A8B5 /* Diagonal_Difference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diagonal_Difference.swift; sourceTree = "<group>"; };
+		E496282827A0D7240002A8B5 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E4A620BC27977C3700FD7CB3 /* Reverse Bits.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reverse Bits.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A620BE27977C3700FD7CB3 /* Reverse_Bits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reverse_Bits.swift; sourceTree = "<group>"; };
 		E4A620C427977C4900FD7CB3 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
@@ -191,6 +196,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E49244C32790451B005B4241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E496281E27A0D7170002A8B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -351,6 +363,23 @@
 			path = "Convert Binary Number in a Linked List to Integer";
 			sourceTree = "<group>";
 		};
+		E496281C27A0D6FA0002A8B5 /* HackerRank */ = {
+			isa = PBXGroup;
+			children = (
+				E496282227A0D7170002A8B5 /* Diagonal Difference */,
+			);
+			path = HackerRank;
+			sourceTree = "<group>";
+		};
+		E496282227A0D7170002A8B5 /* Diagonal Difference */ = {
+			isa = PBXGroup;
+			children = (
+				E496282327A0D7170002A8B5 /* Diagonal_Difference.swift */,
+				E496282827A0D7240002A8B5 /* Solution.swift */,
+			);
+			path = "Diagonal Difference";
+			sourceTree = "<group>";
+		};
 		E4A620BD27977C3700FD7CB3 /* Reverse Bits */ = {
 			isa = PBXGroup;
 			children = (
@@ -420,6 +449,7 @@
 		E4B3959A278F972F00301C15 = {
 			isa = PBXGroup;
 			children = (
+				E496281C27A0D6FA0002A8B5 /* HackerRank */,
 				E4A620D32797A2E100FD7CB3 /* Programmers */,
 				E416F33A278FBCA500F19A0B /* Utility.swift */,
 				E4B39634278FA15300301C15 /* Two Sum */,
@@ -463,6 +493,7 @@
 				E4912F8E279BD48D00179FEB /* Sqrt.xctest */,
 				E4EBFBA6279EB7F700057DBB /* Detect Capital.xctest */,
 				E4EBFBB4279EBEAD00057DBB /* Replace All Digits with Characters.xctest */,
+				E496282127A0D7170002A8B5 /* Diagonal Difference.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -657,6 +688,23 @@
 			name = "Convert Binary Number in a Linked List to Integer";
 			productName = "Convert Binary Number in a Linked List to Integer";
 			productReference = E49244C62790451B005B4241 /* Convert Binary Number in a Linked List to Integer.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E496282027A0D7170002A8B5 /* Diagonal Difference */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E496282527A0D7170002A8B5 /* Build configuration list for PBXNativeTarget "Diagonal Difference" */;
+			buildPhases = (
+				E496281D27A0D7170002A8B5 /* Sources */,
+				E496281E27A0D7170002A8B5 /* Frameworks */,
+				E496281F27A0D7170002A8B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Diagonal Difference";
+			productName = "Diagonal Difference";
+			productReference = E496282127A0D7170002A8B5 /* Diagonal Difference.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		E4A620BB27977C3700FD7CB3 /* Reverse Bits */ = {
@@ -866,6 +914,9 @@
 					E49244C52790451B005B4241 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					E496282027A0D7170002A8B5 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					E4A620BB27977C3700FD7CB3 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -930,6 +981,7 @@
 				E4912F8D279BD48D00179FEB /* Sqrt */,
 				E4EBFBA5279EB7F700057DBB /* Detect Capital */,
 				E4EBFBB3279EBEAD00057DBB /* Replace All Digits with Characters */,
+				E496282027A0D7170002A8B5 /* Diagonal Difference */,
 			);
 		};
 /* End PBXProject section */
@@ -992,6 +1044,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E49244C42790451B005B4241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E496281F27A0D7170002A8B5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1158,6 +1217,15 @@
 				E49244CF2790453F005B4241 /* Utility.swift in Sources */,
 				E49244CE27904524005B4241 /* Solution.swift in Sources */,
 				E49244C92790451B005B4241 /* Convert_Binary_Number_in_a_Linked_List_to_Integer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E496281D27A0D7170002A8B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E496282927A0D7240002A8B5 /* Solution.swift in Sources */,
+				E496282427A0D7170002A8B5 /* Diagonal_Difference.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1533,6 +1601,36 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Convert-Binary-Number-in-a-Linked-List-to-Integer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E496282627A0D7170002A8B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Diagonal-Difference";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E496282727A0D7170002A8B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Diagonal-Difference";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -2034,6 +2132,15 @@
 			buildConfigurations = (
 				E49244CA2790451B005B4241 /* Debug */,
 				E49244CB2790451B005B4241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E496282527A0D7170002A8B5 /* Build configuration list for PBXNativeTarget "Diagonal Difference" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E496282627A0D7170002A8B5 /* Debug */,
+				E496282727A0D7170002A8B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
