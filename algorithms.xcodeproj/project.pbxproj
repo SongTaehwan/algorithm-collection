@@ -27,6 +27,9 @@
 		E42732F52798CE9900B1E94D /* Check_if_All_Characters_Have_Equal_Number_of_Occurrences.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42732F42798CE9900B1E94D /* Check_if_All_Characters_Have_Equal_Number_of_Occurrences.swift */; };
 		E42732FA2798CEA800B1E94D /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42732F92798CEA800B1E94D /* Solution.swift */; };
 		E42732FB2798CEB000B1E94D /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
+		E463B34027A210150090E067 /* Merge_Strings_Alternately.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463B33F27A210150090E067 /* Merge_Strings_Alternately.swift */; };
+		E463B34527A2101D0090E067 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463B34427A2101D0090E067 /* Solution.swift */; };
+		E463B34627A210400090E067 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E480630227963DD200D9B702 /* Can_Place_Flowers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E480630127963DD200D9B702 /* Can_Place_Flowers.swift */; };
 		E480630727963DDB00D9B702 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E480630627963DDB00D9B702 /* Solution.swift */; };
 		E480630827963DEC00D9B702 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
@@ -98,6 +101,9 @@
 		E42732F22798CE9900B1E94D /* Check if All Characters Have Equal Number of Occurrences.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Check if All Characters Have Equal Number of Occurrences.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42732F42798CE9900B1E94D /* Check_if_All_Characters_Have_Equal_Number_of_Occurrences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Check_if_All_Characters_Have_Equal_Number_of_Occurrences.swift; sourceTree = "<group>"; };
 		E42732F92798CEA800B1E94D /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E463B33D27A210150090E067 /* Merge Strings Alternately.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Merge Strings Alternately.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E463B33F27A210150090E067 /* Merge_Strings_Alternately.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merge_Strings_Alternately.swift; sourceTree = "<group>"; };
+		E463B34427A2101D0090E067 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E48062FF27963DD200D9B702 /* Can Place Flowers.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Can Place Flowers.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E480630127963DD200D9B702 /* Can_Place_Flowers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Can_Place_Flowers.swift; sourceTree = "<group>"; };
 		E480630627963DDB00D9B702 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
@@ -186,6 +192,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E42732EF2798CE9900B1E94D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E463B33A27A210150090E067 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -361,6 +374,15 @@
 			path = "Check if All Characters Have Equal Number of Occurrences";
 			sourceTree = "<group>";
 		};
+		E463B33E27A210150090E067 /* Merge Strings Alternately */ = {
+			isa = PBXGroup;
+			children = (
+				E463B33F27A210150090E067 /* Merge_Strings_Alternately.swift */,
+				E463B34427A2101D0090E067 /* Solution.swift */,
+			);
+			path = "Merge Strings Alternately";
+			sourceTree = "<group>";
+		};
 		E480630027963DD200D9B702 /* Can Place Flowers */ = {
 			isa = PBXGroup;
 			children = (
@@ -512,6 +534,7 @@
 				E4912F8F279BD48D00179FEB /* Sqrt */,
 				E4EBFBA7279EB7F700057DBB /* Detect Capital */,
 				E4EBFBB5279EBEAD00057DBB /* Replace All Digits with Characters */,
+				E463B33E27A210150090E067 /* Merge Strings Alternately */,
 				E4B395A4278F972F00301C15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -541,6 +564,7 @@
 				E496282127A0D7170002A8B5 /* Diagonal Difference.xctest */,
 				E496282E27A0EDD90002A8B5 /* Time Conversion.xctest */,
 				E496283C27A0F9440002A8B5 /* Number Line Jumps.xctest */,
+				E463B33D27A210150090E067 /* Merge Strings Alternately.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -684,6 +708,23 @@
 			name = "Check if All Characters Have Equal Number of Occurrences";
 			productName = "Check if All Characters Have Equal Number of Occurrences";
 			productReference = E42732F22798CE9900B1E94D /* Check if All Characters Have Equal Number of Occurrences.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E463B33C27A210150090E067 /* Merge Strings Alternately */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E463B34327A210150090E067 /* Build configuration list for PBXNativeTarget "Merge Strings Alternately" */;
+			buildPhases = (
+				E463B33927A210150090E067 /* Sources */,
+				E463B33A27A210150090E067 /* Frameworks */,
+				E463B33B27A210150090E067 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Merge Strings Alternately";
+			productName = "Merge Strings Alternately";
+			productReference = E463B33D27A210150090E067 /* Merge Strings Alternately.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		E48062FE27963DD200D9B702 /* Can Place Flowers */ = {
@@ -986,6 +1027,9 @@
 					E42732F12798CE9900B1E94D = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					E463B33C27A210150090E067 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					E48062FE27963DD200D9B702 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -1071,6 +1115,7 @@
 				E496282027A0D7170002A8B5 /* Diagonal Difference */,
 				E496282D27A0EDD90002A8B5 /* Time Conversion */,
 				E496283B27A0F9440002A8B5 /* Number Line Jumps */,
+				E463B33C27A210150090E067 /* Merge Strings Alternately */,
 			);
 		};
 /* End PBXProject section */
@@ -1112,6 +1157,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E42732F02798CE9900B1E94D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E463B33B27A210150090E067 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1290,6 +1342,16 @@
 				E42732FB2798CEB000B1E94D /* Utility.swift in Sources */,
 				E42732FA2798CEA800B1E94D /* Solution.swift in Sources */,
 				E42732F52798CE9900B1E94D /* Check_if_All_Characters_Have_Equal_Number_of_Occurrences.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E463B33927A210150090E067 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E463B34627A210400090E067 /* Utility.swift in Sources */,
+				E463B34527A2101D0090E067 /* Solution.swift in Sources */,
+				E463B34027A210150090E067 /* Merge_Strings_Alternately.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1633,6 +1695,36 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Check-if-All-Characters-Have-Equal-Number-of-Occurrences";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E463B34127A210150090E067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Merge-Strings-Alternately";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E463B34227A210150090E067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Merge-Strings-Alternately";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -2287,6 +2379,15 @@
 			buildConfigurations = (
 				E42732F72798CE9900B1E94D /* Debug */,
 				E42732F82798CE9900B1E94D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E463B34327A210150090E067 /* Build configuration list for PBXNativeTarget "Merge Strings Alternately" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E463B34127A210150090E067 /* Debug */,
+				E463B34227A210150090E067 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
