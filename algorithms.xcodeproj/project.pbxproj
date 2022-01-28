@@ -27,6 +27,9 @@
 		E42732F52798CE9900B1E94D /* Check_if_All_Characters_Have_Equal_Number_of_Occurrences.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42732F42798CE9900B1E94D /* Check_if_All_Characters_Have_Equal_Number_of_Occurrences.swift */; };
 		E42732FA2798CEA800B1E94D /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42732F92798CEA800B1E94D /* Solution.swift */; };
 		E42732FB2798CEB000B1E94D /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
+		E45A467427A364B70048BD6C /* Flipping_an_Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45A467327A364B70048BD6C /* Flipping_an_Image.swift */; };
+		E45A467927A364C50048BD6C /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45A467827A364C50048BD6C /* Solution.swift */; };
+		E45A467A27A364DF0048BD6C /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E463B34027A210150090E067 /* Merge_Strings_Alternately.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463B33F27A210150090E067 /* Merge_Strings_Alternately.swift */; };
 		E463B34527A2101D0090E067 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463B34427A2101D0090E067 /* Solution.swift */; };
 		E463B34627A210400090E067 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
@@ -101,6 +104,9 @@
 		E42732F22798CE9900B1E94D /* Check if All Characters Have Equal Number of Occurrences.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Check if All Characters Have Equal Number of Occurrences.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42732F42798CE9900B1E94D /* Check_if_All_Characters_Have_Equal_Number_of_Occurrences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Check_if_All_Characters_Have_Equal_Number_of_Occurrences.swift; sourceTree = "<group>"; };
 		E42732F92798CEA800B1E94D /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E45A467127A364B70048BD6C /* Flipping an Image.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flipping an Image.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45A467327A364B70048BD6C /* Flipping_an_Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flipping_an_Image.swift; sourceTree = "<group>"; };
+		E45A467827A364C50048BD6C /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E463B33D27A210150090E067 /* Merge Strings Alternately.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Merge Strings Alternately.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E463B33F27A210150090E067 /* Merge_Strings_Alternately.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merge_Strings_Alternately.swift; sourceTree = "<group>"; };
 		E463B34427A2101D0090E067 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
@@ -192,6 +198,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E42732EF2798CE9900B1E94D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45A466E27A364B70048BD6C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -374,6 +387,15 @@
 			path = "Check if All Characters Have Equal Number of Occurrences";
 			sourceTree = "<group>";
 		};
+		E45A467227A364B70048BD6C /* Flipping an Image */ = {
+			isa = PBXGroup;
+			children = (
+				E45A467327A364B70048BD6C /* Flipping_an_Image.swift */,
+				E45A467827A364C50048BD6C /* Solution.swift */,
+			);
+			path = "Flipping an Image";
+			sourceTree = "<group>";
+		};
 		E463B33E27A210150090E067 /* Merge Strings Alternately */ = {
 			isa = PBXGroup;
 			children = (
@@ -535,6 +557,7 @@
 				E4EBFBA7279EB7F700057DBB /* Detect Capital */,
 				E4EBFBB5279EBEAD00057DBB /* Replace All Digits with Characters */,
 				E463B33E27A210150090E067 /* Merge Strings Alternately */,
+				E45A467227A364B70048BD6C /* Flipping an Image */,
 				E4B395A4278F972F00301C15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -565,6 +588,7 @@
 				E496282E27A0EDD90002A8B5 /* Time Conversion.xctest */,
 				E496283C27A0F9440002A8B5 /* Number Line Jumps.xctest */,
 				E463B33D27A210150090E067 /* Merge Strings Alternately.xctest */,
+				E45A467127A364B70048BD6C /* Flipping an Image.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -708,6 +732,23 @@
 			name = "Check if All Characters Have Equal Number of Occurrences";
 			productName = "Check if All Characters Have Equal Number of Occurrences";
 			productReference = E42732F22798CE9900B1E94D /* Check if All Characters Have Equal Number of Occurrences.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E45A467027A364B70048BD6C /* Flipping an Image */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E45A467727A364B70048BD6C /* Build configuration list for PBXNativeTarget "Flipping an Image" */;
+			buildPhases = (
+				E45A466D27A364B70048BD6C /* Sources */,
+				E45A466E27A364B70048BD6C /* Frameworks */,
+				E45A466F27A364B70048BD6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flipping an Image";
+			productName = "Flipping an Image";
+			productReference = E45A467127A364B70048BD6C /* Flipping an Image.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		E463B33C27A210150090E067 /* Merge Strings Alternately */ = {
@@ -1027,6 +1068,9 @@
 					E42732F12798CE9900B1E94D = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					E45A467027A364B70048BD6C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					E463B33C27A210150090E067 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -1116,6 +1160,7 @@
 				E496282D27A0EDD90002A8B5 /* Time Conversion */,
 				E496283B27A0F9440002A8B5 /* Number Line Jumps */,
 				E463B33C27A210150090E067 /* Merge Strings Alternately */,
+				E45A467027A364B70048BD6C /* Flipping an Image */,
 			);
 		};
 /* End PBXProject section */
@@ -1157,6 +1202,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E42732F02798CE9900B1E94D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45A466F27A364B70048BD6C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1342,6 +1394,16 @@
 				E42732FB2798CEB000B1E94D /* Utility.swift in Sources */,
 				E42732FA2798CEA800B1E94D /* Solution.swift in Sources */,
 				E42732F52798CE9900B1E94D /* Check_if_All_Characters_Have_Equal_Number_of_Occurrences.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45A466D27A364B70048BD6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45A467A27A364DF0048BD6C /* Utility.swift in Sources */,
+				E45A467927A364C50048BD6C /* Solution.swift in Sources */,
+				E45A467427A364B70048BD6C /* Flipping_an_Image.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1695,6 +1757,36 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Check-if-All-Characters-Have-Equal-Number-of-Occurrences";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E45A467527A364B70048BD6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Flipping-an-Image";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E45A467627A364B70048BD6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Flipping-an-Image";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -2379,6 +2471,15 @@
 			buildConfigurations = (
 				E42732F72798CE9900B1E94D /* Debug */,
 				E42732F82798CE9900B1E94D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E45A467727A364B70048BD6C /* Build configuration list for PBXNativeTarget "Flipping an Image" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45A467527A364B70048BD6C /* Debug */,
+				E45A467627A364B70048BD6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
