@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// [Check out the problem](https://leetcode.com/problems/flipping-an-image/)
 class Solution {
     func flipAndInvertImage(_ image: [[Int]]) -> [[Int]] {
         var converted: [Int] = image.flatMap { $0 }.map { $0 ^ 1 }
