@@ -17,6 +17,15 @@ class Matrix_Diagonal_Sum: TestCase {
                                         [1,1,1,1],
                                         [1,1,1,1]]), 8)
         XCTAssertEqual(sol.diagonalSum([[5]]), 5)
+        
+        XCTAssertEqual(sol.refactor([[1,2,3],
+                                        [4,5,6],
+                                        [7,8,9]]), 25)
+        XCTAssertEqual(sol.refactor([[1,1,1,1],
+                                        [1,1,1,1],
+                                        [1,1,1,1],
+                                        [1,1,1,1]]), 8)
+        XCTAssertEqual(sol.refactor([[5]]), 5)
     }
 }
 
