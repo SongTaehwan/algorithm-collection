@@ -82,6 +82,9 @@
 		E4B3962C278F9FEB00301C15 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B395FB278F9CFF00301C15 /* Solution.swift */; };
 		E4B39636278FA15300301C15 /* Two_Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B39635278FA15300301C15 /* Two_Sum.swift */; };
 		E4B3963B278FA16600301C15 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B3963A278FA16500301C15 /* Solution.swift */; };
+		E4DFA13B27AA2F3A0014AE2A /* Rings_and_Rods.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DFA13A27AA2F3A0014AE2A /* Rings_and_Rods.swift */; };
+		E4DFA14027AA2F4F0014AE2A /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DFA13F27AA2F4F0014AE2A /* Solution.swift */; };
+		E4DFA14127AA2F710014AE2A /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E4EBFBA9279EB7F700057DBB /* Detect_Capital.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBFBA8279EB7F700057DBB /* Detect_Capital.swift */; };
 		E4EBFBAE279EB80700057DBB /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBFBAD279EB80700057DBB /* Solution.swift */; };
 		E4EBFBAF279EB83B00057DBB /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
@@ -165,6 +168,9 @@
 		E4B39633278FA15300301C15 /* Two Sum.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Two Sum.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B39635278FA15300301C15 /* Two_Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Two_Sum.swift; sourceTree = "<group>"; };
 		E4B3963A278FA16500301C15 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E4DFA13827AA2F3A0014AE2A /* Rings and Rods.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rings and Rods.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4DFA13A27AA2F3A0014AE2A /* Rings_and_Rods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rings_and_Rods.swift; sourceTree = "<group>"; };
+		E4DFA13F27AA2F4F0014AE2A /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E4EBFBA6279EB7F700057DBB /* Detect Capital.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Detect Capital.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4EBFBA8279EB7F700057DBB /* Detect_Capital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detect_Capital.swift; sourceTree = "<group>"; };
 		E4EBFBAD279EB80700057DBB /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
@@ -336,6 +342,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4B39630278FA15300301C15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4DFA13527AA2F3A0014AE2A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -604,6 +617,7 @@
 				E45A467227A364B70048BD6C /* Flipping an Image */,
 				E45A468027A36DA50048BD6C /* Matrix Diagonal Sum */,
 				E42A3E4027A7E624006472A4 /* Richest Customer Wealth */,
+				E4DFA13927AA2F3A0014AE2A /* Rings and Rods */,
 				E4B395A4278F972F00301C15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -637,6 +651,7 @@
 				E45A467127A364B70048BD6C /* Flipping an Image.xctest */,
 				E45A467F27A36DA50048BD6C /* Matrix Diagonal Sum.xctest */,
 				E42A3E3F27A7E624006472A4 /* Richest Customer Wealth.xctest */,
+				E4DFA13827AA2F3A0014AE2A /* Rings and Rods.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -657,6 +672,15 @@
 				E4B3963A278FA16500301C15 /* Solution.swift */,
 			);
 			path = "Two Sum";
+			sourceTree = "<group>";
+		};
+		E4DFA13927AA2F3A0014AE2A /* Rings and Rods */ = {
+			isa = PBXGroup;
+			children = (
+				E4DFA13A27AA2F3A0014AE2A /* Rings_and_Rods.swift */,
+				E4DFA13F27AA2F4F0014AE2A /* Solution.swift */,
+			);
+			path = "Rings and Rods";
 			sourceTree = "<group>";
 		};
 		E4EBFBA7279EB7F700057DBB /* Detect Capital */ = {
@@ -1088,6 +1112,23 @@
 			productReference = E4B39633278FA15300301C15 /* Two Sum.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E4DFA13727AA2F3A0014AE2A /* Rings and Rods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4DFA13E27AA2F3A0014AE2A /* Build configuration list for PBXNativeTarget "Rings and Rods" */;
+			buildPhases = (
+				E4DFA13427AA2F3A0014AE2A /* Sources */,
+				E4DFA13527AA2F3A0014AE2A /* Frameworks */,
+				E4DFA13627AA2F3A0014AE2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rings and Rods";
+			productName = "Rings and Rods";
+			productReference = E4DFA13827AA2F3A0014AE2A /* Rings and Rods.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E4EBFBA5279EB7F700057DBB /* Detect Capital */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4EBFBAC279EB7F700057DBB /* Build configuration list for PBXNativeTarget "Detect Capital" */;
@@ -1204,6 +1245,9 @@
 					E4B39632278FA15300301C15 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					E4DFA13727AA2F3A0014AE2A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					E4EBFBA5279EB7F700057DBB = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -1251,6 +1295,7 @@
 				E45A467027A364B70048BD6C /* Flipping an Image */,
 				E45A467E27A36DA50048BD6C /* Matrix Diagonal Sum */,
 				E42A3E3E27A7E624006472A4 /* Richest Customer Wealth */,
+				E4DFA13727AA2F3A0014AE2A /* Rings and Rods */,
 			);
 		};
 /* End PBXProject section */
@@ -1418,6 +1463,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4B39631278FA15300301C15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4DFA13627AA2F3A0014AE2A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1681,6 +1733,16 @@
 				E416F364278FC07000F19A0B /* Utility.swift in Sources */,
 				E4B3963B278FA16600301C15 /* Solution.swift in Sources */,
 				E4B39636278FA15300301C15 /* Two_Sum.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4DFA13427AA2F3A0014AE2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4DFA14127AA2F710014AE2A /* Utility.swift in Sources */,
+				E4DFA13B27AA2F3A0014AE2A /* Rings_and_Rods.swift in Sources */,
+				E4DFA14027AA2F4F0014AE2A /* Solution.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2542,6 +2604,36 @@
 			};
 			name = Release;
 		};
+		E4DFA13C27AA2F3A0014AE2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Rings-and-Rods";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E4DFA13D27AA2F3A0014AE2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Rings-and-Rods";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		E4EBFBAA279EB7F700057DBB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2826,6 +2918,15 @@
 			buildConfigurations = (
 				E4B39638278FA15300301C15 /* Debug */,
 				E4B39639278FA15300301C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4DFA13E27AA2F3A0014AE2A /* Build configuration list for PBXNativeTarget "Rings and Rods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4DFA13C27AA2F3A0014AE2A /* Debug */,
+				E4DFA13D27AA2F3A0014AE2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
