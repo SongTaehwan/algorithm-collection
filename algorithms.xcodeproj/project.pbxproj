@@ -82,6 +82,9 @@
 		E4B3962C278F9FEB00301C15 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B395FB278F9CFF00301C15 /* Solution.swift */; };
 		E4B39636278FA15300301C15 /* Two_Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B39635278FA15300301C15 /* Two_Sum.swift */; };
 		E4B3963B278FA16600301C15 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B3963A278FA16500301C15 /* Solution.swift */; };
+		E4CCAD3B27ACDD5700296047 /* Count_Negative_Numbers_in_a_Sorted_Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CCAD3A27ACDD5700296047 /* Count_Negative_Numbers_in_a_Sorted_Matrix.swift */; };
+		E4CCAD4027ACDD5F00296047 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CCAD3F27ACDD5F00296047 /* Solution.swift */; };
+		E4CCAD4127ACDD7700296047 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E4DFA13B27AA2F3A0014AE2A /* Rings_and_Rods.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DFA13A27AA2F3A0014AE2A /* Rings_and_Rods.swift */; };
 		E4DFA14027AA2F4F0014AE2A /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DFA13F27AA2F4F0014AE2A /* Solution.swift */; };
 		E4DFA14127AA2F710014AE2A /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
@@ -168,6 +171,9 @@
 		E4B39633278FA15300301C15 /* Two Sum.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Two Sum.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B39635278FA15300301C15 /* Two_Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Two_Sum.swift; sourceTree = "<group>"; };
 		E4B3963A278FA16500301C15 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E4CCAD3827ACDD5700296047 /* Count Negative Numbers in a Sorted Matrix.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Count Negative Numbers in a Sorted Matrix.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4CCAD3A27ACDD5700296047 /* Count_Negative_Numbers_in_a_Sorted_Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Count_Negative_Numbers_in_a_Sorted_Matrix.swift; sourceTree = "<group>"; };
+		E4CCAD3F27ACDD5F00296047 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E4DFA13827AA2F3A0014AE2A /* Rings and Rods.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rings and Rods.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4DFA13A27AA2F3A0014AE2A /* Rings_and_Rods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rings_and_Rods.swift; sourceTree = "<group>"; };
 		E4DFA13F27AA2F4F0014AE2A /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
@@ -342,6 +348,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4B39630278FA15300301C15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4CCAD3527ACDD5700296047 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -618,6 +631,7 @@
 				E45A468027A36DA50048BD6C /* Matrix Diagonal Sum */,
 				E42A3E4027A7E624006472A4 /* Richest Customer Wealth */,
 				E4DFA13927AA2F3A0014AE2A /* Rings and Rods */,
+				E4CCAD3927ACDD5700296047 /* Count Negative Numbers in a Sorted Matrix */,
 				E4B395A4278F972F00301C15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -652,6 +666,7 @@
 				E45A467F27A36DA50048BD6C /* Matrix Diagonal Sum.xctest */,
 				E42A3E3F27A7E624006472A4 /* Richest Customer Wealth.xctest */,
 				E4DFA13827AA2F3A0014AE2A /* Rings and Rods.xctest */,
+				E4CCAD3827ACDD5700296047 /* Count Negative Numbers in a Sorted Matrix.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -672,6 +687,15 @@
 				E4B3963A278FA16500301C15 /* Solution.swift */,
 			);
 			path = "Two Sum";
+			sourceTree = "<group>";
+		};
+		E4CCAD3927ACDD5700296047 /* Count Negative Numbers in a Sorted Matrix */ = {
+			isa = PBXGroup;
+			children = (
+				E4CCAD3A27ACDD5700296047 /* Count_Negative_Numbers_in_a_Sorted_Matrix.swift */,
+				E4CCAD3F27ACDD5F00296047 /* Solution.swift */,
+			);
+			path = "Count Negative Numbers in a Sorted Matrix";
 			sourceTree = "<group>";
 		};
 		E4DFA13927AA2F3A0014AE2A /* Rings and Rods */ = {
@@ -1112,6 +1136,23 @@
 			productReference = E4B39633278FA15300301C15 /* Two Sum.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E4CCAD3727ACDD5700296047 /* Count Negative Numbers in a Sorted Matrix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4CCAD3E27ACDD5700296047 /* Build configuration list for PBXNativeTarget "Count Negative Numbers in a Sorted Matrix" */;
+			buildPhases = (
+				E4CCAD3427ACDD5700296047 /* Sources */,
+				E4CCAD3527ACDD5700296047 /* Frameworks */,
+				E4CCAD3627ACDD5700296047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Count Negative Numbers in a Sorted Matrix";
+			productName = "Count Negative Numbers in a Sorted Matrix";
+			productReference = E4CCAD3827ACDD5700296047 /* Count Negative Numbers in a Sorted Matrix.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E4DFA13727AA2F3A0014AE2A /* Rings and Rods */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4DFA13E27AA2F3A0014AE2A /* Build configuration list for PBXNativeTarget "Rings and Rods" */;
@@ -1245,6 +1286,9 @@
 					E4B39632278FA15300301C15 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					E4CCAD3727ACDD5700296047 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					E4DFA13727AA2F3A0014AE2A = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -1296,6 +1340,7 @@
 				E45A467E27A36DA50048BD6C /* Matrix Diagonal Sum */,
 				E42A3E3E27A7E624006472A4 /* Richest Customer Wealth */,
 				E4DFA13727AA2F3A0014AE2A /* Rings and Rods */,
+				E4CCAD3727ACDD5700296047 /* Count Negative Numbers in a Sorted Matrix */,
 			);
 		};
 /* End PBXProject section */
@@ -1463,6 +1508,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4B39631278FA15300301C15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4CCAD3627ACDD5700296047 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1733,6 +1785,16 @@
 				E416F364278FC07000F19A0B /* Utility.swift in Sources */,
 				E4B3963B278FA16600301C15 /* Solution.swift in Sources */,
 				E4B39636278FA15300301C15 /* Two_Sum.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4CCAD3427ACDD5700296047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4CCAD4127ACDD7700296047 /* Utility.swift in Sources */,
+				E4CCAD4027ACDD5F00296047 /* Solution.swift in Sources */,
+				E4CCAD3B27ACDD5700296047 /* Count_Negative_Numbers_in_a_Sorted_Matrix.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2604,6 +2666,36 @@
 			};
 			name = Release;
 		};
+		E4CCAD3C27ACDD5700296047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Count-Negative-Numbers-in-a-Sorted-Matrix";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E4CCAD3D27ACDD5700296047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Count-Negative-Numbers-in-a-Sorted-Matrix";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		E4DFA13C27AA2F3A0014AE2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2918,6 +3010,15 @@
 			buildConfigurations = (
 				E4B39638278FA15300301C15 /* Debug */,
 				E4B39639278FA15300301C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4CCAD3E27ACDD5700296047 /* Build configuration list for PBXNativeTarget "Count Negative Numbers in a Sorted Matrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4CCAD3C27ACDD5700296047 /* Debug */,
+				E4CCAD3D27ACDD5700296047 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
