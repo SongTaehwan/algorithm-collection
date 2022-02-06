@@ -75,6 +75,9 @@
 		E4A621132797B27700FD7CB3 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A621122797B27700FD7CB3 /* Solution.swift */; };
 		E4A621142797B28F00FD7CB3 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A620E52797A49F00FD7CB3 /* Utility.swift */; };
 		E4A621152797B29300FD7CB3 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A621122797B27700FD7CB3 /* Solution.swift */; };
+		E4AB29C427B094E5006D1CF4 /* Count_of_Matches_in_Tournament.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AB29C327B094E5006D1CF4 /* Count_of_Matches_in_Tournament.swift */; };
+		E4AB29C927B094F1006D1CF4 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AB29C827B094F1006D1CF4 /* Solution.swift */; };
+		E4AB29CA27B09514006D1CF4 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E4AFB83427950B460010254D /* Word_Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AFB83327950B460010254D /* Word_Pattern.swift */; };
 		E4AFB83927950B4F0010254D /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AFB83827950B4F0010254D /* Solution.swift */; };
 		E4AFB83A27950BA90010254D /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
@@ -162,6 +165,9 @@
 		E4A6210B2797B25C00FD7CB3 /* Crane Puppet Draw Game.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crane Puppet Draw Game.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A6210D2797B25C00FD7CB3 /* Crane_Puppet_Draw_Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crane_Puppet_Draw_Game.swift; sourceTree = "<group>"; };
 		E4A621122797B27700FD7CB3 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E4AB29C127B094E5006D1CF4 /* Count of Matches in Tournament.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Count of Matches in Tournament.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4AB29C327B094E5006D1CF4 /* Count_of_Matches_in_Tournament.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Count_of_Matches_in_Tournament.swift; sourceTree = "<group>"; };
+		E4AB29C827B094F1006D1CF4 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E4AFB83127950B460010254D /* Word Pattern.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Word Pattern.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4AFB83327950B460010254D /* Word_Pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word_Pattern.swift; sourceTree = "<group>"; };
 		E4AFB83827950B4F0010254D /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
@@ -327,6 +333,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4A621082797B25C00FD7CB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4AB29BE27B094E5006D1CF4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -596,6 +609,15 @@
 			path = "Crane Puppet Draw Game";
 			sourceTree = "<group>";
 		};
+		E4AB29C227B094E5006D1CF4 /* Count of Matches in Tournament */ = {
+			isa = PBXGroup;
+			children = (
+				E4AB29C327B094E5006D1CF4 /* Count_of_Matches_in_Tournament.swift */,
+				E4AB29C827B094F1006D1CF4 /* Solution.swift */,
+			);
+			path = "Count of Matches in Tournament";
+			sourceTree = "<group>";
+		};
 		E4AFB83227950B460010254D /* Word Pattern */ = {
 			isa = PBXGroup;
 			children = (
@@ -632,6 +654,7 @@
 				E42A3E4027A7E624006472A4 /* Richest Customer Wealth */,
 				E4DFA13927AA2F3A0014AE2A /* Rings and Rods */,
 				E4CCAD3927ACDD5700296047 /* Count Negative Numbers in a Sorted Matrix */,
+				E4AB29C227B094E5006D1CF4 /* Count of Matches in Tournament */,
 				E4B395A4278F972F00301C15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -667,6 +690,7 @@
 				E42A3E3F27A7E624006472A4 /* Richest Customer Wealth.xctest */,
 				E4DFA13827AA2F3A0014AE2A /* Rings and Rods.xctest */,
 				E4CCAD3827ACDD5700296047 /* Count Negative Numbers in a Sorted Matrix.xctest */,
+				E4AB29C127B094E5006D1CF4 /* Count of Matches in Tournament.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1085,6 +1109,23 @@
 			productReference = E4A6210B2797B25C00FD7CB3 /* Crane Puppet Draw Game.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E4AB29C027B094E5006D1CF4 /* Count of Matches in Tournament */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4AB29C727B094E5006D1CF4 /* Build configuration list for PBXNativeTarget "Count of Matches in Tournament" */;
+			buildPhases = (
+				E4AB29BD27B094E5006D1CF4 /* Sources */,
+				E4AB29BE27B094E5006D1CF4 /* Frameworks */,
+				E4AB29BF27B094E5006D1CF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Count of Matches in Tournament";
+			productName = "Count of Matches in Tournament";
+			productReference = E4AB29C127B094E5006D1CF4 /* Count of Matches in Tournament.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E4AFB83027950B460010254D /* Word Pattern */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4AFB83727950B460010254D /* Build configuration list for PBXNativeTarget "Word Pattern" */;
@@ -1277,6 +1318,9 @@
 					E4A6210A2797B25C00FD7CB3 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					E4AB29C027B094E5006D1CF4 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					E4AFB83027950B460010254D = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -1341,6 +1385,7 @@
 				E42A3E3E27A7E624006472A4 /* Richest Customer Wealth */,
 				E4DFA13727AA2F3A0014AE2A /* Rings and Rods */,
 				E4CCAD3727ACDD5700296047 /* Count Negative Numbers in a Sorted Matrix */,
+				E4AB29C027B094E5006D1CF4 /* Count of Matches in Tournament */,
 			);
 		};
 /* End PBXProject section */
@@ -1487,6 +1532,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4A621092797B25C00FD7CB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4AB29BF27B094E5006D1CF4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1755,6 +1807,16 @@
 				E4A621152797B29300FD7CB3 /* Solution.swift in Sources */,
 				E4A621142797B28F00FD7CB3 /* Utility.swift in Sources */,
 				E4A6210E2797B25C00FD7CB3 /* Crane_Puppet_Draw_Game.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4AB29BD27B094E5006D1CF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4AB29CA27B09514006D1CF4 /* Utility.swift in Sources */,
+				E4AB29C927B094F1006D1CF4 /* Solution.swift in Sources */,
+				E4AB29C427B094E5006D1CF4 /* Count_of_Matches_in_Tournament.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2461,6 +2523,36 @@
 			};
 			name = Release;
 		};
+		E4AB29C527B094E5006D1CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Count-of-Matches-in-Tournament";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E4AB29C627B094E5006D1CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Count-of-Matches-in-Tournament";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		E4AFB83527950B460010254D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2974,6 +3066,15 @@
 			buildConfigurations = (
 				E4A621102797B25C00FD7CB3 /* Debug */,
 				E4A621112797B25C00FD7CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4AB29C727B094E5006D1CF4 /* Build configuration list for PBXNativeTarget "Count of Matches in Tournament" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4AB29C527B094E5006D1CF4 /* Debug */,
+				E4AB29C627B094E5006D1CF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
