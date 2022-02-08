@@ -30,6 +30,9 @@
 		E42A3E4627A7E640006472A4 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E42A3E4A27A7E66B006472A4 /* Richest_Customer_Wealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42A3E4927A7E66B006472A4 /* Richest_Customer_Wealth.swift */; };
 		E42A3E4C27A7E67F006472A4 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42A3E4B27A7E67F006472A4 /* Solution.swift */; };
+		E43FDCB027B28EF5008CD6AE /* Add_Digits.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43FDCAF27B28EF5008CD6AE /* Add_Digits.swift */; };
+		E43FDCB527B28EFF008CD6AE /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43FDCB427B28EFF008CD6AE /* Solution.swift */; };
+		E43FDCB627B28F48008CD6AE /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E45A467427A364B70048BD6C /* Flipping_an_Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45A467327A364B70048BD6C /* Flipping_an_Image.swift */; };
 		E45A467927A364C50048BD6C /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45A467827A364C50048BD6C /* Solution.swift */; };
 		E45A467A27A364DF0048BD6C /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
@@ -122,6 +125,9 @@
 		E42A3E3F27A7E624006472A4 /* Richest Customer Wealth.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Richest Customer Wealth.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42A3E4927A7E66B006472A4 /* Richest_Customer_Wealth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Richest_Customer_Wealth.swift; path = "Richest Customer Wealth/Richest_Customer_Wealth.swift"; sourceTree = SOURCE_ROOT; };
 		E42A3E4B27A7E67F006472A4 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E43FDCAD27B28EF4008CD6AE /* Add Digits.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Add Digits.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E43FDCAF27B28EF5008CD6AE /* Add_Digits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add_Digits.swift; sourceTree = "<group>"; };
+		E43FDCB427B28EFF008CD6AE /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E45A467127A364B70048BD6C /* Flipping an Image.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flipping an Image.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E45A467327A364B70048BD6C /* Flipping_an_Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flipping_an_Image.swift; sourceTree = "<group>"; };
 		E45A467827A364C50048BD6C /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
@@ -235,6 +241,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E42A3E3C27A7E624006472A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E43FDCAA27B28EF4008CD6AE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -461,6 +474,15 @@
 			path = "Richest Customer Wealth";
 			sourceTree = "<group>";
 		};
+		E43FDCAE27B28EF4008CD6AE /* Add Digits */ = {
+			isa = PBXGroup;
+			children = (
+				E43FDCAF27B28EF5008CD6AE /* Add_Digits.swift */,
+				E43FDCB427B28EFF008CD6AE /* Solution.swift */,
+			);
+			path = "Add Digits";
+			sourceTree = "<group>";
+		};
 		E45A467227A364B70048BD6C /* Flipping an Image */ = {
 			isa = PBXGroup;
 			children = (
@@ -655,6 +677,7 @@
 				E4DFA13927AA2F3A0014AE2A /* Rings and Rods */,
 				E4CCAD3927ACDD5700296047 /* Count Negative Numbers in a Sorted Matrix */,
 				E4AB29C227B094E5006D1CF4 /* Count of Matches in Tournament */,
+				E43FDCAE27B28EF4008CD6AE /* Add Digits */,
 				E4B395A4278F972F00301C15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -691,6 +714,7 @@
 				E4DFA13827AA2F3A0014AE2A /* Rings and Rods.xctest */,
 				E4CCAD3827ACDD5700296047 /* Count Negative Numbers in a Sorted Matrix.xctest */,
 				E4AB29C127B094E5006D1CF4 /* Count of Matches in Tournament.xctest */,
+				E43FDCAD27B28EF4008CD6AE /* Add Digits.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -869,6 +893,23 @@
 			name = "Richest Customer Wealth";
 			productName = "Richest Customer Wealth";
 			productReference = E42A3E3F27A7E624006472A4 /* Richest Customer Wealth.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E43FDCAC27B28EF4008CD6AE /* Add Digits */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E43FDCB327B28EF5008CD6AE /* Build configuration list for PBXNativeTarget "Add Digits" */;
+			buildPhases = (
+				E43FDCA927B28EF4008CD6AE /* Sources */,
+				E43FDCAA27B28EF4008CD6AE /* Frameworks */,
+				E43FDCAB27B28EF4008CD6AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Add Digits";
+			productName = "Add Digits";
+			productReference = E43FDCAD27B28EF4008CD6AE /* Add Digits.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		E45A467027A364B70048BD6C /* Flipping an Image */ = {
@@ -1276,6 +1317,9 @@
 					E42A3E3E27A7E624006472A4 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					E43FDCAC27B28EF4008CD6AE = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					E45A467027A364B70048BD6C = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -1386,6 +1430,7 @@
 				E4DFA13727AA2F3A0014AE2A /* Rings and Rods */,
 				E4CCAD3727ACDD5700296047 /* Count Negative Numbers in a Sorted Matrix */,
 				E4AB29C027B094E5006D1CF4 /* Count of Matches in Tournament */,
+				E43FDCAC27B28EF4008CD6AE /* Add Digits */,
 			);
 		};
 /* End PBXProject section */
@@ -1434,6 +1479,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E42A3E3D27A7E624006472A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E43FDCAB27B28EF4008CD6AE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1664,6 +1716,16 @@
 				E42A3E4627A7E640006472A4 /* Utility.swift in Sources */,
 				E42A3E4A27A7E66B006472A4 /* Richest_Customer_Wealth.swift in Sources */,
 				E42A3E4C27A7E67F006472A4 /* Solution.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E43FDCA927B28EF4008CD6AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E43FDCB627B28F48008CD6AE /* Utility.swift in Sources */,
+				E43FDCB527B28EFF008CD6AE /* Solution.swift in Sources */,
+				E43FDCB027B28EF5008CD6AE /* Add_Digits.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2097,6 +2159,36 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Richest-Customer-Wealth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E43FDCB127B28EF5008CD6AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Add-Digits";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E43FDCB227B28EF5008CD6AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Add-Digits";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -2940,6 +3032,15 @@
 			buildConfigurations = (
 				E42A3E4327A7E624006472A4 /* Debug */,
 				E42A3E4427A7E624006472A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E43FDCB327B28EF5008CD6AE /* Build configuration list for PBXNativeTarget "Add Digits" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E43FDCB127B28EF5008CD6AE /* Debug */,
+				E43FDCB227B28EF5008CD6AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
