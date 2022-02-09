@@ -91,6 +91,9 @@
 		E4CCAD3B27ACDD5700296047 /* Count_Negative_Numbers_in_a_Sorted_Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CCAD3A27ACDD5700296047 /* Count_Negative_Numbers_in_a_Sorted_Matrix.swift */; };
 		E4CCAD4027ACDD5F00296047 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CCAD3F27ACDD5F00296047 /* Solution.swift */; };
 		E4CCAD4127ACDD7700296047 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
+		E4D86D2027B34200005991F8 /* Find_the_Highest_Altitude.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D86D1F27B34200005991F8 /* Find_the_Highest_Altitude.swift */; };
+		E4D86D2527B3420B005991F8 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D86D2427B3420B005991F8 /* Solution.swift */; };
+		E4D86D2627B34233005991F8 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E4DFA13B27AA2F3A0014AE2A /* Rings_and_Rods.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DFA13A27AA2F3A0014AE2A /* Rings_and_Rods.swift */; };
 		E4DFA14027AA2F4F0014AE2A /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DFA13F27AA2F4F0014AE2A /* Solution.swift */; };
 		E4DFA14127AA2F710014AE2A /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
@@ -186,6 +189,9 @@
 		E4CCAD3827ACDD5700296047 /* Count Negative Numbers in a Sorted Matrix.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Count Negative Numbers in a Sorted Matrix.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4CCAD3A27ACDD5700296047 /* Count_Negative_Numbers_in_a_Sorted_Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Count_Negative_Numbers_in_a_Sorted_Matrix.swift; sourceTree = "<group>"; };
 		E4CCAD3F27ACDD5F00296047 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E4D86D1D27B34200005991F8 /* Find the Highest Altitude.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find the Highest Altitude.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4D86D1F27B34200005991F8 /* Find_the_Highest_Altitude.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_the_Highest_Altitude.swift; sourceTree = "<group>"; };
+		E4D86D2427B3420B005991F8 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E4DFA13827AA2F3A0014AE2A /* Rings and Rods.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rings and Rods.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4DFA13A27AA2F3A0014AE2A /* Rings_and_Rods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rings_and_Rods.swift; sourceTree = "<group>"; };
 		E4DFA13F27AA2F4F0014AE2A /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
@@ -381,6 +387,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4CCAD3527ACDD5700296047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4D86D1A27B34200005991F8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -678,6 +691,7 @@
 				E4CCAD3927ACDD5700296047 /* Count Negative Numbers in a Sorted Matrix */,
 				E4AB29C227B094E5006D1CF4 /* Count of Matches in Tournament */,
 				E43FDCAE27B28EF4008CD6AE /* Add Digits */,
+				E4D86D1E27B34200005991F8 /* Find the Highest Altitude */,
 				E4B395A4278F972F00301C15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -715,6 +729,7 @@
 				E4CCAD3827ACDD5700296047 /* Count Negative Numbers in a Sorted Matrix.xctest */,
 				E4AB29C127B094E5006D1CF4 /* Count of Matches in Tournament.xctest */,
 				E43FDCAD27B28EF4008CD6AE /* Add Digits.xctest */,
+				E4D86D1D27B34200005991F8 /* Find the Highest Altitude.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -744,6 +759,15 @@
 				E4CCAD3F27ACDD5F00296047 /* Solution.swift */,
 			);
 			path = "Count Negative Numbers in a Sorted Matrix";
+			sourceTree = "<group>";
+		};
+		E4D86D1E27B34200005991F8 /* Find the Highest Altitude */ = {
+			isa = PBXGroup;
+			children = (
+				E4D86D1F27B34200005991F8 /* Find_the_Highest_Altitude.swift */,
+				E4D86D2427B3420B005991F8 /* Solution.swift */,
+			);
+			path = "Find the Highest Altitude";
 			sourceTree = "<group>";
 		};
 		E4DFA13927AA2F3A0014AE2A /* Rings and Rods */ = {
@@ -1235,6 +1259,23 @@
 			productReference = E4CCAD3827ACDD5700296047 /* Count Negative Numbers in a Sorted Matrix.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E4D86D1C27B34200005991F8 /* Find the Highest Altitude */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4D86D2327B34200005991F8 /* Build configuration list for PBXNativeTarget "Find the Highest Altitude" */;
+			buildPhases = (
+				E4D86D1927B34200005991F8 /* Sources */,
+				E4D86D1A27B34200005991F8 /* Frameworks */,
+				E4D86D1B27B34200005991F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Find the Highest Altitude";
+			productName = "Find the Highest Altitude";
+			productReference = E4D86D1D27B34200005991F8 /* Find the Highest Altitude.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E4DFA13727AA2F3A0014AE2A /* Rings and Rods */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4DFA13E27AA2F3A0014AE2A /* Build configuration list for PBXNativeTarget "Rings and Rods" */;
@@ -1377,6 +1418,9 @@
 					E4CCAD3727ACDD5700296047 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					E4D86D1C27B34200005991F8 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					E4DFA13727AA2F3A0014AE2A = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -1431,6 +1475,7 @@
 				E4CCAD3727ACDD5700296047 /* Count Negative Numbers in a Sorted Matrix */,
 				E4AB29C027B094E5006D1CF4 /* Count of Matches in Tournament */,
 				E43FDCAC27B28EF4008CD6AE /* Add Digits */,
+				E4D86D1C27B34200005991F8 /* Find the Highest Altitude */,
 			);
 		};
 /* End PBXProject section */
@@ -1619,6 +1664,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4CCAD3627ACDD5700296047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4D86D1B27B34200005991F8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1919,6 +1971,16 @@
 				E4CCAD4127ACDD7700296047 /* Utility.swift in Sources */,
 				E4CCAD4027ACDD5F00296047 /* Solution.swift in Sources */,
 				E4CCAD3B27ACDD5700296047 /* Count_Negative_Numbers_in_a_Sorted_Matrix.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4D86D1927B34200005991F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4D86D2627B34233005991F8 /* Utility.swift in Sources */,
+				E4D86D2527B3420B005991F8 /* Solution.swift in Sources */,
+				E4D86D2027B34200005991F8 /* Find_the_Highest_Altitude.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2880,6 +2942,36 @@
 			};
 			name = Release;
 		};
+		E4D86D2127B34200005991F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Find-the-Highest-Altitude";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E4D86D2227B34200005991F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Find-the-Highest-Altitude";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		E4DFA13C27AA2F3A0014AE2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3221,6 +3313,15 @@
 			buildConfigurations = (
 				E4CCAD3C27ACDD5700296047 /* Debug */,
 				E4CCAD3D27ACDD5700296047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4D86D2327B34200005991F8 /* Build configuration list for PBXNativeTarget "Find the Highest Altitude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4D86D2127B34200005991F8 /* Debug */,
+				E4D86D2227B34200005991F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
