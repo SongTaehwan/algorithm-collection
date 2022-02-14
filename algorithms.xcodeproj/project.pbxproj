@@ -103,6 +103,9 @@
 		E4D86D2027B34200005991F8 /* Find_the_Highest_Altitude.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D86D1F27B34200005991F8 /* Find_the_Highest_Altitude.swift */; };
 		E4D86D2527B3420B005991F8 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D86D2427B3420B005991F8 /* Solution.swift */; };
 		E4D86D2627B34233005991F8 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
+		E4DD63E127BB0F7B00E8D4B3 /* Maximum_Depth_of_Binary_Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DD63E027BB0F7B00E8D4B3 /* Maximum_Depth_of_Binary_Tree.swift */; };
+		E4DD63E627BB0F8900E8D4B3 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DD63E527BB0F8900E8D4B3 /* Solution.swift */; };
+		E4DD63E727BB0FA800E8D4B3 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E4DFA13B27AA2F3A0014AE2A /* Rings_and_Rods.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DFA13A27AA2F3A0014AE2A /* Rings_and_Rods.swift */; };
 		E4DFA14027AA2F4F0014AE2A /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DFA13F27AA2F4F0014AE2A /* Solution.swift */; };
 		E4DFA14127AA2F710014AE2A /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
@@ -210,6 +213,9 @@
 		E4D86D1D27B34200005991F8 /* Find the Highest Altitude.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find the Highest Altitude.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D86D1F27B34200005991F8 /* Find_the_Highest_Altitude.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_the_Highest_Altitude.swift; sourceTree = "<group>"; };
 		E4D86D2427B3420B005991F8 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E4DD63DE27BB0F7B00E8D4B3 /* Maximum Depth of Binary Tree.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Maximum Depth of Binary Tree.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4DD63E027BB0F7B00E8D4B3 /* Maximum_Depth_of_Binary_Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maximum_Depth_of_Binary_Tree.swift; sourceTree = "<group>"; };
+		E4DD63E527BB0F8900E8D4B3 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E4DFA13827AA2F3A0014AE2A /* Rings and Rods.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rings and Rods.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4DFA13A27AA2F3A0014AE2A /* Rings_and_Rods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rings_and_Rods.swift; sourceTree = "<group>"; };
 		E4DFA13F27AA2F4F0014AE2A /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
@@ -433,6 +439,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4D86D1A27B34200005991F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4DD63DB27BB0F7B00E8D4B3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -761,6 +774,7 @@
 				E4600FDB27B3AF230046C363 /* Single Number */,
 				E4895D0C27B482E30003D7BF /* Reverse String */,
 				E431823027B65F8E007228CC /* Lucky Numbers in a Matrix */,
+				E4DD63DF27BB0F7B00E8D4B3 /* Maximum Depth of Binary Tree */,
 				E4B395A4278F972F00301C15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -802,6 +816,7 @@
 				E4600FDA27B3AF230046C363 /* Single Number.xctest */,
 				E4895D0B27B482E30003D7BF /* Reverse String.xctest */,
 				E431822F27B65F8E007228CC /* Lucky Numbers in a Matrix.xctest */,
+				E4DD63DE27BB0F7B00E8D4B3 /* Maximum Depth of Binary Tree.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -840,6 +855,15 @@
 				E4D86D2427B3420B005991F8 /* Solution.swift */,
 			);
 			path = "Find the Highest Altitude";
+			sourceTree = "<group>";
+		};
+		E4DD63DF27BB0F7B00E8D4B3 /* Maximum Depth of Binary Tree */ = {
+			isa = PBXGroup;
+			children = (
+				E4DD63E027BB0F7B00E8D4B3 /* Maximum_Depth_of_Binary_Tree.swift */,
+				E4DD63E527BB0F8900E8D4B3 /* Solution.swift */,
+			);
+			path = "Maximum Depth of Binary Tree";
 			sourceTree = "<group>";
 		};
 		E4DFA13927AA2F3A0014AE2A /* Rings and Rods */ = {
@@ -1399,6 +1423,23 @@
 			productReference = E4D86D1D27B34200005991F8 /* Find the Highest Altitude.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E4DD63DD27BB0F7B00E8D4B3 /* Maximum Depth of Binary Tree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4DD63E427BB0F7B00E8D4B3 /* Build configuration list for PBXNativeTarget "Maximum Depth of Binary Tree" */;
+			buildPhases = (
+				E4DD63DA27BB0F7B00E8D4B3 /* Sources */,
+				E4DD63DB27BB0F7B00E8D4B3 /* Frameworks */,
+				E4DD63DC27BB0F7B00E8D4B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Maximum Depth of Binary Tree";
+			productName = "Maximum Depth of Binary Tree";
+			productReference = E4DD63DE27BB0F7B00E8D4B3 /* Maximum Depth of Binary Tree.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E4DFA13727AA2F3A0014AE2A /* Rings and Rods */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4DFA13E27AA2F3A0014AE2A /* Build configuration list for PBXNativeTarget "Rings and Rods" */;
@@ -1553,6 +1594,9 @@
 					E4D86D1C27B34200005991F8 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					E4DD63DD27BB0F7B00E8D4B3 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					E4DFA13727AA2F3A0014AE2A = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -1611,6 +1655,7 @@
 				E4600FD927B3AF230046C363 /* Single Number */,
 				E4895D0A27B482E30003D7BF /* Reverse String */,
 				E431822E27B65F8E007228CC /* Lucky Numbers in a Matrix */,
+				E4DD63DD27BB0F7B00E8D4B3 /* Maximum Depth of Binary Tree */,
 			);
 		};
 /* End PBXProject section */
@@ -1827,6 +1872,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4D86D1B27B34200005991F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4DD63DC27BB0F7B00E8D4B3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2167,6 +2219,16 @@
 				E4D86D2627B34233005991F8 /* Utility.swift in Sources */,
 				E4D86D2527B3420B005991F8 /* Solution.swift in Sources */,
 				E4D86D2027B34200005991F8 /* Find_the_Highest_Altitude.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4DD63DA27BB0F7B00E8D4B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4DD63E727BB0FA800E8D4B3 /* Utility.swift in Sources */,
+				E4DD63E627BB0F8900E8D4B3 /* Solution.swift in Sources */,
+				E4DD63E127BB0F7B00E8D4B3 /* Maximum_Depth_of_Binary_Tree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3248,6 +3310,36 @@
 			};
 			name = Release;
 		};
+		E4DD63E227BB0F7B00E8D4B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Maximum-Depth-of-Binary-Tree";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E4DD63E327BB0F7B00E8D4B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Maximum-Depth-of-Binary-Tree";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		E4DFA13C27AA2F3A0014AE2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3625,6 +3717,15 @@
 			buildConfigurations = (
 				E4D86D2127B34200005991F8 /* Debug */,
 				E4D86D2227B34200005991F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4DD63E427BB0F7B00E8D4B3 /* Build configuration list for PBXNativeTarget "Maximum Depth of Binary Tree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4DD63E227BB0F7B00E8D4B3 /* Debug */,
+				E4DD63E327BB0F7B00E8D4B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -10,12 +10,12 @@ import XCTest
 
 class TestCase: XCTestCase {
     var sol: Solution!
-
+    
     override func setUpWithError() throws {
         try super.setUpWithError()
         sol = Solution()
     }
-
+    
     override func tearDownWithError() throws {
         try super.tearDownWithError()
         sol = nil
@@ -117,4 +117,52 @@ class LinkedList<T: ListNode> {
         
         return node
     }
+}
+
+class TreeNode {
+    var val: Int
+    var left: TreeNode?
+    var right: TreeNode?
+    
+    init() {
+        self.val = 0
+        self.left = nil
+        self.right = nil
+    }
+    
+    init(_ val: Int) {
+        self.val = val
+        self.left = nil
+        self.right = nil
+    }
+    
+    init(_ val: Int, _ left: TreeNode?, _ right: TreeNode?) {
+        self.val = val
+        self.left = left
+        self.right = right
+    }
+}
+
+func addLeaves(root: TreeNode, value: Int) {
+    guard let node = value > root.val ? root.right : root.left else {
+        if value > root.val {
+            root.right = TreeNode(value)
+        } else {
+            root.left = TreeNode(value)
+        }
+        
+        return
+    }
+    
+    return addLeaves(root: node, value: value)
+}
+
+func createTree(_ numbers: [Int]) -> TreeNode {
+    let root = TreeNode(numbers[0])
+    
+    for number in numbers[1...] {
+        addLeaves(root: root, value: number)
+    }
+    
+    return root
 }
