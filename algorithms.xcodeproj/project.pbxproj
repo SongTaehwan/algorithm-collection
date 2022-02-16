@@ -97,6 +97,9 @@
 		E4B3962C278F9FEB00301C15 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B395FB278F9CFF00301C15 /* Solution.swift */; };
 		E4B39636278FA15300301C15 /* Two_Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B39635278FA15300301C15 /* Two_Sum.swift */; };
 		E4B3963B278FA16600301C15 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B3963A278FA16500301C15 /* Solution.swift */; };
+		E4BFA01D27BCFB4F00A7D36D /* Unique_Number_of_Occurrences.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BFA01C27BCFB4F00A7D36D /* Unique_Number_of_Occurrences.swift */; };
+		E4BFA02227BCFB5900A7D36D /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BFA02127BCFB5900A7D36D /* Solution.swift */; };
+		E4BFA02327BCFB7600A7D36D /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E4CCAD3B27ACDD5700296047 /* Count_Negative_Numbers_in_a_Sorted_Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CCAD3A27ACDD5700296047 /* Count_Negative_Numbers_in_a_Sorted_Matrix.swift */; };
 		E4CCAD4027ACDD5F00296047 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CCAD3F27ACDD5F00296047 /* Solution.swift */; };
 		E4CCAD4127ACDD7700296047 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
@@ -207,6 +210,9 @@
 		E4B39633278FA15300301C15 /* Two Sum.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Two Sum.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B39635278FA15300301C15 /* Two_Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Two_Sum.swift; sourceTree = "<group>"; };
 		E4B3963A278FA16500301C15 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E4BFA01A27BCFB4F00A7D36D /* Unique Number of Occurrences.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unique Number of Occurrences.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4BFA01C27BCFB4F00A7D36D /* Unique_Number_of_Occurrences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unique_Number_of_Occurrences.swift; sourceTree = "<group>"; };
+		E4BFA02127BCFB5900A7D36D /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E4CCAD3827ACDD5700296047 /* Count Negative Numbers in a Sorted Matrix.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Count Negative Numbers in a Sorted Matrix.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4CCAD3A27ACDD5700296047 /* Count_Negative_Numbers_in_a_Sorted_Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Count_Negative_Numbers_in_a_Sorted_Matrix.swift; sourceTree = "<group>"; };
 		E4CCAD3F27ACDD5F00296047 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
@@ -425,6 +431,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4B39630278FA15300301C15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4BFA01727BCFB4F00A7D36D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -775,6 +788,7 @@
 				E4895D0C27B482E30003D7BF /* Reverse String */,
 				E431823027B65F8E007228CC /* Lucky Numbers in a Matrix */,
 				E4DD63DF27BB0F7B00E8D4B3 /* Maximum Depth of Binary Tree */,
+				E4BFA01B27BCFB4F00A7D36D /* Unique Number of Occurrences */,
 				E4B395A4278F972F00301C15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -817,6 +831,7 @@
 				E4895D0B27B482E30003D7BF /* Reverse String.xctest */,
 				E431822F27B65F8E007228CC /* Lucky Numbers in a Matrix.xctest */,
 				E4DD63DE27BB0F7B00E8D4B3 /* Maximum Depth of Binary Tree.xctest */,
+				E4BFA01A27BCFB4F00A7D36D /* Unique Number of Occurrences.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -837,6 +852,15 @@
 				E4B3963A278FA16500301C15 /* Solution.swift */,
 			);
 			path = "Two Sum";
+			sourceTree = "<group>";
+		};
+		E4BFA01B27BCFB4F00A7D36D /* Unique Number of Occurrences */ = {
+			isa = PBXGroup;
+			children = (
+				E4BFA01C27BCFB4F00A7D36D /* Unique_Number_of_Occurrences.swift */,
+				E4BFA02127BCFB5900A7D36D /* Solution.swift */,
+			);
+			path = "Unique Number of Occurrences";
 			sourceTree = "<group>";
 		};
 		E4CCAD3927ACDD5700296047 /* Count Negative Numbers in a Sorted Matrix */ = {
@@ -1389,6 +1413,23 @@
 			productReference = E4B39633278FA15300301C15 /* Two Sum.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E4BFA01927BCFB4F00A7D36D /* Unique Number of Occurrences */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4BFA02027BCFB4F00A7D36D /* Build configuration list for PBXNativeTarget "Unique Number of Occurrences" */;
+			buildPhases = (
+				E4BFA01627BCFB4F00A7D36D /* Sources */,
+				E4BFA01727BCFB4F00A7D36D /* Frameworks */,
+				E4BFA01827BCFB4F00A7D36D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Unique Number of Occurrences";
+			productName = "Unique Number of Occurrences";
+			productReference = E4BFA01A27BCFB4F00A7D36D /* Unique Number of Occurrences.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E4CCAD3727ACDD5700296047 /* Count Negative Numbers in a Sorted Matrix */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4CCAD3E27ACDD5700296047 /* Build configuration list for PBXNativeTarget "Count Negative Numbers in a Sorted Matrix" */;
@@ -1588,6 +1629,9 @@
 					E4B39632278FA15300301C15 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					E4BFA01927BCFB4F00A7D36D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					E4CCAD3727ACDD5700296047 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -1656,6 +1700,7 @@
 				E4895D0A27B482E30003D7BF /* Reverse String */,
 				E431822E27B65F8E007228CC /* Lucky Numbers in a Matrix */,
 				E4DD63DD27BB0F7B00E8D4B3 /* Maximum Depth of Binary Tree */,
+				E4BFA01927BCFB4F00A7D36D /* Unique Number of Occurrences */,
 			);
 		};
 /* End PBXProject section */
@@ -1858,6 +1903,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4B39631278FA15300301C15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4BFA01827BCFB4F00A7D36D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2199,6 +2251,16 @@
 				E416F364278FC07000F19A0B /* Utility.swift in Sources */,
 				E4B3963B278FA16600301C15 /* Solution.swift in Sources */,
 				E4B39636278FA15300301C15 /* Two_Sum.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4BFA01627BCFB4F00A7D36D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4BFA02327BCFB7600A7D36D /* Utility.swift in Sources */,
+				E4BFA02227BCFB5900A7D36D /* Solution.swift in Sources */,
+				E4BFA01D27BCFB4F00A7D36D /* Unique_Number_of_Occurrences.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3250,6 +3312,36 @@
 			};
 			name = Release;
 		};
+		E4BFA01E27BCFB4F00A7D36D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Unique-Number-of-Occurrences";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E4BFA01F27BCFB4F00A7D36D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Unique-Number-of-Occurrences";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		E4CCAD3C27ACDD5700296047 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3699,6 +3791,15 @@
 			buildConfigurations = (
 				E4B39638278FA15300301C15 /* Debug */,
 				E4B39639278FA15300301C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4BFA02027BCFB4F00A7D36D /* Build configuration list for PBXNativeTarget "Unique Number of Occurrences" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4BFA01E27BCFB4F00A7D36D /* Debug */,
+				E4BFA01F27BCFB4F00A7D36D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
