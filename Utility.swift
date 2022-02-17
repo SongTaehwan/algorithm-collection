@@ -117,6 +117,35 @@ class LinkedList<T: ListNode> {
         
         return node
     }
+    
+    func getValues() -> [Int] {
+        var values = [Int]()
+        var node: T? = self.head
+        
+        while node != nil {
+            values.append(node!.val)
+            if node?.next != nil {
+                node = node!.next as? T
+            } else {
+                break
+            }
+        }
+        
+        return values
+    }
+}
+
+func createLinkedList(_ nums: [Int]) -> LinkedList<ListNode> {
+    let head = ListNode(nums[0])
+    var currentNode = head
+    
+    for i in 1..<nums.count {
+        let node = ListNode(nums[i])
+        currentNode.next = node
+        currentNode = node
+    }
+    
+    return LinkedList(head: head)
 }
 
 class TreeNode {
