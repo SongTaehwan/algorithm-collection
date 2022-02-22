@@ -106,6 +106,9 @@
 		E4BFA01D27BCFB4F00A7D36D /* Unique_Number_of_Occurrences.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BFA01C27BCFB4F00A7D36D /* Unique_Number_of_Occurrences.swift */; };
 		E4BFA02227BCFB5900A7D36D /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BFA02127BCFB5900A7D36D /* Solution.swift */; };
 		E4BFA02327BCFB7600A7D36D /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
+		E4C75DCB27C4E195000A5726 /* Excel_Sheet_Column_Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C75DCA27C4E195000A5726 /* Excel_Sheet_Column_Number.swift */; };
+		E4C75DD027C4E1A0000A5726 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C75DCF27C4E1A0000A5726 /* Solution.swift */; };
+		E4C75DD127C4E1AB000A5726 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E4CCAD3B27ACDD5700296047 /* Count_Negative_Numbers_in_a_Sorted_Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CCAD3A27ACDD5700296047 /* Count_Negative_Numbers_in_a_Sorted_Matrix.swift */; };
 		E4CCAD4027ACDD5F00296047 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CCAD3F27ACDD5F00296047 /* Solution.swift */; };
 		E4CCAD4127ACDD7700296047 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
@@ -225,6 +228,9 @@
 		E4BFA01A27BCFB4F00A7D36D /* Unique Number of Occurrences.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unique Number of Occurrences.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4BFA01C27BCFB4F00A7D36D /* Unique_Number_of_Occurrences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unique_Number_of_Occurrences.swift; sourceTree = "<group>"; };
 		E4BFA02127BCFB5900A7D36D /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E4C75DC827C4E195000A5726 /* Excel Sheet Column Number.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Excel Sheet Column Number.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4C75DCA27C4E195000A5726 /* Excel_Sheet_Column_Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Excel_Sheet_Column_Number.swift; sourceTree = "<group>"; };
+		E4C75DCF27C4E1A0000A5726 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E4CCAD3827ACDD5700296047 /* Count Negative Numbers in a Sorted Matrix.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Count Negative Numbers in a Sorted Matrix.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4CCAD3A27ACDD5700296047 /* Count_Negative_Numbers_in_a_Sorted_Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Count_Negative_Numbers_in_a_Sorted_Matrix.swift; sourceTree = "<group>"; };
 		E4CCAD3F27ACDD5F00296047 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
@@ -464,6 +470,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4BFA01727BCFB4F00A7D36D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C75DC527C4E195000A5726 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -835,6 +848,7 @@
 				E4BFA01B27BCFB4F00A7D36D /* Unique Number of Occurrences */,
 				E40003F827BE633A00B71232 /* Reverse Linked List */,
 				E44C3D6427BF8EA000214A2C /* Smallest Index With Equal Value */,
+				E4C75DC927C4E195000A5726 /* Excel Sheet Column Number */,
 				E4B395A4278F972F00301C15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -880,6 +894,7 @@
 				E4BFA01A27BCFB4F00A7D36D /* Unique Number of Occurrences.xctest */,
 				E40003F727BE633A00B71232 /* Reverse Linked List.xctest */,
 				E44C3D6327BF8EA000214A2C /* Smallest Index With Equal Value.xctest */,
+				E4C75DC827C4E195000A5726 /* Excel Sheet Column Number.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -909,6 +924,15 @@
 				E4BFA02127BCFB5900A7D36D /* Solution.swift */,
 			);
 			path = "Unique Number of Occurrences";
+			sourceTree = "<group>";
+		};
+		E4C75DC927C4E195000A5726 /* Excel Sheet Column Number */ = {
+			isa = PBXGroup;
+			children = (
+				E4C75DCA27C4E195000A5726 /* Excel_Sheet_Column_Number.swift */,
+				E4C75DCF27C4E1A0000A5726 /* Solution.swift */,
+			);
+			path = "Excel Sheet Column Number";
 			sourceTree = "<group>";
 		};
 		E4CCAD3927ACDD5700296047 /* Count Negative Numbers in a Sorted Matrix */ = {
@@ -1512,6 +1536,23 @@
 			productReference = E4BFA01A27BCFB4F00A7D36D /* Unique Number of Occurrences.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E4C75DC727C4E195000A5726 /* Excel Sheet Column Number */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4C75DCE27C4E195000A5726 /* Build configuration list for PBXNativeTarget "Excel Sheet Column Number" */;
+			buildPhases = (
+				E4C75DC427C4E195000A5726 /* Sources */,
+				E4C75DC527C4E195000A5726 /* Frameworks */,
+				E4C75DC627C4E195000A5726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Excel Sheet Column Number";
+			productName = "Excel Sheet Column Number";
+			productReference = E4C75DC827C4E195000A5726 /* Excel Sheet Column Number.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E4CCAD3727ACDD5700296047 /* Count Negative Numbers in a Sorted Matrix */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4CCAD3E27ACDD5700296047 /* Build configuration list for PBXNativeTarget "Count Negative Numbers in a Sorted Matrix" */;
@@ -1720,6 +1761,9 @@
 					E4BFA01927BCFB4F00A7D36D = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					E4C75DC727C4E195000A5726 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					E4CCAD3727ACDD5700296047 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -1791,6 +1835,7 @@
 				E4BFA01927BCFB4F00A7D36D /* Unique Number of Occurrences */,
 				E40003F627BE633A00B71232 /* Reverse Linked List */,
 				E44C3D6227BF8EA000214A2C /* Smallest Index With Equal Value */,
+				E4C75DC727C4E195000A5726 /* Excel Sheet Column Number */,
 			);
 		};
 /* End PBXProject section */
@@ -2014,6 +2059,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4BFA01827BCFB4F00A7D36D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C75DC627C4E195000A5726 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2385,6 +2437,16 @@
 				E4BFA02327BCFB7600A7D36D /* Utility.swift in Sources */,
 				E4BFA02227BCFB5900A7D36D /* Solution.swift in Sources */,
 				E4BFA01D27BCFB4F00A7D36D /* Unique_Number_of_Occurrences.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C75DC427C4E195000A5726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4C75DD127C4E1AB000A5726 /* Utility.swift in Sources */,
+				E4C75DD027C4E1A0000A5726 /* Solution.swift in Sources */,
+				E4C75DCB27C4E195000A5726 /* Excel_Sheet_Column_Number.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3526,6 +3588,36 @@
 			};
 			name = Release;
 		};
+		E4C75DCC27C4E195000A5726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Excel-Sheet-Column-Number";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E4C75DCD27C4E195000A5726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Excel-Sheet-Column-Number";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		E4CCAD3C27ACDD5700296047 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4002,6 +4094,15 @@
 			buildConfigurations = (
 				E4BFA01E27BCFB4F00A7D36D /* Debug */,
 				E4BFA01F27BCFB4F00A7D36D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4C75DCE27C4E195000A5726 /* Build configuration list for PBXNativeTarget "Excel Sheet Column Number" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4C75DCC27C4E195000A5726 /* Debug */,
+				E4C75DCD27C4E195000A5726 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
