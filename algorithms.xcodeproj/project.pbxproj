@@ -106,6 +106,9 @@
 		E4BFA01D27BCFB4F00A7D36D /* Unique_Number_of_Occurrences.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BFA01C27BCFB4F00A7D36D /* Unique_Number_of_Occurrences.swift */; };
 		E4BFA02227BCFB5900A7D36D /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BFA02127BCFB5900A7D36D /* Solution.swift */; };
 		E4BFA02327BCFB7600A7D36D /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
+		E4C73D3427C649270032F5A7 /* Fibonacci_Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C73D3327C649270032F5A7 /* Fibonacci_Number.swift */; };
+		E4C73D3927C6492F0032F5A7 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C73D3827C6492F0032F5A7 /* Solution.swift */; };
+		E4C73D3A27C6493A0032F5A7 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E4C75DCB27C4E195000A5726 /* Excel_Sheet_Column_Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C75DCA27C4E195000A5726 /* Excel_Sheet_Column_Number.swift */; };
 		E4C75DD027C4E1A0000A5726 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C75DCF27C4E1A0000A5726 /* Solution.swift */; };
 		E4C75DD127C4E1AB000A5726 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
@@ -228,6 +231,9 @@
 		E4BFA01A27BCFB4F00A7D36D /* Unique Number of Occurrences.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unique Number of Occurrences.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4BFA01C27BCFB4F00A7D36D /* Unique_Number_of_Occurrences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unique_Number_of_Occurrences.swift; sourceTree = "<group>"; };
 		E4BFA02127BCFB5900A7D36D /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E4C73D3127C649270032F5A7 /* Fibonacci Number.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fibonacci Number.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4C73D3327C649270032F5A7 /* Fibonacci_Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci_Number.swift; sourceTree = "<group>"; };
+		E4C73D3827C6492F0032F5A7 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E4C75DC827C4E195000A5726 /* Excel Sheet Column Number.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Excel Sheet Column Number.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C75DCA27C4E195000A5726 /* Excel_Sheet_Column_Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Excel_Sheet_Column_Number.swift; sourceTree = "<group>"; };
 		E4C75DCF27C4E1A0000A5726 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
@@ -470,6 +476,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4BFA01727BCFB4F00A7D36D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C73D2E27C649270032F5A7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -849,6 +862,7 @@
 				E40003F827BE633A00B71232 /* Reverse Linked List */,
 				E44C3D6427BF8EA000214A2C /* Smallest Index With Equal Value */,
 				E4C75DC927C4E195000A5726 /* Excel Sheet Column Number */,
+				E4C73D3227C649270032F5A7 /* Fibonacci Number */,
 				E4B395A4278F972F00301C15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -895,6 +909,7 @@
 				E40003F727BE633A00B71232 /* Reverse Linked List.xctest */,
 				E44C3D6327BF8EA000214A2C /* Smallest Index With Equal Value.xctest */,
 				E4C75DC827C4E195000A5726 /* Excel Sheet Column Number.xctest */,
+				E4C73D3127C649270032F5A7 /* Fibonacci Number.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -924,6 +939,15 @@
 				E4BFA02127BCFB5900A7D36D /* Solution.swift */,
 			);
 			path = "Unique Number of Occurrences";
+			sourceTree = "<group>";
+		};
+		E4C73D3227C649270032F5A7 /* Fibonacci Number */ = {
+			isa = PBXGroup;
+			children = (
+				E4C73D3327C649270032F5A7 /* Fibonacci_Number.swift */,
+				E4C73D3827C6492F0032F5A7 /* Solution.swift */,
+			);
+			path = "Fibonacci Number";
 			sourceTree = "<group>";
 		};
 		E4C75DC927C4E195000A5726 /* Excel Sheet Column Number */ = {
@@ -1536,6 +1560,23 @@
 			productReference = E4BFA01A27BCFB4F00A7D36D /* Unique Number of Occurrences.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E4C73D3027C649270032F5A7 /* Fibonacci Number */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4C73D3727C649270032F5A7 /* Build configuration list for PBXNativeTarget "Fibonacci Number" */;
+			buildPhases = (
+				E4C73D2D27C649270032F5A7 /* Sources */,
+				E4C73D2E27C649270032F5A7 /* Frameworks */,
+				E4C73D2F27C649270032F5A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fibonacci Number";
+			productName = "Fibonacci Number";
+			productReference = E4C73D3127C649270032F5A7 /* Fibonacci Number.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E4C75DC727C4E195000A5726 /* Excel Sheet Column Number */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4C75DCE27C4E195000A5726 /* Build configuration list for PBXNativeTarget "Excel Sheet Column Number" */;
@@ -1761,6 +1802,9 @@
 					E4BFA01927BCFB4F00A7D36D = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					E4C73D3027C649270032F5A7 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					E4C75DC727C4E195000A5726 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -1836,6 +1880,7 @@
 				E40003F627BE633A00B71232 /* Reverse Linked List */,
 				E44C3D6227BF8EA000214A2C /* Smallest Index With Equal Value */,
 				E4C75DC727C4E195000A5726 /* Excel Sheet Column Number */,
+				E4C73D3027C649270032F5A7 /* Fibonacci Number */,
 			);
 		};
 /* End PBXProject section */
@@ -2059,6 +2104,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4BFA01827BCFB4F00A7D36D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C73D2F27C649270032F5A7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2437,6 +2489,16 @@
 				E4BFA02327BCFB7600A7D36D /* Utility.swift in Sources */,
 				E4BFA02227BCFB5900A7D36D /* Solution.swift in Sources */,
 				E4BFA01D27BCFB4F00A7D36D /* Unique_Number_of_Occurrences.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C73D2D27C649270032F5A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4C73D3A27C6493A0032F5A7 /* Utility.swift in Sources */,
+				E4C73D3927C6492F0032F5A7 /* Solution.swift in Sources */,
+				E4C73D3427C649270032F5A7 /* Fibonacci_Number.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3588,6 +3650,36 @@
 			};
 			name = Release;
 		};
+		E4C73D3527C649270032F5A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Fibonacci-Number";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E4C73D3627C649270032F5A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Fibonacci-Number";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		E4C75DCC27C4E195000A5726 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4094,6 +4186,15 @@
 			buildConfigurations = (
 				E4BFA01E27BCFB4F00A7D36D /* Debug */,
 				E4BFA01F27BCFB4F00A7D36D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4C73D3727C649270032F5A7 /* Build configuration list for PBXNativeTarget "Fibonacci Number" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4C73D3527C649270032F5A7 /* Debug */,
+				E4C73D3627C649270032F5A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
