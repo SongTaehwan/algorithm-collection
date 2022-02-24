@@ -23,4 +23,14 @@ class Solution {
         
         return true
     }
+    
+    func refactor(_ s: String) -> Bool {
+        let nums = s.split(separator: " ").compactMap { Int($0) }
+        
+        // zip(nums, nums.dropFirst())
+        // 길이를 마추기 위해 남는 아이템은 자름
+        // 1,3,4,6,12 --> 12 제거
+        // 3,4,6,12
+        return zip(nums, nums.dropFirst()).allSatisfy { $0 < $1 }
+    }
 }
