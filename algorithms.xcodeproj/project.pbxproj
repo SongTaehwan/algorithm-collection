@@ -57,6 +57,9 @@
 		E463B34027A210150090E067 /* Merge_Strings_Alternately.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463B33F27A210150090E067 /* Merge_Strings_Alternately.swift */; };
 		E463B34527A2101D0090E067 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463B34427A2101D0090E067 /* Solution.swift */; };
 		E463B34627A210400090E067 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
+		E46D351E27C8EA6F00460A6D /* Delete_Columns_to_Make_Sorted.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46D351D27C8EA6F00460A6D /* Delete_Columns_to_Make_Sorted.swift */; };
+		E46D352327C8EA7C00460A6D /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46D352227C8EA7C00460A6D /* Solution.swift */; };
+		E46D352427C8EAB300460A6D /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E480630227963DD200D9B702 /* Can_Place_Flowers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E480630127963DD200D9B702 /* Can_Place_Flowers.swift */; };
 		E480630727963DDB00D9B702 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E480630627963DDB00D9B702 /* Solution.swift */; };
 		E480630827963DEC00D9B702 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
@@ -185,6 +188,9 @@
 		E463B33D27A210150090E067 /* Merge Strings Alternately.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Merge Strings Alternately.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E463B33F27A210150090E067 /* Merge_Strings_Alternately.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merge_Strings_Alternately.swift; sourceTree = "<group>"; };
 		E463B34427A2101D0090E067 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E46D351B27C8EA6F00460A6D /* Delete Columns to Make Sorted.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Delete Columns to Make Sorted.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E46D351D27C8EA6F00460A6D /* Delete_Columns_to_Make_Sorted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delete_Columns_to_Make_Sorted.swift; sourceTree = "<group>"; };
+		E46D352227C8EA7C00460A6D /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E48062FF27963DD200D9B702 /* Can Place Flowers.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Can Place Flowers.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E480630127963DD200D9B702 /* Can_Place_Flowers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Can_Place_Flowers.swift; sourceTree = "<group>"; };
 		E480630627963DDB00D9B702 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
@@ -370,6 +376,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E463B33A27A210150090E067 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E46D351827C8EA6F00460A6D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -698,6 +711,15 @@
 			path = "Merge Strings Alternately";
 			sourceTree = "<group>";
 		};
+		E46D351C27C8EA6F00460A6D /* Delete Columns to Make Sorted */ = {
+			isa = PBXGroup;
+			children = (
+				E46D351D27C8EA6F00460A6D /* Delete_Columns_to_Make_Sorted.swift */,
+				E46D352227C8EA7C00460A6D /* Solution.swift */,
+			);
+			path = "Delete Columns to Make Sorted";
+			sourceTree = "<group>";
+		};
 		E480630027963DD200D9B702 /* Can Place Flowers */ = {
 			isa = PBXGroup;
 			children = (
@@ -886,6 +908,7 @@
 				E4C75DC927C4E195000A5726 /* Excel Sheet Column Number */,
 				E4C73D3227C649270032F5A7 /* Fibonacci Number */,
 				E42DBB0F27C7A5AB003DB76C /* Check if Numbers Are Ascending in a Sentence */,
+				E46D351C27C8EA6F00460A6D /* Delete Columns to Make Sorted */,
 				E4B395A4278F972F00301C15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -934,6 +957,7 @@
 				E4C75DC827C4E195000A5726 /* Excel Sheet Column Number.xctest */,
 				E4C73D3127C649270032F5A7 /* Fibonacci Number.xctest */,
 				E42DBB0E27C7A5AB003DB76C /* Check if Numbers Are Ascending in a Sentence.xctest */,
+				E46D351B27C8EA6F00460A6D /* Delete Columns to Make Sorted.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1310,6 +1334,23 @@
 			name = "Merge Strings Alternately";
 			productName = "Merge Strings Alternately";
 			productReference = E463B33D27A210150090E067 /* Merge Strings Alternately.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E46D351A27C8EA6F00460A6D /* Delete Columns to Make Sorted */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E46D352127C8EA6F00460A6D /* Build configuration list for PBXNativeTarget "Delete Columns to Make Sorted" */;
+			buildPhases = (
+				E46D351727C8EA6F00460A6D /* Sources */,
+				E46D351827C8EA6F00460A6D /* Frameworks */,
+				E46D351927C8EA6F00460A6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Delete Columns to Make Sorted";
+			productName = "Delete Columns to Make Sorted";
+			productReference = E46D351B27C8EA6F00460A6D /* Delete Columns to Make Sorted.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		E48062FE27963DD200D9B702 /* Can Place Flowers */ = {
@@ -1795,6 +1836,9 @@
 					E463B33C27A210150090E067 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					E46D351A27C8EA6F00460A6D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					E48062FE27963DD200D9B702 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -1926,6 +1970,7 @@
 				E4C75DC727C4E195000A5726 /* Excel Sheet Column Number */,
 				E4C73D3027C649270032F5A7 /* Fibonacci Number */,
 				E42DBB0D27C7A5AB003DB76C /* Check if Numbers Are Ascending in a Sentence */,
+				E46D351A27C8EA6F00460A6D /* Delete Columns to Make Sorted */,
 			);
 		};
 /* End PBXProject section */
@@ -2037,6 +2082,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E463B33B27A210150090E067 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E46D351927C8EA6F00460A6D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2378,6 +2430,16 @@
 				E463B34627A210400090E067 /* Utility.swift in Sources */,
 				E463B34527A2101D0090E067 /* Solution.swift in Sources */,
 				E463B34027A210150090E067 /* Merge_Strings_Alternately.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E46D351727C8EA6F00460A6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E46D352427C8EAB300460A6D /* Utility.swift in Sources */,
+				E46D352327C8EA7C00460A6D /* Solution.swift in Sources */,
+				E46D351E27C8EA6F00460A6D /* Delete_Columns_to_Make_Sorted.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3111,6 +3173,36 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Merge-Strings-Alternately";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E46D351F27C8EA6F00460A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Delete-Columns-to-Make-Sorted";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E46D352027C8EA6F00460A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Delete-Columns-to-Make-Sorted";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -4125,6 +4217,15 @@
 			buildConfigurations = (
 				E463B34127A210150090E067 /* Debug */,
 				E463B34227A210150090E067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E46D352127C8EA6F00460A6D /* Build configuration list for PBXNativeTarget "Delete Columns to Make Sorted" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E46D351F27C8EA6F00460A6D /* Debug */,
+				E46D352027C8EA6F00460A6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
