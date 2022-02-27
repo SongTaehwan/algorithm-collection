@@ -27,6 +27,9 @@
 		E416F363278FC06D00F19A0B /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E416F364278FC07000F19A0B /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E416F365278FC07500F19A0B /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
+		E417D4B427CBBF8300BD9CBF /* Binary_Tree_Inorder_Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E417D4B327CBBF8300BD9CBF /* Binary_Tree_Inorder_Traversal.swift */; };
+		E417D4B927CBBF8A00BD9CBF /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E417D4B827CBBF8A00BD9CBF /* Solution.swift */; };
+		E417D4BA27CBBFBF00BD9CBF /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E42732F52798CE9900B1E94D /* Check_if_All_Characters_Have_Equal_Number_of_Occurrences.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42732F42798CE9900B1E94D /* Check_if_All_Characters_Have_Equal_Number_of_Occurrences.swift */; };
 		E42732FA2798CEA800B1E94D /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42732F92798CEA800B1E94D /* Solution.swift */; };
 		E42732FB2798CEB000B1E94D /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
@@ -158,6 +161,9 @@
 		E416F358278FBF4200F19A0B /* Linked List Cycle.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Linked List Cycle.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E416F35A278FBF4200F19A0B /* Linked_List_Cycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Linked_List_Cycle.swift; sourceTree = "<group>"; };
 		E416F35F278FBF4A00F19A0B /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E417D4B127CBBF8300BD9CBF /* Binary Tree Inorder Traversal.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Binary Tree Inorder Traversal.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E417D4B327CBBF8300BD9CBF /* Binary_Tree_Inorder_Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binary_Tree_Inorder_Traversal.swift; sourceTree = "<group>"; };
+		E417D4B827CBBF8A00BD9CBF /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E42732F22798CE9900B1E94D /* Check if All Characters Have Equal Number of Occurrences.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Check if All Characters Have Equal Number of Occurrences.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42732F42798CE9900B1E94D /* Check_if_All_Characters_Have_Equal_Number_of_Occurrences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Check_if_All_Characters_Have_Equal_Number_of_Occurrences.swift; sourceTree = "<group>"; };
 		E42732F92798CEA800B1E94D /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
@@ -306,6 +312,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E416F355278FBF4200F19A0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E417D4AE27CBBF8300BD9CBF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -621,6 +634,15 @@
 			path = "Linked List Cycle";
 			sourceTree = "<group>";
 		};
+		E417D4B227CBBF8300BD9CBF /* Binary Tree Inorder Traversal */ = {
+			isa = PBXGroup;
+			children = (
+				E417D4B327CBBF8300BD9CBF /* Binary_Tree_Inorder_Traversal.swift */,
+				E417D4B827CBBF8A00BD9CBF /* Solution.swift */,
+			);
+			path = "Binary Tree Inorder Traversal";
+			sourceTree = "<group>";
+		};
 		E42732F32798CE9900B1E94D /* Check if All Characters Have Equal Number of Occurrences */ = {
 			isa = PBXGroup;
 			children = (
@@ -909,6 +931,7 @@
 				E4C73D3227C649270032F5A7 /* Fibonacci Number */,
 				E42DBB0F27C7A5AB003DB76C /* Check if Numbers Are Ascending in a Sentence */,
 				E46D351C27C8EA6F00460A6D /* Delete Columns to Make Sorted */,
+				E417D4B227CBBF8300BD9CBF /* Binary Tree Inorder Traversal */,
 				E4B395A4278F972F00301C15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -958,6 +981,7 @@
 				E4C73D3127C649270032F5A7 /* Fibonacci Number.xctest */,
 				E42DBB0E27C7A5AB003DB76C /* Check if Numbers Are Ascending in a Sentence.xctest */,
 				E46D351B27C8EA6F00460A6D /* Delete Columns to Make Sorted.xctest */,
+				E417D4B127CBBF8300BD9CBF /* Binary Tree Inorder Traversal.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1164,6 +1188,23 @@
 			name = "Linked List Cycle";
 			productName = "Linked List Cycle";
 			productReference = E416F358278FBF4200F19A0B /* Linked List Cycle.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E417D4B027CBBF8300BD9CBF /* Binary Tree Inorder Traversal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E417D4B727CBBF8400BD9CBF /* Build configuration list for PBXNativeTarget "Binary Tree Inorder Traversal" */;
+			buildPhases = (
+				E417D4AD27CBBF8300BD9CBF /* Sources */,
+				E417D4AE27CBBF8300BD9CBF /* Frameworks */,
+				E417D4AF27CBBF8300BD9CBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Binary Tree Inorder Traversal";
+			productName = "Binary Tree Inorder Traversal";
+			productReference = E417D4B127CBBF8300BD9CBF /* Binary Tree Inorder Traversal.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		E42732F12798CE9900B1E94D /* Check if All Characters Have Equal Number of Occurrences */ = {
@@ -1806,6 +1847,9 @@
 					E416F357278FBF4200F19A0B = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					E417D4B027CBBF8300BD9CBF = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					E42732F12798CE9900B1E94D = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -1971,6 +2015,7 @@
 				E4C73D3027C649270032F5A7 /* Fibonacci Number */,
 				E42DBB0D27C7A5AB003DB76C /* Check if Numbers Are Ascending in a Sentence */,
 				E46D351A27C8EA6F00460A6D /* Delete Columns to Make Sorted */,
+				E417D4B027CBBF8300BD9CBF /* Binary Tree Inorder Traversal */,
 			);
 		};
 /* End PBXProject section */
@@ -2012,6 +2057,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E416F356278FBF4200F19A0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E417D4AF27CBBF8300BD9CBF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2330,6 +2382,16 @@
 				E416F362278FBFCC00F19A0B /* Utility.swift in Sources */,
 				E416F360278FBF4A00F19A0B /* Solution.swift in Sources */,
 				E416F35B278FBF4200F19A0B /* Linked_List_Cycle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E417D4AD27CBBF8300BD9CBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E417D4BA27CBBFBF00BD9CBF /* Utility.swift in Sources */,
+				E417D4B927CBBF8A00BD9CBF /* Solution.swift in Sources */,
+				E417D4B427CBBF8300BD9CBF /* Binary_Tree_Inorder_Traversal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2873,6 +2935,36 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Linked-List-Cycle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E417D4B527CBBF8400BD9CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Binary-Tree-Inorder-Traversal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E417D4B627CBBF8400BD9CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Binary-Tree-Inorder-Traversal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -4127,6 +4219,15 @@
 			buildConfigurations = (
 				E416F35D278FBF4200F19A0B /* Debug */,
 				E416F35E278FBF4200F19A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E417D4B727CBBF8400BD9CBF /* Build configuration list for PBXNativeTarget "Binary Tree Inorder Traversal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E417D4B527CBBF8400BD9CBF /* Debug */,
+				E417D4B627CBBF8400BD9CBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
