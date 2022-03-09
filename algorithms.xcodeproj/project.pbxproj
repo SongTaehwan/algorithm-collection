@@ -139,6 +139,9 @@
 		E4EBFBB7279EBEAD00057DBB /* Replace_All_Digits_with_Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBFBB6279EBEAD00057DBB /* Replace_All_Digits_with_Characters.swift */; };
 		E4EBFBBC279EBEB600057DBB /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBFBBB279EBEB600057DBB /* Solution.swift */; };
 		E4EBFBBD279EBF0D00057DBB /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
+		E4F20E8D27D8E75D00E24DE8 /* Minimum_Sum_of_Four_Digit_Number_After_Splitting_Digits.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F20E8C27D8E75D00E24DE8 /* Minimum_Sum_of_Four_Digit_Number_After_Splitting_Digits.swift */; };
+		E4F20E9227D8E76500E24DE8 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F20E9127D8E76500E24DE8 /* Solution.swift */; };
+		E4F20E9327D8E78A00E24DE8 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -273,6 +276,9 @@
 		E4EBFBB4279EBEAD00057DBB /* Replace All Digits with Characters.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Replace All Digits with Characters.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4EBFBB6279EBEAD00057DBB /* Replace_All_Digits_with_Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Replace_All_Digits_with_Characters.swift; sourceTree = "<group>"; };
 		E4EBFBBB279EBEB600057DBB /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E4F20E8A27D8E75D00E24DE8 /* Minimum Sum of Four Digit Number After Splitting Digits.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Minimum Sum of Four Digit Number After Splitting Digits.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4F20E8C27D8E75D00E24DE8 /* Minimum_Sum_of_Four_Digit_Number_After_Splitting_Digits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minimum_Sum_of_Four_Digit_Number_After_Splitting_Digits.swift; sourceTree = "<group>"; };
+		E4F20E9127D8E76500E24DE8 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -571,6 +577,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4EBFBB1279EBEAD00057DBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4F20E8727D8E75D00E24DE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -932,6 +945,7 @@
 				E42DBB0F27C7A5AB003DB76C /* Check if Numbers Are Ascending in a Sentence */,
 				E46D351C27C8EA6F00460A6D /* Delete Columns to Make Sorted */,
 				E417D4B227CBBF8300BD9CBF /* Binary Tree Inorder Traversal */,
+				E4F20E8B27D8E75D00E24DE8 /* Minimum Sum of Four Digit Number After Splitting Digits */,
 				E4B395A4278F972F00301C15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -982,6 +996,7 @@
 				E42DBB0E27C7A5AB003DB76C /* Check if Numbers Are Ascending in a Sentence.xctest */,
 				E46D351B27C8EA6F00460A6D /* Delete Columns to Make Sorted.xctest */,
 				E417D4B127CBBF8300BD9CBF /* Binary Tree Inorder Traversal.xctest */,
+				E4F20E8A27D8E75D00E24DE8 /* Minimum Sum of Four Digit Number After Splitting Digits.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1083,6 +1098,15 @@
 				E4EBFBBB279EBEB600057DBB /* Solution.swift */,
 			);
 			path = "Replace All Digits with Characters";
+			sourceTree = "<group>";
+		};
+		E4F20E8B27D8E75D00E24DE8 /* Minimum Sum of Four Digit Number After Splitting Digits */ = {
+			isa = PBXGroup;
+			children = (
+				E4F20E8C27D8E75D00E24DE8 /* Minimum_Sum_of_Four_Digit_Number_After_Splitting_Digits.swift */,
+				E4F20E9127D8E76500E24DE8 /* Solution.swift */,
+			);
+			path = "Minimum Sum of Four Digit Number After Splitting Digits";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1819,6 +1843,23 @@
 			productReference = E4EBFBB4279EBEAD00057DBB /* Replace All Digits with Characters.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E4F20E8927D8E75D00E24DE8 /* Minimum Sum of Four Digit Number After Splitting Digits */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4F20E9027D8E75D00E24DE8 /* Build configuration list for PBXNativeTarget "Minimum Sum of Four Digit Number After Splitting Digits" */;
+			buildPhases = (
+				E4F20E8627D8E75D00E24DE8 /* Sources */,
+				E4F20E8727D8E75D00E24DE8 /* Frameworks */,
+				E4F20E8827D8E75D00E24DE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Minimum Sum of Four Digit Number After Splitting Digits";
+			productName = "Minimum Sum of Four Digit Number After Splitting Digits";
+			productReference = E4F20E8A27D8E75D00E24DE8 /* Minimum Sum of Four Digit Number After Splitting Digits.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1958,6 +1999,9 @@
 					E4EBFBB3279EBEAD00057DBB = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					E4F20E8927D8E75D00E24DE8 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 				};
 			};
 			buildConfigurationList = E4B3959E278F972F00301C15 /* Build configuration list for PBXProject "algorithms" */;
@@ -2016,6 +2060,7 @@
 				E42DBB0D27C7A5AB003DB76C /* Check if Numbers Are Ascending in a Sentence */,
 				E46D351A27C8EA6F00460A6D /* Delete Columns to Make Sorted */,
 				E417D4B027CBBF8300BD9CBF /* Binary Tree Inorder Traversal */,
+				E4F20E8927D8E75D00E24DE8 /* Minimum Sum of Four Digit Number After Splitting Digits */,
 			);
 		};
 /* End PBXProject section */
@@ -2316,6 +2361,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4EBFBB2279EBEAD00057DBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4F20E8827D8E75D00E24DE8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2755,6 +2807,16 @@
 				E4EBFBBD279EBF0D00057DBB /* Utility.swift in Sources */,
 				E4EBFBBC279EBEB600057DBB /* Solution.swift in Sources */,
 				E4EBFBB7279EBEAD00057DBB /* Replace_All_Digits_with_Characters.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4F20E8627D8E75D00E24DE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F20E9327D8E78A00E24DE8 /* Utility.swift in Sources */,
+				E4F20E9227D8E76500E24DE8 /* Solution.swift in Sources */,
+				E4F20E8D27D8E75D00E24DE8 /* Minimum_Sum_of_Four_Digit_Number_After_Splitting_Digits.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4166,6 +4228,36 @@
 			};
 			name = Release;
 		};
+		E4F20E8E27D8E75D00E24DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Minimum-Sum-of-Four-Digit-Number-After-Splitting-Digits";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E4F20E8F27D8E75D00E24DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Minimum-Sum-of-Four-Digit-Number-After-Splitting-Digits";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -4561,6 +4653,15 @@
 			buildConfigurations = (
 				E4EBFBB9279EBEAD00057DBB /* Debug */,
 				E4EBFBBA279EBEAD00057DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4F20E9027D8E75D00E24DE8 /* Build configuration list for PBXNativeTarget "Minimum Sum of Four Digit Number After Splitting Digits" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F20E8E27D8E75D00E24DE8 /* Debug */,
+				E4F20E8F27D8E75D00E24DE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
