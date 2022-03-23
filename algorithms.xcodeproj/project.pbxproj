@@ -121,6 +121,9 @@
 		E4B3962C278F9FEB00301C15 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B395FB278F9CFF00301C15 /* Solution.swift */; };
 		E4B39636278FA15300301C15 /* Two_Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B39635278FA15300301C15 /* Two_Sum.swift */; };
 		E4B3963B278FA16600301C15 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B3963A278FA16500301C15 /* Solution.swift */; };
+		E4BB0E0627EB463E0096C231 /* Count_Operations_to_Obtain_Zero.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB0E0527EB463E0096C231 /* Count_Operations_to_Obtain_Zero.swift */; };
+		E4BB0E0B27EB464D0096C231 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB0E0A27EB464D0096C231 /* Solution.swift */; };
+		E4BB0E0C27EB46640096C231 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E4BFA01D27BCFB4F00A7D36D /* Unique_Number_of_Occurrences.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BFA01C27BCFB4F00A7D36D /* Unique_Number_of_Occurrences.swift */; };
 		E4BFA02227BCFB5900A7D36D /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BFA02127BCFB5900A7D36D /* Solution.swift */; };
 		E4BFA02327BCFB7600A7D36D /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
@@ -267,6 +270,9 @@
 		E4B39633278FA15300301C15 /* Two Sum.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Two Sum.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B39635278FA15300301C15 /* Two_Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Two_Sum.swift; sourceTree = "<group>"; };
 		E4B3963A278FA16500301C15 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E4BB0E0327EB463E0096C231 /* Count Operations to Obtain Zero.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Count Operations to Obtain Zero.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4BB0E0527EB463E0096C231 /* Count_Operations_to_Obtain_Zero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Count_Operations_to_Obtain_Zero.swift; sourceTree = "<group>"; };
+		E4BB0E0A27EB464D0096C231 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E4BFA01A27BCFB4F00A7D36D /* Unique Number of Occurrences.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unique Number of Occurrences.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4BFA01C27BCFB4F00A7D36D /* Unique_Number_of_Occurrences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unique_Number_of_Occurrences.swift; sourceTree = "<group>"; };
 		E4BFA02127BCFB5900A7D36D /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
@@ -553,6 +559,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4B39630278FA15300301C15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4BB0E0027EB463E0096C231 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1015,6 +1028,7 @@
 				E4541A9527E32D16007D01CE /* Counting Bits */,
 				E4541AA327E32E3E007D01CE /* Number of 1 Bits */,
 				E40BF02627E4A3040097ED02 /* Last Stone Weight */,
+				E4BB0E0427EB463E0096C231 /* Count Operations to Obtain Zero */,
 				E4B395A4278F972F00301C15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1069,6 +1083,7 @@
 				E4541A9427E32D16007D01CE /* Counting Bits.xctest */,
 				E4541AA227E32E3E007D01CE /* Number of 1 Bits.xctest */,
 				E40BF02527E4A3040097ED02 /* Last Stone Weight.xctest */,
+				E4BB0E0327EB463E0096C231 /* Count Operations to Obtain Zero.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1089,6 +1104,15 @@
 				E4B3963A278FA16500301C15 /* Solution.swift */,
 			);
 			path = "Two Sum";
+			sourceTree = "<group>";
+		};
+		E4BB0E0427EB463E0096C231 /* Count Operations to Obtain Zero */ = {
+			isa = PBXGroup;
+			children = (
+				E4BB0E0527EB463E0096C231 /* Count_Operations_to_Obtain_Zero.swift */,
+				E4BB0E0A27EB464D0096C231 /* Solution.swift */,
+			);
+			path = "Count Operations to Obtain Zero";
 			sourceTree = "<group>";
 		};
 		E4BFA01B27BCFB4F00A7D36D /* Unique Number of Occurrences */ = {
@@ -1813,6 +1837,23 @@
 			productReference = E4B39633278FA15300301C15 /* Two Sum.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E4BB0E0227EB463E0096C231 /* Count Operations to Obtain Zero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4BB0E0927EB463E0096C231 /* Build configuration list for PBXNativeTarget "Count Operations to Obtain Zero" */;
+			buildPhases = (
+				E4BB0DFF27EB463E0096C231 /* Sources */,
+				E4BB0E0027EB463E0096C231 /* Frameworks */,
+				E4BB0E0127EB463E0096C231 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Count Operations to Obtain Zero";
+			productName = "Count Operations to Obtain Zero";
+			productReference = E4BB0E0327EB463E0096C231 /* Count Operations to Obtain Zero.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E4BFA01927BCFB4F00A7D36D /* Unique Number of Occurrences */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4BFA02027BCFB4F00A7D36D /* Build configuration list for PBXNativeTarget "Unique Number of Occurrences" */;
@@ -2104,6 +2145,9 @@
 					E4B39632278FA15300301C15 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					E4BB0E0227EB463E0096C231 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					E4BFA01927BCFB4F00A7D36D = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -2196,6 +2240,7 @@
 				E4541A9327E32D16007D01CE /* Counting Bits */,
 				E4541AA127E32E3E007D01CE /* Number of 1 Bits */,
 				E40BF02427E4A3040097ED02 /* Last Stone Weight */,
+				E4BB0E0227EB463E0096C231 /* Count Operations to Obtain Zero */,
 			);
 		};
 /* End PBXProject section */
@@ -2454,6 +2499,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4B39631278FA15300301C15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4BB0E0127EB463E0096C231 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2903,6 +2955,16 @@
 				E416F364278FC07000F19A0B /* Utility.swift in Sources */,
 				E4B3963B278FA16600301C15 /* Solution.swift in Sources */,
 				E4B39636278FA15300301C15 /* Two_Sum.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4BB0DFF27EB463E0096C231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4BB0E0C27EB46640096C231 /* Utility.swift in Sources */,
+				E4BB0E0B27EB464D0096C231 /* Solution.swift in Sources */,
+				E4BB0E0627EB463E0096C231 /* Count_Operations_to_Obtain_Zero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4234,6 +4296,36 @@
 			};
 			name = Release;
 		};
+		E4BB0E0727EB463E0096C231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Count-Operations-to-Obtain-Zero";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E4BB0E0827EB463E0096C231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Count-Operations-to-Obtain-Zero";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		E4BFA01E27BCFB4F00A7D36D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4875,6 +4967,15 @@
 			buildConfigurations = (
 				E4B39638278FA15300301C15 /* Debug */,
 				E4B39639278FA15300301C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4BB0E0927EB463E0096C231 /* Build configuration list for PBXNativeTarget "Count Operations to Obtain Zero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4BB0E0727EB463E0096C231 /* Debug */,
+				E4BB0E0827EB463E0096C231 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
