@@ -13,6 +13,9 @@
 		E40BF02827E4A3040097ED02 /* Last_Stone_Weight.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40BF02727E4A3040097ED02 /* Last_Stone_Weight.swift */; };
 		E40BF02D27E4A30F0097ED02 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40BF02C27E4A30F0097ED02 /* Solution.swift */; };
 		E40BF02E27E4A3260097ED02 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
+		E40CEB4327F31635003AB15F /* Build_an_Array_With_Stack_Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40CEB4227F31635003AB15F /* Build_an_Array_With_Stack_Operations.swift */; };
+		E40CEB4827F3163E003AB15F /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40CEB4727F3163E003AB15F /* Solution.swift */; };
+		E40CEB4927F3164F003AB15F /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E4145A4D2790F05500933E0E /* Binary_Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4145A4C2790F05500933E0E /* Binary_Search.swift */; };
 		E4145A522790F05C00933E0E /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4145A512790F05C00933E0E /* Solution.swift */; };
 		E4145A532790F07400933E0E /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
@@ -163,6 +166,9 @@
 		E40BF02527E4A3040097ED02 /* Last Stone Weight.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Last Stone Weight.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E40BF02727E4A3040097ED02 /* Last_Stone_Weight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Last_Stone_Weight.swift; sourceTree = "<group>"; };
 		E40BF02C27E4A30F0097ED02 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E40CEB4027F31635003AB15F /* Build an Array With Stack Operations.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Build an Array With Stack Operations.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E40CEB4227F31635003AB15F /* Build_an_Array_With_Stack_Operations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Build_an_Array_With_Stack_Operations.swift; sourceTree = "<group>"; };
+		E40CEB4727F3163E003AB15F /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E4145A4A2790F05500933E0E /* Binary Search.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Binary Search.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4145A4C2790F05500933E0E /* Binary_Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binary_Search.swift; sourceTree = "<group>"; };
 		E4145A512790F05C00933E0E /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
@@ -314,6 +320,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E40BF02227E4A3040097ED02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40CEB3D27F31635003AB15F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -661,6 +674,15 @@
 				E40BF02C27E4A30F0097ED02 /* Solution.swift */,
 			);
 			path = "Last Stone Weight";
+			sourceTree = "<group>";
+		};
+		E40CEB4127F31635003AB15F /* Build an Array With Stack Operations */ = {
+			isa = PBXGroup;
+			children = (
+				E40CEB4227F31635003AB15F /* Build_an_Array_With_Stack_Operations.swift */,
+				E40CEB4727F3163E003AB15F /* Solution.swift */,
+			);
+			path = "Build an Array With Stack Operations";
 			sourceTree = "<group>";
 		};
 		E4145A4B2790F05500933E0E /* Binary Search */ = {
@@ -1029,6 +1051,7 @@
 				E4541AA327E32E3E007D01CE /* Number of 1 Bits */,
 				E40BF02627E4A3040097ED02 /* Last Stone Weight */,
 				E4BB0E0427EB463E0096C231 /* Count Operations to Obtain Zero */,
+				E40CEB4127F31635003AB15F /* Build an Array With Stack Operations */,
 				E4B395A4278F972F00301C15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1084,6 +1107,7 @@
 				E4541AA227E32E3E007D01CE /* Number of 1 Bits.xctest */,
 				E40BF02527E4A3040097ED02 /* Last Stone Weight.xctest */,
 				E4BB0E0327EB463E0096C231 /* Count Operations to Obtain Zero.xctest */,
+				E40CEB4027F31635003AB15F /* Build an Array With Stack Operations.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1240,6 +1264,23 @@
 			name = "Last Stone Weight";
 			productName = "Last Stone Weight";
 			productReference = E40BF02527E4A3040097ED02 /* Last Stone Weight.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E40CEB3F27F31635003AB15F /* Build an Array With Stack Operations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E40CEB4627F31635003AB15F /* Build configuration list for PBXNativeTarget "Build an Array With Stack Operations" */;
+			buildPhases = (
+				E40CEB3C27F31635003AB15F /* Sources */,
+				E40CEB3D27F31635003AB15F /* Frameworks */,
+				E40CEB3E27F31635003AB15F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Build an Array With Stack Operations";
+			productName = "Build an Array With Stack Operations";
+			productReference = E40CEB4027F31635003AB15F /* Build an Array With Stack Operations.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		E4145A492790F05500933E0E /* Binary Search */ = {
@@ -2031,7 +2072,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1320;
+				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					E40003F627BE633A00B71232 = {
@@ -2039,6 +2080,9 @@
 					};
 					E40BF02427E4A3040097ED02 = {
 						CreatedOnToolsVersion = 13.2.1;
+					};
+					E40CEB3F27F31635003AB15F = {
+						CreatedOnToolsVersion = 13.3;
 					};
 					E4145A492790F05500933E0E = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -2241,6 +2285,7 @@
 				E4541AA127E32E3E007D01CE /* Number of 1 Bits */,
 				E40BF02427E4A3040097ED02 /* Last Stone Weight */,
 				E4BB0E0227EB463E0096C231 /* Count Operations to Obtain Zero */,
+				E40CEB3F27F31635003AB15F /* Build an Array With Stack Operations */,
 			);
 		};
 /* End PBXProject section */
@@ -2254,6 +2299,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E40BF02327E4A3040097ED02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40CEB3E27F31635003AB15F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2602,6 +2654,16 @@
 				E40BF02E27E4A3260097ED02 /* Utility.swift in Sources */,
 				E40BF02D27E4A30F0097ED02 /* Solution.swift in Sources */,
 				E40BF02827E4A3040097ED02 /* Last_Stone_Weight.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40CEB3C27F31635003AB15F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40CEB4927F3164F003AB15F /* Utility.swift in Sources */,
+				E40CEB4827F3163E003AB15F /* Solution.swift in Sources */,
+				E40CEB4327F31635003AB15F /* Build_an_Array_With_Stack_Operations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3125,6 +3187,38 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Last-Stone-Weight";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E40CEB4427F31635003AB15F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Build-an-Array-With-Stack-Operations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E40CEB4527F31635003AB15F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Build-an-Array-With-Stack-Operations";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -4643,6 +4737,15 @@
 			buildConfigurations = (
 				E40BF02927E4A3050097ED02 /* Debug */,
 				E40BF02A27E4A3050097ED02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E40CEB4627F31635003AB15F /* Build configuration list for PBXNativeTarget "Build an Array With Stack Operations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40CEB4427F31635003AB15F /* Debug */,
+				E40CEB4527F31635003AB15F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
