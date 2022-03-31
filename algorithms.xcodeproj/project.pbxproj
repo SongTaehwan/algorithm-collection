@@ -36,6 +36,9 @@
 		E417D4B427CBBF8300BD9CBF /* Binary_Tree_Inorder_Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E417D4B327CBBF8300BD9CBF /* Binary_Tree_Inorder_Traversal.swift */; };
 		E417D4B927CBBF8A00BD9CBF /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E417D4B827CBBF8A00BD9CBF /* Solution.swift */; };
 		E417D4BA27CBBFBF00BD9CBF /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
+		E417DA5627F5B4B400034B39 /* Number_of_Strings_That_Appear_as_Substrings_in_Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = E417DA5527F5B4B400034B39 /* Number_of_Strings_That_Appear_as_Substrings_in_Word.swift */; };
+		E417DA5B27F5B4CC00034B39 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E417DA5A27F5B4CC00034B39 /* Solution.swift */; };
+		E417DA5C27F5B4DD00034B39 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E42732F52798CE9900B1E94D /* Check_if_All_Characters_Have_Equal_Number_of_Occurrences.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42732F42798CE9900B1E94D /* Check_if_All_Characters_Have_Equal_Number_of_Occurrences.swift */; };
 		E42732FA2798CEA800B1E94D /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42732F92798CEA800B1E94D /* Solution.swift */; };
 		E42732FB2798CEB000B1E94D /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
@@ -188,6 +191,9 @@
 		E417D4B127CBBF8300BD9CBF /* Binary Tree Inorder Traversal.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Binary Tree Inorder Traversal.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E417D4B327CBBF8300BD9CBF /* Binary_Tree_Inorder_Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binary_Tree_Inorder_Traversal.swift; sourceTree = "<group>"; };
 		E417D4B827CBBF8A00BD9CBF /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E417DA5327F5B4B400034B39 /* Number of Strings That Appear as Substrings in Word.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Number of Strings That Appear as Substrings in Word.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E417DA5527F5B4B400034B39 /* Number_of_Strings_That_Appear_as_Substrings_in_Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number_of_Strings_That_Appear_as_Substrings_in_Word.swift; sourceTree = "<group>"; };
+		E417DA5A27F5B4CC00034B39 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E42732F22798CE9900B1E94D /* Check if All Characters Have Equal Number of Occurrences.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Check if All Characters Have Equal Number of Occurrences.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42732F42798CE9900B1E94D /* Check_if_All_Characters_Have_Equal_Number_of_Occurrences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Check_if_All_Characters_Have_Equal_Number_of_Occurrences.swift; sourceTree = "<group>"; };
 		E42732F92798CEA800B1E94D /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
@@ -369,6 +375,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E417D4AE27CBBF8300BD9CBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E417DA5027F5B4B400034B39 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -739,6 +752,15 @@
 			path = "Binary Tree Inorder Traversal";
 			sourceTree = "<group>";
 		};
+		E417DA5427F5B4B400034B39 /* Number of Strings That Appear as Substrings in Word */ = {
+			isa = PBXGroup;
+			children = (
+				E417DA5527F5B4B400034B39 /* Number_of_Strings_That_Appear_as_Substrings_in_Word.swift */,
+				E417DA5A27F5B4CC00034B39 /* Solution.swift */,
+			);
+			path = "Number of Strings That Appear as Substrings in Word";
+			sourceTree = "<group>";
+		};
 		E42732F32798CE9900B1E94D /* Check if All Characters Have Equal Number of Occurrences */ = {
 			isa = PBXGroup;
 			children = (
@@ -1052,6 +1074,7 @@
 				E40BF02627E4A3040097ED02 /* Last Stone Weight */,
 				E4BB0E0427EB463E0096C231 /* Count Operations to Obtain Zero */,
 				E40CEB4127F31635003AB15F /* Build an Array With Stack Operations */,
+				E417DA5427F5B4B400034B39 /* Number of Strings That Appear as Substrings in Word */,
 				E4B395A4278F972F00301C15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1108,6 +1131,7 @@
 				E40BF02527E4A3040097ED02 /* Last Stone Weight.xctest */,
 				E4BB0E0327EB463E0096C231 /* Count Operations to Obtain Zero.xctest */,
 				E40CEB4027F31635003AB15F /* Build an Array With Stack Operations.xctest */,
+				E417DA5327F5B4B400034B39 /* Number of Strings That Appear as Substrings in Word.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1383,6 +1407,23 @@
 			name = "Binary Tree Inorder Traversal";
 			productName = "Binary Tree Inorder Traversal";
 			productReference = E417D4B127CBBF8300BD9CBF /* Binary Tree Inorder Traversal.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E417DA5227F5B4B400034B39 /* Number of Strings That Appear as Substrings in Word */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E417DA5927F5B4B400034B39 /* Build configuration list for PBXNativeTarget "Number of Strings That Appear as Substrings in Word" */;
+			buildPhases = (
+				E417DA4F27F5B4B400034B39 /* Sources */,
+				E417DA5027F5B4B400034B39 /* Frameworks */,
+				E417DA5127F5B4B400034B39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Number of Strings That Appear as Substrings in Word";
+			productName = "Number of Strings That Appear as Substrings in Word";
+			productReference = E417DA5327F5B4B400034B39 /* Number of Strings That Appear as Substrings in Word.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		E42732F12798CE9900B1E94D /* Check if All Characters Have Equal Number of Occurrences */ = {
@@ -2102,6 +2143,9 @@
 					E417D4B027CBBF8300BD9CBF = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					E417DA5227F5B4B400034B39 = {
+						CreatedOnToolsVersion = 13.3;
+					};
 					E42732F12798CE9900B1E94D = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -2286,6 +2330,7 @@
 				E40BF02427E4A3040097ED02 /* Last Stone Weight */,
 				E4BB0E0227EB463E0096C231 /* Count Operations to Obtain Zero */,
 				E40CEB3F27F31635003AB15F /* Build an Array With Stack Operations */,
+				E417DA5227F5B4B400034B39 /* Number of Strings That Appear as Substrings in Word */,
 			);
 		};
 /* End PBXProject section */
@@ -2348,6 +2393,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E417D4AF27CBBF8300BD9CBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E417DA5127F5B4B400034B39 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2724,6 +2776,16 @@
 				E417D4BA27CBBFBF00BD9CBF /* Utility.swift in Sources */,
 				E417D4B927CBBF8A00BD9CBF /* Solution.swift in Sources */,
 				E417D4B427CBBF8300BD9CBF /* Binary_Tree_Inorder_Traversal.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E417DA4F27F5B4B400034B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E417DA5C27F5B4DD00034B39 /* Utility.swift in Sources */,
+				E417DA5B27F5B4CC00034B39 /* Solution.swift in Sources */,
+				E417DA5627F5B4B400034B39 /* Number_of_Strings_That_Appear_as_Substrings_in_Word.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3399,6 +3461,38 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Binary-Tree-Inorder-Traversal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E417DA5727F5B4B400034B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Number-of-Strings-That-Appear-as-Substrings-in-Word";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E417DA5827F5B4B400034B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Number-of-Strings-That-Appear-as-Substrings-in-Word";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -4800,6 +4894,15 @@
 			buildConfigurations = (
 				E417D4B527CBBF8400BD9CBF /* Debug */,
 				E417D4B627CBBF8400BD9CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E417DA5927F5B4B400034B39 /* Build configuration list for PBXNativeTarget "Number of Strings That Appear as Substrings in Word" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E417DA5727F5B4B400034B39 /* Debug */,
+				E417DA5827F5B4B400034B39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

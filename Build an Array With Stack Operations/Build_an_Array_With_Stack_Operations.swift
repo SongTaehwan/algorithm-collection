@@ -10,8 +10,8 @@ import XCTest
 class Build_an_Array_With_Stack_Operations: TestCase {
     override func testSolution() {
         XCTAssertEqual(sol.buildArray([1,3], 3), ["Push","Push","Pop","Push"])
-//        XCTAssertEqual(sol.buildArray([1,2,3], 3), ["Push","Push","Push"])
-//        XCTAssertEqual(sol.buildArray([1,2], 4), ["Push","Push"])
+        XCTAssertEqual(sol.buildArray([1,2,3], 3), ["Push","Push","Push"])
+        XCTAssertEqual(sol.buildArray([1,2], 4), ["Push","Push"])
     }
 }
 
