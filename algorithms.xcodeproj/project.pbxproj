@@ -127,6 +127,9 @@
 		E4B3962C278F9FEB00301C15 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B395FB278F9CFF00301C15 /* Solution.swift */; };
 		E4B39636278FA15300301C15 /* Two_Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B39635278FA15300301C15 /* Two_Sum.swift */; };
 		E4B3963B278FA16600301C15 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B3963A278FA16500301C15 /* Solution.swift */; };
+		E4B6097327FB0D2B00268CD8 /* Count_Common_Words_With_One_Occurrence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B6097227FB0D2B00268CD8 /* Count_Common_Words_With_One_Occurrence.swift */; };
+		E4B6097727FB0D3B00268CD8 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
+		E4B6097927FB0D4100268CD8 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B6097827FB0D4100268CD8 /* Solution.swift */; };
 		E4BB0E0627EB463E0096C231 /* Count_Operations_to_Obtain_Zero.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB0E0527EB463E0096C231 /* Count_Operations_to_Obtain_Zero.swift */; };
 		E4BB0E0B27EB464D0096C231 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB0E0A27EB464D0096C231 /* Solution.swift */; };
 		E4BB0E0C27EB46640096C231 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
@@ -282,6 +285,9 @@
 		E4B39633278FA15300301C15 /* Two Sum.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Two Sum.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B39635278FA15300301C15 /* Two_Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Two_Sum.swift; sourceTree = "<group>"; };
 		E4B3963A278FA16500301C15 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E4B6097027FB0D2B00268CD8 /* Count Common Words With One Occurrence.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Count Common Words With One Occurrence.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B6097227FB0D2B00268CD8 /* Count_Common_Words_With_One_Occurrence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Count_Common_Words_With_One_Occurrence.swift; sourceTree = "<group>"; };
+		E4B6097827FB0D4100268CD8 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E4BB0E0327EB463E0096C231 /* Count Operations to Obtain Zero.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Count Operations to Obtain Zero.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4BB0E0527EB463E0096C231 /* Count_Operations_to_Obtain_Zero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Count_Operations_to_Obtain_Zero.swift; sourceTree = "<group>"; };
 		E4BB0E0A27EB464D0096C231 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
@@ -585,6 +591,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4B39630278FA15300301C15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4B6096D27FB0D2B00268CD8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1075,6 +1088,7 @@
 				E4BB0E0427EB463E0096C231 /* Count Operations to Obtain Zero */,
 				E40CEB4127F31635003AB15F /* Build an Array With Stack Operations */,
 				E417DA5427F5B4B400034B39 /* Number of Strings That Appear as Substrings in Word */,
+				E4B6097127FB0D2B00268CD8 /* Count Common Words With One Occurrence */,
 				E4B395A4278F972F00301C15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1132,6 +1146,7 @@
 				E4BB0E0327EB463E0096C231 /* Count Operations to Obtain Zero.xctest */,
 				E40CEB4027F31635003AB15F /* Build an Array With Stack Operations.xctest */,
 				E417DA5327F5B4B400034B39 /* Number of Strings That Appear as Substrings in Word.xctest */,
+				E4B6097027FB0D2B00268CD8 /* Count Common Words With One Occurrence.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1152,6 +1167,15 @@
 				E4B3963A278FA16500301C15 /* Solution.swift */,
 			);
 			path = "Two Sum";
+			sourceTree = "<group>";
+		};
+		E4B6097127FB0D2B00268CD8 /* Count Common Words With One Occurrence */ = {
+			isa = PBXGroup;
+			children = (
+				E4B6097227FB0D2B00268CD8 /* Count_Common_Words_With_One_Occurrence.swift */,
+				E4B6097827FB0D4100268CD8 /* Solution.swift */,
+			);
+			path = "Count Common Words With One Occurrence";
 			sourceTree = "<group>";
 		};
 		E4BB0E0427EB463E0096C231 /* Count Operations to Obtain Zero */ = {
@@ -1919,6 +1943,23 @@
 			productReference = E4B39633278FA15300301C15 /* Two Sum.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E4B6096F27FB0D2B00268CD8 /* Count Common Words With One Occurrence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B6097627FB0D2B00268CD8 /* Build configuration list for PBXNativeTarget "Count Common Words With One Occurrence" */;
+			buildPhases = (
+				E4B6096C27FB0D2B00268CD8 /* Sources */,
+				E4B6096D27FB0D2B00268CD8 /* Frameworks */,
+				E4B6096E27FB0D2B00268CD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Count Common Words With One Occurrence";
+			productName = "Count Common Words With One Occurrence";
+			productReference = E4B6097027FB0D2B00268CD8 /* Count Common Words With One Occurrence.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E4BB0E0227EB463E0096C231 /* Count Operations to Obtain Zero */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4BB0E0927EB463E0096C231 /* Build configuration list for PBXNativeTarget "Count Operations to Obtain Zero" */;
@@ -2233,6 +2274,9 @@
 					E4B39632278FA15300301C15 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					E4B6096F27FB0D2B00268CD8 = {
+						CreatedOnToolsVersion = 13.3;
+					};
 					E4BB0E0227EB463E0096C231 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -2331,6 +2375,7 @@
 				E4BB0E0227EB463E0096C231 /* Count Operations to Obtain Zero */,
 				E40CEB3F27F31635003AB15F /* Build an Array With Stack Operations */,
 				E417DA5227F5B4B400034B39 /* Number of Strings That Appear as Substrings in Word */,
+				E4B6096F27FB0D2B00268CD8 /* Count Common Words With One Occurrence */,
 			);
 		};
 /* End PBXProject section */
@@ -2603,6 +2648,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4B39631278FA15300301C15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4B6096E27FB0D2B00268CD8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -3079,6 +3131,16 @@
 				E416F364278FC07000F19A0B /* Utility.swift in Sources */,
 				E4B3963B278FA16600301C15 /* Solution.swift in Sources */,
 				E4B39636278FA15300301C15 /* Two_Sum.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4B6096C27FB0D2B00268CD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B6097727FB0D3B00268CD8 /* Utility.swift in Sources */,
+				E4B6097327FB0D2B00268CD8 /* Count_Common_Words_With_One_Occurrence.swift in Sources */,
+				E4B6097927FB0D4100268CD8 /* Solution.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4484,6 +4546,38 @@
 			};
 			name = Release;
 		};
+		E4B6097427FB0D2B00268CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Count-Common-Words-With-One-Occurrence";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E4B6097527FB0D2B00268CD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Count-Common-Words-With-One-Occurrence";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		E4BB0E0727EB463E0096C231 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -5173,6 +5267,15 @@
 			buildConfigurations = (
 				E4B39638278FA15300301C15 /* Debug */,
 				E4B39639278FA15300301C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B6097627FB0D2B00268CD8 /* Build configuration list for PBXNativeTarget "Count Common Words With One Occurrence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B6097427FB0D2B00268CD8 /* Debug */,
+				E4B6097527FB0D2B00268CD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
