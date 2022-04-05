@@ -148,6 +148,9 @@
 		E4CCAD3B27ACDD5700296047 /* Count_Negative_Numbers_in_a_Sorted_Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CCAD3A27ACDD5700296047 /* Count_Negative_Numbers_in_a_Sorted_Matrix.swift */; };
 		E4CCAD4027ACDD5F00296047 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CCAD3F27ACDD5F00296047 /* Solution.swift */; };
 		E4CCAD4127ACDD7700296047 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
+		E4D13EB827FC47EE00037771 /* Counting_Words_With_a_Given_Prefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D13EB727FC47EE00037771 /* Counting_Words_With_a_Given_Prefix.swift */; };
+		E4D13EBD27FC47F600037771 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D13EBC27FC47F600037771 /* Solution.swift */; };
+		E4D13EBE27FC483200037771 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E4D86D2027B34200005991F8 /* Find_the_Highest_Altitude.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D86D1F27B34200005991F8 /* Find_the_Highest_Altitude.swift */; };
 		E4D86D2527B3420B005991F8 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D86D2427B3420B005991F8 /* Solution.swift */; };
 		E4D86D2627B34233005991F8 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
@@ -309,6 +312,9 @@
 		E4CCAD3827ACDD5700296047 /* Count Negative Numbers in a Sorted Matrix.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Count Negative Numbers in a Sorted Matrix.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4CCAD3A27ACDD5700296047 /* Count_Negative_Numbers_in_a_Sorted_Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Count_Negative_Numbers_in_a_Sorted_Matrix.swift; sourceTree = "<group>"; };
 		E4CCAD3F27ACDD5F00296047 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E4D13EB527FC47EE00037771 /* Counting Words With a Given Prefix.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Counting Words With a Given Prefix.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4D13EB727FC47EE00037771 /* Counting_Words_With_a_Given_Prefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counting_Words_With_a_Given_Prefix.swift; sourceTree = "<group>"; };
+		E4D13EBC27FC47F600037771 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E4D86D1D27B34200005991F8 /* Find the Highest Altitude.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find the Highest Altitude.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D86D1F27B34200005991F8 /* Find_the_Highest_Altitude.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_the_Highest_Altitude.swift; sourceTree = "<group>"; };
 		E4D86D2427B3420B005991F8 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
@@ -646,6 +652,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4CCAD3527ACDD5700296047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4D13EB227FC47EE00037771 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1103,6 +1116,7 @@
 				E417DA5427F5B4B400034B39 /* Number of Strings That Appear as Substrings in Word */,
 				E4B6097127FB0D2B00268CD8 /* Count Common Words With One Occurrence */,
 				E4B6098D27FB1A1900268CD8 /* Sum of Unique Elements */,
+				E4D13EB627FC47EE00037771 /* Counting Words With a Given Prefix */,
 				E4B395A4278F972F00301C15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1162,6 +1176,7 @@
 				E417DA5327F5B4B400034B39 /* Number of Strings That Appear as Substrings in Word.xctest */,
 				E4B6097027FB0D2B00268CD8 /* Count Common Words With One Occurrence.xctest */,
 				E4B6098C27FB1A1900268CD8 /* Sum of Unique Elements.xctest */,
+				E4D13EB527FC47EE00037771 /* Counting Words With a Given Prefix.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1245,6 +1260,15 @@
 				E4CCAD3F27ACDD5F00296047 /* Solution.swift */,
 			);
 			path = "Count Negative Numbers in a Sorted Matrix";
+			sourceTree = "<group>";
+		};
+		E4D13EB627FC47EE00037771 /* Counting Words With a Given Prefix */ = {
+			isa = PBXGroup;
+			children = (
+				E4D13EB727FC47EE00037771 /* Counting_Words_With_a_Given_Prefix.swift */,
+				E4D13EBC27FC47F600037771 /* Solution.swift */,
+			);
+			path = "Counting Words With a Given Prefix";
 			sourceTree = "<group>";
 		};
 		E4D86D1E27B34200005991F8 /* Find the Highest Altitude */ = {
@@ -2086,6 +2110,23 @@
 			productReference = E4CCAD3827ACDD5700296047 /* Count Negative Numbers in a Sorted Matrix.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E4D13EB427FC47EE00037771 /* Counting Words With a Given Prefix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4D13EBB27FC47EE00037771 /* Build configuration list for PBXNativeTarget "Counting Words With a Given Prefix" */;
+			buildPhases = (
+				E4D13EB127FC47EE00037771 /* Sources */,
+				E4D13EB227FC47EE00037771 /* Frameworks */,
+				E4D13EB327FC47EE00037771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Counting Words With a Given Prefix";
+			productName = "Counting Words With a Given Prefix";
+			productReference = E4D13EB527FC47EE00037771 /* Counting Words With a Given Prefix.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E4D86D1C27B34200005991F8 /* Find the Highest Altitude */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4D86D2327B34200005991F8 /* Build configuration list for PBXNativeTarget "Find the Highest Altitude" */;
@@ -2336,6 +2377,9 @@
 					E4CCAD3727ACDD5700296047 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					E4D13EB427FC47EE00037771 = {
+						CreatedOnToolsVersion = 13.3;
+					};
 					E4D86D1C27B34200005991F8 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -2421,6 +2465,7 @@
 				E417DA5227F5B4B400034B39 /* Number of Strings That Appear as Substrings in Word */,
 				E4B6096F27FB0D2B00268CD8 /* Count Common Words With One Occurrence */,
 				E4B6098B27FB1A1900268CD8 /* Sum of Unique Elements */,
+				E4D13EB427FC47EE00037771 /* Counting Words With a Given Prefix */,
 			);
 		};
 /* End PBXProject section */
@@ -2742,6 +2787,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4CCAD3627ACDD5700296047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4D13EB327FC47EE00037771 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -3253,6 +3305,16 @@
 				E4CCAD4127ACDD7700296047 /* Utility.swift in Sources */,
 				E4CCAD4027ACDD5F00296047 /* Solution.swift in Sources */,
 				E4CCAD3B27ACDD5700296047 /* Count_Negative_Numbers_in_a_Sorted_Matrix.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4D13EB127FC47EE00037771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4D13EBE27FC483200037771 /* Utility.swift in Sources */,
+				E4D13EBD27FC47F600037771 /* Solution.swift in Sources */,
+				E4D13EB827FC47EE00037771 /* Counting_Words_With_a_Given_Prefix.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4822,6 +4884,38 @@
 			};
 			name = Release;
 		};
+		E4D13EB927FC47EE00037771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Counting-Words-With-a-Given-Prefix";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E4D13EBA27FC47EE00037771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Counting-Words-With-a-Given-Prefix";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		E4D86D2127B34200005991F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -5424,6 +5518,15 @@
 			buildConfigurations = (
 				E4CCAD3C27ACDD5700296047 /* Debug */,
 				E4CCAD3D27ACDD5700296047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4D13EBB27FC47EE00037771 /* Build configuration list for PBXNativeTarget "Counting Words With a Given Prefix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4D13EB927FC47EE00037771 /* Debug */,
+				E4D13EBA27FC47EE00037771 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
