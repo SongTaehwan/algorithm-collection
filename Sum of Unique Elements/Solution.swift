@@ -7,8 +7,10 @@
 
 import Foundation
 
+/// [Checkout the problem](https://leetcode.com/problems/sum-of-unique-elements/submissions/)
 class Solution {
     func sumOfUnique(_ nums: [Int]) -> Int {
-        return 0
+        let dict = nums.reduce(into: [Int: Int]()) { $0[$1, default: 0] += 1 }
+        return dict.filter { $0.value == 1 }.keys.reduce(0, +)
     }
 }
