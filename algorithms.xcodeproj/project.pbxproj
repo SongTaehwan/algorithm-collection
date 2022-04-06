@@ -133,6 +133,9 @@
 		E4B6098F27FB1A1900268CD8 /* Sum_of_Unique_Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B6098E27FB1A1900268CD8 /* Sum_of_Unique_Elements.swift */; };
 		E4B6099327FB1A6700268CD8 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E4B6099527FB1A6D00268CD8 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B6099427FB1A6D00268CD8 /* Solution.swift */; };
+		E4B6F84D27FDAF6F00291728 /* Majority_Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B6F84C27FDAF6F00291728 /* Majority_Element.swift */; };
+		E4B6F85227FDAF7A00291728 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B6F85127FDAF7A00291728 /* Solution.swift */; };
+		E4B6F85327FDAF8D00291728 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E4BB0E0627EB463E0096C231 /* Count_Operations_to_Obtain_Zero.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB0E0527EB463E0096C231 /* Count_Operations_to_Obtain_Zero.swift */; };
 		E4BB0E0B27EB464D0096C231 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB0E0A27EB464D0096C231 /* Solution.swift */; };
 		E4BB0E0C27EB46640096C231 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
@@ -297,6 +300,9 @@
 		E4B6098C27FB1A1900268CD8 /* Sum of Unique Elements.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sum of Unique Elements.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B6098E27FB1A1900268CD8 /* Sum_of_Unique_Elements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sum_of_Unique_Elements.swift; sourceTree = "<group>"; };
 		E4B6099427FB1A6D00268CD8 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E4B6F84A27FDAF6F00291728 /* Majority Element.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Majority Element.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B6F84C27FDAF6F00291728 /* Majority_Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Majority_Element.swift; sourceTree = "<group>"; };
+		E4B6F85127FDAF7A00291728 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E4BB0E0327EB463E0096C231 /* Count Operations to Obtain Zero.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Count Operations to Obtain Zero.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4BB0E0527EB463E0096C231 /* Count_Operations_to_Obtain_Zero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Count_Operations_to_Obtain_Zero.swift; sourceTree = "<group>"; };
 		E4BB0E0A27EB464D0096C231 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
@@ -617,6 +623,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4B6098927FB1A1900268CD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4B6F84727FDAF6F00291728 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1117,6 +1130,7 @@
 				E4B6097127FB0D2B00268CD8 /* Count Common Words With One Occurrence */,
 				E4B6098D27FB1A1900268CD8 /* Sum of Unique Elements */,
 				E4D13EB627FC47EE00037771 /* Counting Words With a Given Prefix */,
+				E4B6F84B27FDAF6F00291728 /* Majority Element */,
 				E4B395A4278F972F00301C15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1177,6 +1191,7 @@
 				E4B6097027FB0D2B00268CD8 /* Count Common Words With One Occurrence.xctest */,
 				E4B6098C27FB1A1900268CD8 /* Sum of Unique Elements.xctest */,
 				E4D13EB527FC47EE00037771 /* Counting Words With a Given Prefix.xctest */,
+				E4B6F84A27FDAF6F00291728 /* Majority Element.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1215,6 +1230,15 @@
 				E4B6099427FB1A6D00268CD8 /* Solution.swift */,
 			);
 			path = "Sum of Unique Elements";
+			sourceTree = "<group>";
+		};
+		E4B6F84B27FDAF6F00291728 /* Majority Element */ = {
+			isa = PBXGroup;
+			children = (
+				E4B6F84C27FDAF6F00291728 /* Majority_Element.swift */,
+				E4B6F85127FDAF7A00291728 /* Solution.swift */,
+			);
+			path = "Majority Element";
 			sourceTree = "<group>";
 		};
 		E4BB0E0427EB463E0096C231 /* Count Operations to Obtain Zero */ = {
@@ -2025,6 +2049,23 @@
 			productReference = E4B6098C27FB1A1900268CD8 /* Sum of Unique Elements.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E4B6F84927FDAF6F00291728 /* Majority Element */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B6F85027FDAF6F00291728 /* Build configuration list for PBXNativeTarget "Majority Element" */;
+			buildPhases = (
+				E4B6F84627FDAF6F00291728 /* Sources */,
+				E4B6F84727FDAF6F00291728 /* Frameworks */,
+				E4B6F84827FDAF6F00291728 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Majority Element";
+			productName = "Majority Element";
+			productReference = E4B6F84A27FDAF6F00291728 /* Majority Element.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E4BB0E0227EB463E0096C231 /* Count Operations to Obtain Zero */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4BB0E0927EB463E0096C231 /* Build configuration list for PBXNativeTarget "Count Operations to Obtain Zero" */;
@@ -2362,6 +2403,9 @@
 					E4B6098B27FB1A1900268CD8 = {
 						CreatedOnToolsVersion = 13.3;
 					};
+					E4B6F84927FDAF6F00291728 = {
+						CreatedOnToolsVersion = 13.3;
+					};
 					E4BB0E0227EB463E0096C231 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -2466,6 +2510,7 @@
 				E4B6096F27FB0D2B00268CD8 /* Count Common Words With One Occurrence */,
 				E4B6098B27FB1A1900268CD8 /* Sum of Unique Elements */,
 				E4D13EB427FC47EE00037771 /* Counting Words With a Given Prefix */,
+				E4B6F84927FDAF6F00291728 /* Majority Element */,
 			);
 		};
 /* End PBXProject section */
@@ -2752,6 +2797,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4B6098A27FB1A1900268CD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4B6F84827FDAF6F00291728 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -3255,6 +3307,16 @@
 				E4B6099327FB1A6700268CD8 /* Utility.swift in Sources */,
 				E4B6098F27FB1A1900268CD8 /* Sum_of_Unique_Elements.swift in Sources */,
 				E4B6099527FB1A6D00268CD8 /* Solution.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4B6F84627FDAF6F00291728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B6F85327FDAF8D00291728 /* Utility.swift in Sources */,
+				E4B6F85227FDAF7A00291728 /* Solution.swift in Sources */,
+				E4B6F84D27FDAF6F00291728 /* Majority_Element.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4734,6 +4796,38 @@
 			};
 			name = Release;
 		};
+		E4B6F84E27FDAF6F00291728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Majority-Element";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E4B6F84F27FDAF6F00291728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Majority-Element";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		E4BB0E0727EB463E0096C231 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -5473,6 +5567,15 @@
 			buildConfigurations = (
 				E4B6099127FB1A1900268CD8 /* Debug */,
 				E4B6099227FB1A1900268CD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B6F85027FDAF6F00291728 /* Build configuration list for PBXNativeTarget "Majority Element" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B6F84E27FDAF6F00291728 /* Debug */,
+				E4B6F84F27FDAF6F00291728 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
