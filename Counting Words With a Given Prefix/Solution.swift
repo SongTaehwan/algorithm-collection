@@ -10,6 +10,14 @@ import Foundation
 /// [Checkout the problem](https://leetcode.com/problems/counting-words-with-a-given-prefix/)
 class Solution {
     func prefixCount(_ words: [String], _ pref: String) -> Int {
-        return 0
+        var count = 0
+        
+        for word in words {
+            if word.hasPrefix(pref) {
+                count += 1
+            }
+        }
+        
+        return count
     }
 }
