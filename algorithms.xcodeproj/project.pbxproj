@@ -157,6 +157,9 @@
 		E4D86D2027B34200005991F8 /* Find_the_Highest_Altitude.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D86D1F27B34200005991F8 /* Find_the_Highest_Altitude.swift */; };
 		E4D86D2527B3420B005991F8 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D86D2427B3420B005991F8 /* Solution.swift */; };
 		E4D86D2627B34233005991F8 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
+		E4D8E95927FF2C09004E6A14 /* Remove_Linked_List_Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D8E95827FF2C09004E6A14 /* Remove_Linked_List_Elements.swift */; };
+		E4D8E95D27FF2C12004E6A14 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
+		E4D8E95F27FF2C1F004E6A14 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D8E95E27FF2C1F004E6A14 /* Solution.swift */; };
 		E4DD63E127BB0F7B00E8D4B3 /* Maximum_Depth_of_Binary_Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DD63E027BB0F7B00E8D4B3 /* Maximum_Depth_of_Binary_Tree.swift */; };
 		E4DD63E627BB0F8900E8D4B3 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DD63E527BB0F8900E8D4B3 /* Solution.swift */; };
 		E4DD63E727BB0FA800E8D4B3 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
@@ -324,6 +327,9 @@
 		E4D86D1D27B34200005991F8 /* Find the Highest Altitude.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find the Highest Altitude.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D86D1F27B34200005991F8 /* Find_the_Highest_Altitude.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_the_Highest_Altitude.swift; sourceTree = "<group>"; };
 		E4D86D2427B3420B005991F8 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E4D8E95627FF2C09004E6A14 /* Remove Linked List Elements.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Remove Linked List Elements.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4D8E95827FF2C09004E6A14 /* Remove_Linked_List_Elements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remove_Linked_List_Elements.swift; sourceTree = "<group>"; };
+		E4D8E95E27FF2C1F004E6A14 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E4DD63DE27BB0F7B00E8D4B3 /* Maximum Depth of Binary Tree.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Maximum Depth of Binary Tree.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4DD63E027BB0F7B00E8D4B3 /* Maximum_Depth_of_Binary_Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maximum_Depth_of_Binary_Tree.swift; sourceTree = "<group>"; };
 		E4DD63E527BB0F8900E8D4B3 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
@@ -679,6 +685,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4D86D1A27B34200005991F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4D8E95327FF2C09004E6A14 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1131,6 +1144,7 @@
 				E4B6098D27FB1A1900268CD8 /* Sum of Unique Elements */,
 				E4D13EB627FC47EE00037771 /* Counting Words With a Given Prefix */,
 				E4B6F84B27FDAF6F00291728 /* Majority Element */,
+				E4D8E95727FF2C09004E6A14 /* Remove Linked List Elements */,
 				E4B395A4278F972F00301C15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1192,6 +1206,7 @@
 				E4B6098C27FB1A1900268CD8 /* Sum of Unique Elements.xctest */,
 				E4D13EB527FC47EE00037771 /* Counting Words With a Given Prefix.xctest */,
 				E4B6F84A27FDAF6F00291728 /* Majority Element.xctest */,
+				E4D8E95627FF2C09004E6A14 /* Remove Linked List Elements.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1302,6 +1317,15 @@
 				E4D86D2427B3420B005991F8 /* Solution.swift */,
 			);
 			path = "Find the Highest Altitude";
+			sourceTree = "<group>";
+		};
+		E4D8E95727FF2C09004E6A14 /* Remove Linked List Elements */ = {
+			isa = PBXGroup;
+			children = (
+				E4D8E95827FF2C09004E6A14 /* Remove_Linked_List_Elements.swift */,
+				E4D8E95E27FF2C1F004E6A14 /* Solution.swift */,
+			);
+			path = "Remove Linked List Elements";
 			sourceTree = "<group>";
 		};
 		E4DD63DF27BB0F7B00E8D4B3 /* Maximum Depth of Binary Tree */ = {
@@ -2185,6 +2209,23 @@
 			productReference = E4D86D1D27B34200005991F8 /* Find the Highest Altitude.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E4D8E95527FF2C09004E6A14 /* Remove Linked List Elements */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4D8E95C27FF2C09004E6A14 /* Build configuration list for PBXNativeTarget "Remove Linked List Elements" */;
+			buildPhases = (
+				E4D8E95227FF2C09004E6A14 /* Sources */,
+				E4D8E95327FF2C09004E6A14 /* Frameworks */,
+				E4D8E95427FF2C09004E6A14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Remove Linked List Elements";
+			productName = "Remove Linked List Elements";
+			productReference = E4D8E95627FF2C09004E6A14 /* Remove Linked List Elements.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E4DD63DD27BB0F7B00E8D4B3 /* Maximum Depth of Binary Tree */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4DD63E427BB0F7B00E8D4B3 /* Build configuration list for PBXNativeTarget "Maximum Depth of Binary Tree" */;
@@ -2427,6 +2468,9 @@
 					E4D86D1C27B34200005991F8 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					E4D8E95527FF2C09004E6A14 = {
+						CreatedOnToolsVersion = 13.3;
+					};
 					E4DD63DD27BB0F7B00E8D4B3 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -2511,6 +2555,7 @@
 				E4B6098B27FB1A1900268CD8 /* Sum of Unique Elements */,
 				E4D13EB427FC47EE00037771 /* Counting Words With a Given Prefix */,
 				E4B6F84927FDAF6F00291728 /* Majority Element */,
+				E4D8E95527FF2C09004E6A14 /* Remove Linked List Elements */,
 			);
 		};
 /* End PBXProject section */
@@ -2853,6 +2898,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4D86D1B27B34200005991F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4D8E95427FF2C09004E6A14 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -3387,6 +3439,16 @@
 				E4D86D2627B34233005991F8 /* Utility.swift in Sources */,
 				E4D86D2527B3420B005991F8 /* Solution.swift in Sources */,
 				E4D86D2027B34200005991F8 /* Find_the_Highest_Altitude.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4D8E95227FF2C09004E6A14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4D8E95D27FF2C12004E6A14 /* Utility.swift in Sources */,
+				E4D8E95927FF2C09004E6A14 /* Remove_Linked_List_Elements.swift in Sources */,
+				E4D8E95F27FF2C1F004E6A14 /* Solution.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5040,6 +5102,38 @@
 			};
 			name = Release;
 		};
+		E4D8E95A27FF2C09004E6A14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Remove-Linked-List-Elements";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E4D8E95B27FF2C09004E6A14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Remove-Linked-List-Elements";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		E4DD63E227BB0F7B00E8D4B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -5639,6 +5733,15 @@
 			buildConfigurations = (
 				E4D86D2127B34200005991F8 /* Debug */,
 				E4D86D2227B34200005991F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4D8E95C27FF2C09004E6A14 /* Build configuration list for PBXNativeTarget "Remove Linked List Elements" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4D8E95A27FF2C09004E6A14 /* Debug */,
+				E4D8E95B27FF2C09004E6A14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
