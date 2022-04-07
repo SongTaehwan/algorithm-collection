@@ -11,6 +11,7 @@ class Majority_Element: TestCase {
     override func testSolution() {
         XCTAssertEqual(sol.majorityElement([3,2,3]), 3)
         XCTAssertEqual(sol.majorityElement([2,2,1,1,1,2,2]), 2)
+        XCTAssertEqual(sol.majorityElement([6,6,6,7,7]), 6)
     }
 }
 
