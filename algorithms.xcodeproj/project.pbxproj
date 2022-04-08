@@ -78,6 +78,9 @@
 		E46D351E27C8EA6F00460A6D /* Delete_Columns_to_Make_Sorted.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46D351D27C8EA6F00460A6D /* Delete_Columns_to_Make_Sorted.swift */; };
 		E46D352327C8EA7C00460A6D /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46D352227C8EA7C00460A6D /* Solution.swift */; };
 		E46D352427C8EAB300460A6D /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
+		E46E0E4E280056DD00F99A04 /* Middle_of_the_Linked_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46E0E4D280056DD00F99A04 /* Middle_of_the_Linked_List.swift */; };
+		E46E0E53280056EA00F99A04 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46E0E52280056EA00F99A04 /* Solution.swift */; };
+		E46E0E54280056FA00F99A04 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E480630227963DD200D9B702 /* Can_Place_Flowers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E480630127963DD200D9B702 /* Can_Place_Flowers.swift */; };
 		E480630727963DDB00D9B702 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E480630627963DDB00D9B702 /* Solution.swift */; };
 		E480630827963DEC00D9B702 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
@@ -248,6 +251,9 @@
 		E46D351B27C8EA6F00460A6D /* Delete Columns to Make Sorted.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Delete Columns to Make Sorted.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E46D351D27C8EA6F00460A6D /* Delete_Columns_to_Make_Sorted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delete_Columns_to_Make_Sorted.swift; sourceTree = "<group>"; };
 		E46D352227C8EA7C00460A6D /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E46E0E4B280056DD00F99A04 /* Middle of the Linked List.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Middle of the Linked List.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E46E0E4D280056DD00F99A04 /* Middle_of_the_Linked_List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Middle_of_the_Linked_List.swift; sourceTree = "<group>"; };
+		E46E0E52280056EA00F99A04 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E48062FF27963DD200D9B702 /* Can Place Flowers.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Can Place Flowers.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E480630127963DD200D9B702 /* Can_Place_Flowers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Can_Place_Flowers.swift; sourceTree = "<group>"; };
 		E480630627963DDB00D9B702 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
@@ -503,6 +509,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E46D351827C8EA6F00460A6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E46E0E48280056DD00F99A04 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -943,6 +956,15 @@
 			path = "Delete Columns to Make Sorted";
 			sourceTree = "<group>";
 		};
+		E46E0E4C280056DD00F99A04 /* Middle of the Linked List */ = {
+			isa = PBXGroup;
+			children = (
+				E46E0E4D280056DD00F99A04 /* Middle_of_the_Linked_List.swift */,
+				E46E0E52280056EA00F99A04 /* Solution.swift */,
+			);
+			path = "Middle of the Linked List";
+			sourceTree = "<group>";
+		};
 		E480630027963DD200D9B702 /* Can Place Flowers */ = {
 			isa = PBXGroup;
 			children = (
@@ -1145,6 +1167,7 @@
 				E4D13EB627FC47EE00037771 /* Counting Words With a Given Prefix */,
 				E4B6F84B27FDAF6F00291728 /* Majority Element */,
 				E4D8E95727FF2C09004E6A14 /* Remove Linked List Elements */,
+				E46E0E4C280056DD00F99A04 /* Middle of the Linked List */,
 				E4B395A4278F972F00301C15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1207,6 +1230,7 @@
 				E4D13EB527FC47EE00037771 /* Counting Words With a Given Prefix.xctest */,
 				E4B6F84A27FDAF6F00291728 /* Majority Element.xctest */,
 				E4D8E95627FF2C09004E6A14 /* Remove Linked List Elements.xctest */,
+				E46E0E4B280056DD00F99A04 /* Middle of the Linked List.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1765,6 +1789,23 @@
 			name = "Delete Columns to Make Sorted";
 			productName = "Delete Columns to Make Sorted";
 			productReference = E46D351B27C8EA6F00460A6D /* Delete Columns to Make Sorted.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E46E0E4A280056DD00F99A04 /* Middle of the Linked List */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E46E0E51280056DD00F99A04 /* Build configuration list for PBXNativeTarget "Middle of the Linked List" */;
+			buildPhases = (
+				E46E0E47280056DD00F99A04 /* Sources */,
+				E46E0E48280056DD00F99A04 /* Frameworks */,
+				E46E0E49280056DD00F99A04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Middle of the Linked List";
+			productName = "Middle of the Linked List";
+			productReference = E46E0E4B280056DD00F99A04 /* Middle of the Linked List.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		E48062FE27963DD200D9B702 /* Can Place Flowers */ = {
@@ -2390,6 +2431,9 @@
 					E46D351A27C8EA6F00460A6D = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					E46E0E4A280056DD00F99A04 = {
+						CreatedOnToolsVersion = 13.3;
+					};
 					E48062FE27963DD200D9B702 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -2556,6 +2600,7 @@
 				E4D13EB427FC47EE00037771 /* Counting Words With a Given Prefix */,
 				E4B6F84927FDAF6F00291728 /* Majority Element */,
 				E4D8E95527FF2C09004E6A14 /* Remove Linked List Elements */,
+				E46E0E4A280056DD00F99A04 /* Middle of the Linked List */,
 			);
 		};
 /* End PBXProject section */
@@ -2716,6 +2761,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E46D351927C8EA6F00460A6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E46E0E49280056DD00F99A04 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -3176,6 +3228,16 @@
 				E46D352427C8EAB300460A6D /* Utility.swift in Sources */,
 				E46D352327C8EA7C00460A6D /* Solution.swift in Sources */,
 				E46D351E27C8EA6F00460A6D /* Delete_Columns_to_Make_Sorted.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E46E0E47280056DD00F99A04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E46E0E54280056FA00F99A04 /* Utility.swift in Sources */,
+				E46E0E53280056EA00F99A04 /* Solution.swift in Sources */,
+				E46E0E4E280056DD00F99A04 /* Middle_of_the_Linked_List.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4193,6 +4255,38 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Delete-Columns-to-Make-Sorted";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E46E0E4F280056DD00F99A04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Middle-of-the-Linked-List";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E46E0E50280056DD00F99A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Middle-of-the-Linked-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -5490,6 +5584,15 @@
 			buildConfigurations = (
 				E46D351F27C8EA6F00460A6D /* Debug */,
 				E46D352027C8EA6F00460A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E46E0E51280056DD00F99A04 /* Build configuration list for PBXNativeTarget "Middle of the Linked List" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E46E0E4F280056DD00F99A04 /* Debug */,
+				E46E0E50280056DD00F99A04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
