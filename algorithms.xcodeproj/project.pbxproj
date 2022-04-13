@@ -100,6 +100,9 @@
 		E496283F27A0F9440002A8B5 /* Number_Line_Jumps.swift in Sources */ = {isa = PBXBuildFile; fileRef = E496283E27A0F9440002A8B5 /* Number_Line_Jumps.swift */; };
 		E496284427A0F9520002A8B5 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E496284327A0F9520002A8B5 /* Solution.swift */; };
 		E496284527A0FB0B0002A8B5 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E496284327A0F9520002A8B5 /* Solution.swift */; };
+		E4A316AE2806D36B007DE49D /* Calculate_Money_in_Leetcode_Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A316AD2806D36B007DE49D /* Calculate_Money_in_Leetcode_Bank.swift */; };
+		E4A316B32806D379007DE49D /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A316B22806D379007DE49D /* Solution.swift */; };
+		E4A316B42806D387007DE49D /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E4A620BF27977C3700FD7CB3 /* Reverse_Bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A620BE27977C3700FD7CB3 /* Reverse_Bits.swift */; };
 		E4A620C327977C4200FD7CB3 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E4A620C527977C4900FD7CB3 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A620C427977C4900FD7CB3 /* Solution.swift */; };
@@ -275,6 +278,9 @@
 		E496283C27A0F9440002A8B5 /* Number Line Jumps.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Number Line Jumps.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E496283E27A0F9440002A8B5 /* Number_Line_Jumps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number_Line_Jumps.swift; sourceTree = "<group>"; };
 		E496284327A0F9520002A8B5 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E4A316AB2806D36B007DE49D /* Calculate Money in Leetcode Bank.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calculate Money in Leetcode Bank.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4A316AD2806D36B007DE49D /* Calculate_Money_in_Leetcode_Bank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculate_Money_in_Leetcode_Bank.swift; sourceTree = "<group>"; };
+		E4A316B22806D379007DE49D /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E4A620BC27977C3700FD7CB3 /* Reverse Bits.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reverse Bits.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A620BE27977C3700FD7CB3 /* Reverse_Bits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reverse_Bits.swift; sourceTree = "<group>"; };
 		E4A620C427977C4900FD7CB3 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
@@ -565,6 +571,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E496283927A0F9440002A8B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4A316A82806D36B007DE49D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1038,6 +1051,15 @@
 			path = "Number Line Jumps";
 			sourceTree = "<group>";
 		};
+		E4A316AC2806D36B007DE49D /* Calculate Money in Leetcode Bank */ = {
+			isa = PBXGroup;
+			children = (
+				E4A316AD2806D36B007DE49D /* Calculate_Money_in_Leetcode_Bank.swift */,
+				E4A316B22806D379007DE49D /* Solution.swift */,
+			);
+			path = "Calculate Money in Leetcode Bank";
+			sourceTree = "<group>";
+		};
 		E4A620BD27977C3700FD7CB3 /* Reverse Bits */ = {
 			isa = PBXGroup;
 			children = (
@@ -1168,6 +1190,7 @@
 				E4B6F84B27FDAF6F00291728 /* Majority Element */,
 				E4D8E95727FF2C09004E6A14 /* Remove Linked List Elements */,
 				E46E0E4C280056DD00F99A04 /* Middle of the Linked List */,
+				E4A316AC2806D36B007DE49D /* Calculate Money in Leetcode Bank */,
 				E4B395A4278F972F00301C15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1231,6 +1254,7 @@
 				E4B6F84A27FDAF6F00291728 /* Majority Element.xctest */,
 				E4D8E95627FF2C09004E6A14 /* Remove Linked List Elements.xctest */,
 				E46E0E4B280056DD00F99A04 /* Middle of the Linked List.xctest */,
+				E4A316AB2806D36B007DE49D /* Calculate Money in Leetcode Bank.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1927,6 +1951,23 @@
 			productReference = E496283C27A0F9440002A8B5 /* Number Line Jumps.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E4A316AA2806D36B007DE49D /* Calculate Money in Leetcode Bank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4A316B12806D36B007DE49D /* Build configuration list for PBXNativeTarget "Calculate Money in Leetcode Bank" */;
+			buildPhases = (
+				E4A316A72806D36B007DE49D /* Sources */,
+				E4A316A82806D36B007DE49D /* Frameworks */,
+				E4A316A92806D36B007DE49D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Calculate Money in Leetcode Bank";
+			productName = "Calculate Money in Leetcode Bank";
+			productReference = E4A316AB2806D36B007DE49D /* Calculate Money in Leetcode Bank.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E4A620BB27977C3700FD7CB3 /* Reverse Bits */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4A620C227977C3800FD7CB3 /* Build configuration list for PBXNativeTarget "Reverse Bits" */;
@@ -2455,6 +2496,9 @@
 					E496283B27A0F9440002A8B5 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					E4A316AA2806D36B007DE49D = {
+						CreatedOnToolsVersion = 13.3;
+					};
 					E4A620BB27977C3700FD7CB3 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -2601,6 +2645,7 @@
 				E4B6F84927FDAF6F00291728 /* Majority Element */,
 				E4D8E95527FF2C09004E6A14 /* Remove Linked List Elements */,
 				E46E0E4A280056DD00F99A04 /* Middle of the Linked List */,
+				E4A316AA2806D36B007DE49D /* Calculate Money in Leetcode Bank */,
 			);
 		};
 /* End PBXProject section */
@@ -2817,6 +2862,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E496283A27A0F9440002A8B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4A316A92806D36B007DE49D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -3306,6 +3358,16 @@
 			files = (
 				E496284527A0FB0B0002A8B5 /* Solution.swift in Sources */,
 				E496283F27A0F9440002A8B5 /* Number_Line_Jumps.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4A316A72806D36B007DE49D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4A316B42806D387007DE49D /* Utility.swift in Sources */,
+				E4A316B32806D379007DE49D /* Solution.swift in Sources */,
+				E4A316AE2806D36B007DE49D /* Calculate_Money_in_Leetcode_Bank.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4503,6 +4565,38 @@
 			};
 			name = Release;
 		};
+		E4A316AF2806D36B007DE49D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Calculate-Money-in-Leetcode-Bank";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E4A316B02806D36B007DE49D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Calculate-Money-in-Leetcode-Bank";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		E4A620C027977C3800FD7CB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -5656,6 +5750,15 @@
 			buildConfigurations = (
 				E496284127A0F9440002A8B5 /* Debug */,
 				E496284227A0F9440002A8B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4A316B12806D36B007DE49D /* Build configuration list for PBXNativeTarget "Calculate Money in Leetcode Bank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4A316AF2806D36B007DE49D /* Debug */,
+				E4A316B02806D36B007DE49D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
