@@ -90,6 +90,9 @@
 		E4912F91279BD48D00179FEB /* Sqrt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4912F90279BD48D00179FEB /* Sqrt.swift */; };
 		E4912F96279BD49600179FEB /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4912F95279BD49600179FEB /* Solution.swift */; };
 		E4912F97279BD64D00179FEB /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
+		E491D25328101A4F00A539DD /* Happy_Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = E491D25228101A4F00A539DD /* Happy_Number.swift */; };
+		E491D25828101A5B00A539DD /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E491D25728101A5B00A539DD /* Solution.swift */; };
+		E491D25928101A7500A539DD /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
 		E49244C92790451B005B4241 /* Convert_Binary_Number_in_a_Linked_List_to_Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49244C82790451B005B4241 /* Convert_Binary_Number_in_a_Linked_List_to_Integer.swift */; };
 		E49244CE27904524005B4241 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49244CD27904524005B4241 /* Solution.swift */; };
 		E49244CF2790453F005B4241 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
@@ -266,6 +269,9 @@
 		E4912F8E279BD48D00179FEB /* Sqrt.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sqrt.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4912F90279BD48D00179FEB /* Sqrt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sqrt.swift; sourceTree = "<group>"; };
 		E4912F95279BD49600179FEB /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E491D25028101A4F00A539DD /* Happy Number.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Happy Number.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E491D25228101A4F00A539DD /* Happy_Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Happy_Number.swift; sourceTree = "<group>"; };
+		E491D25728101A5B00A539DD /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E49244C62790451B005B4241 /* Convert Binary Number in a Linked List to Integer.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Convert Binary Number in a Linked List to Integer.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49244C82790451B005B4241 /* Convert_Binary_Number_in_a_Linked_List_to_Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Convert_Binary_Number_in_a_Linked_List_to_Integer.swift; sourceTree = "<group>"; };
 		E49244CD27904524005B4241 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
@@ -543,6 +549,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4912F8B279BD48D00179FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E491D24D28101A4F00A539DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1005,6 +1018,15 @@
 			path = Sqrt;
 			sourceTree = "<group>";
 		};
+		E491D25128101A4F00A539DD /* Happy Number */ = {
+			isa = PBXGroup;
+			children = (
+				E491D25228101A4F00A539DD /* Happy_Number.swift */,
+				E491D25728101A5B00A539DD /* Solution.swift */,
+			);
+			path = "Happy Number";
+			sourceTree = "<group>";
+		};
 		E49244C72790451B005B4241 /* Convert Binary Number in a Linked List to Integer */ = {
 			isa = PBXGroup;
 			children = (
@@ -1191,6 +1213,7 @@
 				E4D8E95727FF2C09004E6A14 /* Remove Linked List Elements */,
 				E46E0E4C280056DD00F99A04 /* Middle of the Linked List */,
 				E4A316AC2806D36B007DE49D /* Calculate Money in Leetcode Bank */,
+				E491D25128101A4F00A539DD /* Happy Number */,
 				E4B395A4278F972F00301C15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1255,6 +1278,7 @@
 				E4D8E95627FF2C09004E6A14 /* Remove Linked List Elements.xctest */,
 				E46E0E4B280056DD00F99A04 /* Middle of the Linked List.xctest */,
 				E4A316AB2806D36B007DE49D /* Calculate Money in Leetcode Bank.xctest */,
+				E491D25028101A4F00A539DD /* Happy Number.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1883,6 +1907,23 @@
 			productReference = E4912F8E279BD48D00179FEB /* Sqrt.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E491D24F28101A4F00A539DD /* Happy Number */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E491D25628101A4F00A539DD /* Build configuration list for PBXNativeTarget "Happy Number" */;
+			buildPhases = (
+				E491D24C28101A4F00A539DD /* Sources */,
+				E491D24D28101A4F00A539DD /* Frameworks */,
+				E491D24E28101A4F00A539DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Happy Number";
+			productName = "Happy Number";
+			productReference = E491D25028101A4F00A539DD /* Happy Number.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E49244C52790451B005B4241 /* Convert Binary Number in a Linked List to Integer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E49244CC2790451B005B4241 /* Build configuration list for PBXNativeTarget "Convert Binary Number in a Linked List to Integer" */;
@@ -2484,6 +2525,9 @@
 					E4912F8D279BD48D00179FEB = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					E491D24F28101A4F00A539DD = {
+						CreatedOnToolsVersion = 13.3;
+					};
 					E49244C52790451B005B4241 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -2646,6 +2690,7 @@
 				E4D8E95527FF2C09004E6A14 /* Remove Linked List Elements */,
 				E46E0E4A280056DD00F99A04 /* Middle of the Linked List */,
 				E4A316AA2806D36B007DE49D /* Calculate Money in Leetcode Bank */,
+				E491D24F28101A4F00A539DD /* Happy Number */,
 			);
 		};
 /* End PBXProject section */
@@ -2834,6 +2879,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4912F8C279BD48D00179FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E491D24E28101A4F00A539DD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -3320,6 +3372,16 @@
 				E4912F97279BD64D00179FEB /* Utility.swift in Sources */,
 				E4912F96279BD49600179FEB /* Solution.swift in Sources */,
 				E4912F91279BD48D00179FEB /* Sqrt.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E491D24C28101A4F00A539DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E491D25928101A7500A539DD /* Utility.swift in Sources */,
+				E491D25828101A5B00A539DD /* Solution.swift in Sources */,
+				E491D25328101A4F00A539DD /* Happy_Number.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4439,6 +4501,38 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = co.Song.Sqrt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E491D25428101A4F00A539DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Happy-Number";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E491D25528101A4F00A539DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Happy-Number";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -5714,6 +5808,15 @@
 			buildConfigurations = (
 				E4912F92279BD48D00179FEB /* Debug */,
 				E4912F93279BD48D00179FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E491D25628101A4F00A539DD /* Build configuration list for PBXNativeTarget "Happy Number" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E491D25428101A4F00A539DD /* Debug */,
+				E491D25528101A4F00A539DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
