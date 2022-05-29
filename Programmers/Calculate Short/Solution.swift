@@ -1,6 +1,6 @@
 //
 //  Solution.swift
-//  Caulate Short
+//  Calculate Short
 //
 //  Created by 송태환 on 2022/04/26.
 //

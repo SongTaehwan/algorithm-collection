@@ -99,6 +99,8 @@
 		E49244C92790451B005B4241 /* Convert_Binary_Number_in_a_Linked_List_to_Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49244C82790451B005B4241 /* Convert_Binary_Number_in_a_Linked_List_to_Integer.swift */; };
 		E49244CE27904524005B4241 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49244CD27904524005B4241 /* Solution.swift */; };
 		E49244CF2790453F005B4241 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
+		E49540DD28438F1B008068A3 /* PressKeypad.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49540DC28438F1B008068A3 /* PressKeypad.swift */; };
+		E49540E228438F45008068A3 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49540E128438F45008068A3 /* Solution.swift */; };
 		E496282427A0D7170002A8B5 /* Diagonal_Difference.swift in Sources */ = {isa = PBXBuildFile; fileRef = E496282327A0D7170002A8B5 /* Diagonal_Difference.swift */; };
 		E496282927A0D7240002A8B5 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E496282827A0D7240002A8B5 /* Solution.swift */; };
 		E496283127A0EDD90002A8B5 /* Time_Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E496283027A0EDD90002A8B5 /* Time_Conversion.swift */; };
@@ -281,6 +283,9 @@
 		E49244C62790451B005B4241 /* Convert Binary Number in a Linked List to Integer.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Convert Binary Number in a Linked List to Integer.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49244C82790451B005B4241 /* Convert_Binary_Number_in_a_Linked_List_to_Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Convert_Binary_Number_in_a_Linked_List_to_Integer.swift; sourceTree = "<group>"; };
 		E49244CD27904524005B4241 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E49540DA28438F1B008068A3 /* PressKeypad.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PressKeypad.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49540DC28438F1B008068A3 /* PressKeypad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressKeypad.swift; sourceTree = "<group>"; };
+		E49540E128438F45008068A3 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E496282127A0D7170002A8B5 /* Diagonal Difference.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Diagonal Difference.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E496282327A0D7170002A8B5 /* Diagonal_Difference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diagonal_Difference.swift; sourceTree = "<group>"; };
 		E496282827A0D7240002A8B5 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
@@ -576,6 +581,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E49244C32790451B005B4241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E49540D728438F1B008068A3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1058,6 +1070,15 @@
 			path = "Convert Binary Number in a Linked List to Integer";
 			sourceTree = "<group>";
 		};
+		E49540DB28438F1B008068A3 /* PressKeypad */ = {
+			isa = PBXGroup;
+			children = (
+				E49540DC28438F1B008068A3 /* PressKeypad.swift */,
+				E49540E128438F45008068A3 /* Solution.swift */,
+			);
+			path = PressKeypad;
+			sourceTree = "<group>";
+		};
 		E496281C27A0D6FA0002A8B5 /* HackerRank */ = {
 			isa = PBXGroup;
 			children = (
@@ -1122,6 +1143,7 @@
 				E4A620DA2797A30800FD7CB3 /* Nth Number */,
 				E4A620FD2797B1DB00FD7CB3 /* Mock Exam */,
 				E4A6210C2797B25C00FD7CB3 /* Crane Puppet Draw Game */,
+				E49540DB28438F1B008068A3 /* PressKeypad */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
@@ -1303,6 +1325,7 @@
 				E4A316AB2806D36B007DE49D /* Calculate Money in Leetcode Bank.xctest */,
 				E491D25028101A4F00A539DD /* Happy Number.xctest */,
 				E47C6E732817FD3900EFF4B6 /* Caulate Short.xctest */,
+				E49540DA28438F1B008068A3 /* PressKeypad.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1982,6 +2005,23 @@
 			productReference = E49244C62790451B005B4241 /* Convert Binary Number in a Linked List to Integer.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E49540D928438F1B008068A3 /* PressKeypad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E49540E028438F1B008068A3 /* Build configuration list for PBXNativeTarget "PressKeypad" */;
+			buildPhases = (
+				E49540D628438F1B008068A3 /* Sources */,
+				E49540D728438F1B008068A3 /* Frameworks */,
+				E49540D828438F1B008068A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PressKeypad;
+			productName = PressKeypad;
+			productReference = E49540DA28438F1B008068A3 /* PressKeypad.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E496282027A0D7170002A8B5 /* Diagonal Difference */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E496282527A0D7170002A8B5 /* Build configuration list for PBXNativeTarget "Diagonal Difference" */;
@@ -2575,6 +2615,9 @@
 					E49244C52790451B005B4241 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					E49540D928438F1B008068A3 = {
+						CreatedOnToolsVersion = 13.3;
+					};
 					E496282027A0D7170002A8B5 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -2736,6 +2779,7 @@
 				E4A316AA2806D36B007DE49D /* Calculate Money in Leetcode Bank */,
 				E491D24F28101A4F00A539DD /* Happy Number */,
 				E47C6E722817FD3900EFF4B6 /* Caulate Short */,
+				E49540D928438F1B008068A3 /* PressKeypad */,
 			);
 		};
 /* End PBXProject section */
@@ -2945,6 +2989,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E49244C42790451B005B4241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E49540D828438F1B008068A3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -3454,6 +3505,15 @@
 				E49244CF2790453F005B4241 /* Utility.swift in Sources */,
 				E49244CE27904524005B4241 /* Solution.swift in Sources */,
 				E49244C92790451B005B4241 /* Convert_Binary_Number_in_a_Linked_List_to_Integer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E49540D628438F1B008068A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E49540E228438F45008068A3 /* Solution.swift in Sources */,
+				E49540DD28438F1B008068A3 /* PressKeypad.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4657,6 +4717,38 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Convert-Binary-Number-in-a-Linked-List-to-Integer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E49540DE28438F1B008068A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.Song.PressKeypad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E49540DF28438F1B008068A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.Song.PressKeypad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -5929,6 +6021,15 @@
 			buildConfigurations = (
 				E49244CA2790451B005B4241 /* Debug */,
 				E49244CB2790451B005B4241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E49540E028438F1B008068A3 /* Build configuration list for PBXNativeTarget "PressKeypad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E49540DE28438F1B008068A3 /* Debug */,
+				E49540DF28438F1B008068A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
