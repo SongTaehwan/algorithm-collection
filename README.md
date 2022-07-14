@@ -56,3 +56,5 @@
 
 [쇠막대기](https://www.acmicpc.net/problem/10799)<br/>
 [R2](https://www.acmicpc.net/problem/3046)<br/>
+[제로](https://www.acmicpc.net/problem/10773)
+[균형잡힌 세상](https://www.acmicpc.net/problem/4949)
