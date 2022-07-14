@@ -1,3 +1,4 @@
+# https://www.acmicpc.net/problem/2588
 a = int(input())
 b = int(input())
 

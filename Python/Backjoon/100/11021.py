@@ -1,3 +1,4 @@
+# https://www.acmicpc.net/problem/11021
 # number = 1
 
 # while True:

@@ -1,3 +1,4 @@
+# https://www.acmicpc.net/problem/10952
 # while True:
 #     try:
 #         numbers = list(map(int, input().split(",")))

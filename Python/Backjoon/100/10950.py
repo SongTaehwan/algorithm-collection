@@ -1,3 +1,4 @@
+# https://www.acmicpc.net/problem/10950
 # def getInput():
 #     return input().split()
 
