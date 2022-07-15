@@ -66,12 +66,12 @@
 
 ### 22.7.15
 
-[시험 성적](https://www.acmicpc.net/problem/9498)
-[윤년](https://www.acmicpc.net/problem/2753)
-[사분면 고르기](https://www.acmicpc.net/problem/14681)
-[알람 시계](https://www.acmicpc.net/problem/2884)
-[오븐 시계](https://www.acmicpc.net/problem/2525)
-[주사위 세개](https://www.acmicpc.net/problem/2480)
-[구구단](https://www.acmicpc.net/problem/2739)
-[합](https://www.acmicpc.net/problem/8393)
-[X보다 작은 수](https://www.acmicpc.net/problem/10871)
+[시험 성적](https://www.acmicpc.net/problem/9498)<br/>
+[윤년](https://www.acmicpc.net/problem/2753)<br/>
+[사분면 고르기](https://www.acmicpc.net/problem/14681)<br/>
+[알람 시계](https://www.acmicpc.net/problem/2884)<br/>
+[오븐 시계](https://www.acmicpc.net/problem/2525)<br/>
+[주사위 세개](https://www.acmicpc.net/problem/2480)<br/>
+[구구단](https://www.acmicpc.net/problem/2739)<br/>
+[합](https://www.acmicpc.net/problem/8393)<br/>
+[X보다 작은 수](https://www.acmicpc.net/problem/10871)<br/>
