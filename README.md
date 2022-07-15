@@ -63,3 +63,15 @@
 [??!](https://www.acmicpc.net/problem/10926)<br/>
 [1998년생인 내가 태국에서는 2541년생?!](https://www.acmicpc.net/problem/18108)<br/>
 [새싹](https://www.acmicpc.net/problem/25083)<br>
+
+### 22.7.15
+
+[시험 성적](https://www.acmicpc.net/problem/9498)
+[윤년](https://www.acmicpc.net/problem/2753)
+[사분면 고르기](https://www.acmicpc.net/problem/14681)
+[알람 시계](https://www.acmicpc.net/problem/2884)
+[오븐 시계](https://www.acmicpc.net/problem/2525)
+[주사위 세개](https://www.acmicpc.net/problem/2480)
+[구구단](https://www.acmicpc.net/problem/2739)
+[합](https://www.acmicpc.net/problem/8393)
+[X보다 작은 수](https://www.acmicpc.net/problem/10871)
