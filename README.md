@@ -75,3 +75,16 @@
 [구구단](https://www.acmicpc.net/problem/2739)<br/>
 [합](https://www.acmicpc.net/problem/8393)<br/>
 [X보다 작은 수](https://www.acmicpc.net/problem/10871)<br/>
+
+### 22.7.16
+
+[별 찍기 - 1](https://www.acmicpc.net/problem/2438)<br/>
+[별 찍기 - 2](https://www.acmicpc.net/problem/2439)<br/>
+[더하기 사이클](https://www.acmicpc.net/problem/1110)<br/>
+[최소, 최대](https://www.acmicpc.net/problem/10818)<br/>
+[최댓값](https://www.acmicpc.net/problem/2562)<br/>
+[숫자의 개수](https://www.acmicpc.net/problem/2577)<br/>
+[나머지](https://www.acmicpc.net/problem/3052)<br/>
+[평균](https://www.acmicpc.net/problem/1546)<br/>
+[OX 퀴즈](https://www.acmicpc.net/problem/8958)<br/>
+[평균은 넘겠지](https://www.acmicpc.net/problem/4344)<br/>
