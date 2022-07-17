@@ -88,3 +88,8 @@
 [평균](https://www.acmicpc.net/problem/1546)<br/>
 [OX 퀴즈](https://www.acmicpc.net/problem/8958)<br/>
 [평균은 넘겠지](https://www.acmicpc.net/problem/4344)<br/>
+
+### 22.7.17
+
+[정수 N개의 합](https://www.acmicpc.net/problem/15596)
+[셀프 넘버](https://www.acmicpc.net/problem/4673)
