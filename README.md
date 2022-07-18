@@ -93,3 +93,10 @@
 
 [정수 N개의 합](https://www.acmicpc.net/problem/15596)
 [셀프 넘버](https://www.acmicpc.net/problem/4673)
+
+### 22.7.18
+
+[아스키 코드](https://www.acmicpc.net/problem/11654)
+[숫자의 합](https://www.acmicpc.net/problem/11720)
+[단어의 개수](https://www.acmicpc.net/problem/1152)
+[단어 공부](https://www.acmicpc.net/problem/1157)
