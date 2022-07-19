@@ -100,3 +100,9 @@
 [숫자의 합](https://www.acmicpc.net/problem/11720)
 [단어의 개수](https://www.acmicpc.net/problem/1152)
 [단어 공부](https://www.acmicpc.net/problem/1157)
+
+### 22.7.19
+
+[오큰수](https://www.acmicpc.net/problem/17298)
+[문자열 반복](https://www.acmicpc.net/problem/2675)
+[상수](https://www.acmicpc.net/problem/2908)
