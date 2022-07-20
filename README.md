@@ -91,24 +91,24 @@
 
 ### 22.7.17
 
-[정수 N개의 합](https://www.acmicpc.net/problem/15596)
-[셀프 넘버](https://www.acmicpc.net/problem/4673)
+[정수 N개의 합](https://www.acmicpc.net/problem/15596)<br/>
+[셀프 넘버](https://www.acmicpc.net/problem/4673)<br/>
 
 ### 22.7.18
 
-[아스키 코드](https://www.acmicpc.net/problem/11654)
-[숫자의 합](https://www.acmicpc.net/problem/11720)
-[단어의 개수](https://www.acmicpc.net/problem/1152)
-[단어 공부](https://www.acmicpc.net/problem/1157)
+[아스키 코드](https://www.acmicpc.net/problem/11654)<br/>
+[숫자의 합](https://www.acmicpc.net/problem/11720)<br/>
+[단어의 개수](https://www.acmicpc.net/problem/1152)<br/>
+[단어 공부](https://www.acmicpc.net/problem/1157)<br/>
 
 ### 22.7.19
 
-[오큰수](https://www.acmicpc.net/problem/17298)
-[문자열 반복](https://www.acmicpc.net/problem/2675)
-[상수](https://www.acmicpc.net/problem/2908)
+[오큰수](https://www.acmicpc.net/problem/17298)<br/>
+[문자열 반복](https://www.acmicpc.net/problem/2675)<br/>
+[상수](https://www.acmicpc.net/problem/2908)<br/>
 
 ### 22.7.20
 
-[크로아티아 알파벳](https://www.acmicpc.net/problem/2941)
-[그룹 단어 체커](https://www.acmicpc.net/problem/1316)
-[오등큰수](https://www.acmicpc.net/problem/17299)
+[크로아티아 알파벳](https://www.acmicpc.net/problem/2941)<br/>
+[그룹 단어 체커](https://www.acmicpc.net/problem/1316)<br/>
+[오등큰수](https://www.acmicpc.net/problem/17299)<br/>
