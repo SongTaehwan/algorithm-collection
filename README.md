@@ -112,3 +112,8 @@
 [크로아티아 알파벳](https://www.acmicpc.net/problem/2941)<br/>
 [그룹 단어 체커](https://www.acmicpc.net/problem/1316)<br/>
 [오등큰수](https://www.acmicpc.net/problem/17299)<br/>
+
+### 22.7.21
+
+[팩토리얼](https://www.acmicpc.net/problem/10872)
+[팩토리얼 0의 개수](https://www.acmicpc.net/problem/1676)
