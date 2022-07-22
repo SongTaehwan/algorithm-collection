@@ -115,5 +115,11 @@
 
 ### 22.7.21
 
-[팩토리얼](https://www.acmicpc.net/problem/10872)
-[팩토리얼 0의 개수](https://www.acmicpc.net/problem/1676)
+[팩토리얼](https://www.acmicpc.net/problem/10872)<br/>
+[팩토리얼 0의 개수](https://www.acmicpc.net/problem/1676)<br/>
+
+### 22.7.22
+
+[크냐?](https://www.acmicpc.net/problem/4101)<br/>
+[No Brainer](https://www.acmicpc.net/problem/4562)<br/>
+[숫자 맞추기 게임](https://www.acmicpc.net/problem/4892)<br/>
