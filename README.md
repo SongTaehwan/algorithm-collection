@@ -123,3 +123,8 @@
 [크냐?](https://www.acmicpc.net/problem/4101)<br/>
 [No Brainer](https://www.acmicpc.net/problem/4562)<br/>
 [숫자 맞추기 게임](https://www.acmicpc.net/problem/4892)<br/>
+[쌍의 합](https://www.acmicpc.net/problem/5217)
+[웰컴](https://www.acmicpc.net/problem/5337)
+[마이크로소프트 로고](https://www.acmicpc.net/problem/5338)
+[콜센터](https://www.acmicpc.net/problem/5339)
+[카드 게임](https://www.acmicpc.net/problem/5522)
