@@ -123,8 +123,19 @@
 [크냐?](https://www.acmicpc.net/problem/4101)<br/>
 [No Brainer](https://www.acmicpc.net/problem/4562)<br/>
 [숫자 맞추기 게임](https://www.acmicpc.net/problem/4892)<br/>
-[쌍의 합](https://www.acmicpc.net/problem/5217)
-[웰컴](https://www.acmicpc.net/problem/5337)
-[마이크로소프트 로고](https://www.acmicpc.net/problem/5338)
-[콜센터](https://www.acmicpc.net/problem/5339)
-[카드 게임](https://www.acmicpc.net/problem/5522)
+[쌍의 합](https://www.acmicpc.net/problem/5217)<br/>
+[웰컴](https://www.acmicpc.net/problem/5337)<br/>
+[마이크로소프트 로고](https://www.acmicpc.net/problem/5338)<br/>
+[콜센터](https://www.acmicpc.net/problem/5339)<br/>
+[카드 게임](https://www.acmicpc.net/problem/5522)<br/>
+
+### 22.7.23
+
+[Next in line](https://www.acmicpc.net/problem/6749)<br/>
+[Which Alien](https://www.acmicpc.net/problem/6778)<br/>
+[세 수](https://www.acmicpc.net/problem/10817)<br/>
+[The World Responds](https://www.acmicpc.net/problem/23234)
+[사장님 도박은 재미로 하셔야 합니다](https://www.acmicpc.net/problem/23795)
+[제리와 톰](https://www.acmicpc.net/problem/16430)
+[Hello Judge](https://www.acmicpc.net/problem/9316)
+[스타워즈 로고](https://www.acmicpc.net/problem/9653)
