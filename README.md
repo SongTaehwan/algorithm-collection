@@ -134,8 +134,12 @@
 [Next in line](https://www.acmicpc.net/problem/6749)<br/>
 [Which Alien](https://www.acmicpc.net/problem/6778)<br/>
 [세 수](https://www.acmicpc.net/problem/10817)<br/>
-[The World Responds](https://www.acmicpc.net/problem/23234)
-[사장님 도박은 재미로 하셔야 합니다](https://www.acmicpc.net/problem/23795)
-[제리와 톰](https://www.acmicpc.net/problem/16430)
-[Hello Judge](https://www.acmicpc.net/problem/9316)
-[스타워즈 로고](https://www.acmicpc.net/problem/9653)
+[The World Responds](https://www.acmicpc.net/problem/23234)<br/>
+[사장님 도박은 재미로 하셔야 합니다](https://www.acmicpc.net/problem/23795)<br/>
+[제리와 톰](https://www.acmicpc.net/problem/16430)<br/>
+[Hello Judge](https://www.acmicpc.net/problem/9316)<br/>
+[스타워즈 로고](https://www.acmicpc.net/problem/9653)<br/>
+
+### 22.7.24
+
+[학점계산](https://www.acmicpc.net/problem/2754)
