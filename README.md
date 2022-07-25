@@ -143,3 +143,8 @@
 ### 22.7.24
 
 [학점계산](https://www.acmicpc.net/problem/2754)
+
+### 22.7.25
+
+[최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609)
+[최소공배수](https://www.acmicpc.net/problem/1934)
