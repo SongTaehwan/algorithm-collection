@@ -148,3 +148,7 @@
 
 [최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609)
 [최소공배수](https://www.acmicpc.net/problem/1934)
+
+### 22.7.26
+
+[8진수 2진수](https://www.acmicpc.net/problem/1212)
