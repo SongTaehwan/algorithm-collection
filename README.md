@@ -146,9 +146,15 @@
 
 ### 22.7.25
 
-[최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609)
-[최소공배수](https://www.acmicpc.net/problem/1934)
+[최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609)<br/>
+[최소공배수](https://www.acmicpc.net/problem/1934)<br/>
 
 ### 22.7.26
 
 [8진수 2진수](https://www.acmicpc.net/problem/1212)
+
+### 22.7.27
+
+[2진수 8진수](https://www.acmicpc.net/problem/1373)<br/>
+[소수 찾기](https://www.acmicpc.net/problem/1978)<br/>
+[소수 구하기](https://www.acmicpc.net/problem/1929)
