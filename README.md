@@ -158,3 +158,10 @@
 [2진수 8진수](https://www.acmicpc.net/problem/1373)<br/>
 [소수 찾기](https://www.acmicpc.net/problem/1978)<br/>
 [소수 구하기](https://www.acmicpc.net/problem/1929)
+
+### 22.7.28
+
+[프로그래머스 - 소수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/12921?language=swift)<br/>
+[초콜릿 자르기](https://www.acmicpc.net/problem/2163)<br/>
+[소수](https://www.acmicpc.net/problem/2581)<br/>
+[오늘 날짜](https://www.acmicpc.net/problem/10699)
