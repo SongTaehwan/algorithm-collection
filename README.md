@@ -165,3 +165,8 @@
 [초콜릿 자르기](https://www.acmicpc.net/problem/2163)<br/>
 [소수](https://www.acmicpc.net/problem/2581)<br/>
 [오늘 날짜](https://www.acmicpc.net/problem/10699)
+
+### 22.7.29
+
+[나머지와 몫이 같은 수](https://www.acmicpc.net/problem/1834)<br/>
+[팰린드롬수](https://www.acmicpc.net/problem/1259)
