@@ -170,3 +170,8 @@
 
 [나머지와 몫이 같은 수](https://www.acmicpc.net/problem/1834)<br/>
 [팰린드롬수](https://www.acmicpc.net/problem/1259)
+
+### 22.7.30
+
+[손익분기점](https://www.acmicpc.net/problem/1712)
+[수들의 합](https://www.acmicpc.net/problem/1789)
