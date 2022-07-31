@@ -173,5 +173,12 @@
 
 ### 22.7.30
 
-[손익분기점](https://www.acmicpc.net/problem/1712)
+[손익분기점](https://www.acmicpc.net/problem/1712)<br/>
 [수들의 합](https://www.acmicpc.net/problem/1789)
+
+### 22.7.31
+
+[평균 점수](https://www.acmicpc.net/problem/10039)
+[등록](https://www.acmicpc.net/problem/7287)
+[과자](https://www.acmicpc.net/problem/10156)
+[상근이의 친구들](https://www.acmicpc.net/problem/5717)
