@@ -178,7 +178,13 @@
 
 ### 22.7.31
 
-[평균 점수](https://www.acmicpc.net/problem/10039)
-[등록](https://www.acmicpc.net/problem/7287)
-[과자](https://www.acmicpc.net/problem/10156)
+[평균 점수](https://www.acmicpc.net/problem/10039)<br/>
+[등록](https://www.acmicpc.net/problem/7287)<br/>
+[과자](https://www.acmicpc.net/problem/10156)<br/>
 [상근이의 친구들](https://www.acmicpc.net/problem/5717)
+
+### 22.8.1
+
+[골드바흐의 추측](https://www.acmicpc.net/problem/6588)<br/>
+[팩토리얼 0의 개수](https://www.acmicpc.net/problem/1676)<br/>
+[조합 0의 개수](https://www.acmicpc.net/problem/2004)

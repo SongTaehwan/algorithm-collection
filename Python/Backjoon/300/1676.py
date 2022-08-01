@@ -1,5 +1,6 @@
 # https://www.acmicpc.net/problem/1676
 
+# Brute force
 count = 1
 result = 0
 
@@ -16,3 +17,31 @@ while count > 0:
         break
 
 print(result)
+
+# 5의 개수 찾기
+n = int(input())
+
+result = 0
+square = 5
+
+while square <= n:
+    result += n // square
+    square *= 5
+
+print(result)
+
+
+# Refactor
+def calc(n, v) -> int:
+    result = 0
+    i = v
+
+    while i <= n:
+        result += n // i
+        i *= v
+
+    return result
+
+
+n = int(input())
+print(calc(n, 5))
