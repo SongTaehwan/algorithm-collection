@@ -188,3 +188,9 @@
 [골드바흐의 추측](https://www.acmicpc.net/problem/6588)<br/>
 [팩토리얼 0의 개수](https://www.acmicpc.net/problem/1676)<br/>
 [조합 0의 개수](https://www.acmicpc.net/problem/2004)
+
+### 22.8.2
+
+[GCD 합](https://www.acmicpc.net/problem/9613)<br/>
+[숨바꼭질 6](https://www.acmicpc.net/problem/17087)<br/>
+[골드바흐 파티션](https://www.acmicpc.net/problem/17103)<br/>
