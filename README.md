@@ -194,3 +194,16 @@
 [GCD 합](https://www.acmicpc.net/problem/9613)<br/>
 [숨바꼭질 6](https://www.acmicpc.net/problem/17087)<br/>
 [골드바흐 파티션](https://www.acmicpc.net/problem/17103)<br/>
+
+### 22.8.3
+
+[진법 변환2](https://www.acmicpc.net/problem/11005)<br/>
+[진법 변환](https://www.acmicpc.net/problem/2745)<br/>
+[음계](https://www.acmicpc.net/problem/2920)<br/>
+[검증수](https://www.acmicpc.net/problem/2475)<br/>
+[직사각형에서 탈출](https://www.acmicpc.net/problem/1085)<br/>
+[직각삼각형](https://www.acmicpc.net/problem/4153)<br/>
+[꼬마 정민](https://www.acmicpc.net/problem/11382)<br/>
+[사파리 월드](https://www.acmicpc.net/problem/2420)<br/>
+[개수 세기](https://www.acmicpc.net/problem/10807)<br/>
+[과제 안 내신 분..?](https://www.acmicpc.net/problem/5597)<br/>
