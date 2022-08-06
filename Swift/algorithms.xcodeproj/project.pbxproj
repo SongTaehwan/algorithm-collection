@@ -57,6 +57,9 @@
 		E44C3D6627BF8EA000214A2C /* Smallest_Index_With_Equal_Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44C3D6527BF8EA000214A2C /* Smallest_Index_With_Equal_Value.swift */; };
 		E44C3D6B27BF8EAD00214A2C /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44C3D6A27BF8EAD00214A2C /* Solution.swift */; };
 		E44C3D6C27BF8EFB00214A2C /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
+		E44F2AC6289E2CCB00C783F5 /* Tose_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44F2AC5289E2CCB00C783F5 /* Tose_1.swift */; };
+		E44F2ACB289E2D3D00C783F5 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44F2ACA289E2D3D00C783F5 /* Solution.swift */; };
+		E44F2ACC289E2E0900C783F5 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A620E52797A49F00FD7CB3 /* Utility.swift */; };
 		E4541A9727E32D16007D01CE /* Counting_Bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4541A9627E32D16007D01CE /* Counting_Bits.swift */; };
 		E4541A9C27E32D1F007D01CE /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4541A9B27E32D1F007D01CE /* Solution.swift */; };
 		E4541A9D27E32D33007D01CE /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E416F33A278FBCA500F19A0B /* Utility.swift */; };
@@ -243,6 +246,9 @@
 		E44C3D6327BF8EA000214A2C /* Smallest Index With Equal Value.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smallest Index With Equal Value.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E44C3D6527BF8EA000214A2C /* Smallest_Index_With_Equal_Value.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smallest_Index_With_Equal_Value.swift; sourceTree = "<group>"; };
 		E44C3D6A27BF8EAD00214A2C /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		E44F2AC3289E2CCB00C783F5 /* Tose-1.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tose-1.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E44F2AC5289E2CCB00C783F5 /* Tose_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tose_1.swift; sourceTree = "<group>"; };
+		E44F2ACA289E2D3D00C783F5 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E4541A9427E32D16007D01CE /* Counting Bits.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Counting Bits.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4541A9627E32D16007D01CE /* Counting_Bits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counting_Bits.swift; sourceTree = "<group>"; };
 		E4541A9B27E32D1F007D01CE /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
@@ -488,6 +494,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E44C3D6027BF8EA000214A2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44F2AC0289E2CCB00C783F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -956,6 +969,15 @@
 			path = "Smallest Index With Equal Value";
 			sourceTree = "<group>";
 		};
+		E44F2AC4289E2CCB00C783F5 /* Tose-1 */ = {
+			isa = PBXGroup;
+			children = (
+				E44F2AC5289E2CCB00C783F5 /* Tose_1.swift */,
+				E44F2ACA289E2D3D00C783F5 /* Solution.swift */,
+			);
+			path = "Tose-1";
+			sourceTree = "<group>";
+		};
 		E4541A9527E32D16007D01CE /* Counting Bits */ = {
 			isa = PBXGroup;
 			children = (
@@ -1281,6 +1303,7 @@
 				E46E0E4C280056DD00F99A04 /* Middle of the Linked List */,
 				E4A316AC2806D36B007DE49D /* Calculate Money in Leetcode Bank */,
 				E491D25128101A4F00A539DD /* Happy Number */,
+				E44F2AC4289E2CCB00C783F5 /* Tose-1 */,
 				E4B395A4278F972F00301C15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1349,6 +1372,7 @@
 				E47C6E732817FD3900EFF4B6 /* Caulate Short.xctest */,
 				E49540DA28438F1B008068A3 /* PressKeypad.xctest */,
 				E49A2EBA2844EFA2005D4120 /* Remove the least number.xctest */,
+				E44F2AC3289E2CCB00C783F5 /* Tose-1.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1788,6 +1812,23 @@
 			name = "Smallest Index With Equal Value";
 			productName = "Smallest Index With Equal Value";
 			productReference = E44C3D6327BF8EA000214A2C /* Smallest Index With Equal Value.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E44F2AC2289E2CCB00C783F5 /* Tose-1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E44F2AC9289E2CCC00C783F5 /* Build configuration list for PBXNativeTarget "Tose-1" */;
+			buildPhases = (
+				E44F2ABF289E2CCB00C783F5 /* Sources */,
+				E44F2AC0289E2CCB00C783F5 /* Frameworks */,
+				E44F2AC1289E2CCB00C783F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tose-1";
+			productName = "Tose-1";
+			productReference = E44F2AC3289E2CCB00C783F5 /* Tose-1.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		E4541A9327E32D16007D01CE /* Counting Bits */ = {
@@ -2613,6 +2654,9 @@
 					E44C3D6227BF8EA000214A2C = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					E44F2AC2289E2CCB00C783F5 = {
+						CreatedOnToolsVersion = 13.3;
+					};
 					E4541A9327E32D16007D01CE = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -2824,6 +2868,7 @@
 				E47C6E722817FD3900EFF4B6 /* Caulate Short */,
 				E49540D928438F1B008068A3 /* PressKeypad */,
 				E49A2EB92844EFA2005D4120 /* Remove the least number */,
+				E44F2AC2289E2CCB00C783F5 /* Tose-1 */,
 			);
 		};
 /* End PBXProject section */
@@ -2935,6 +2980,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E44C3D6127BF8EA000214A2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44F2AC1289E2CCB00C783F5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -3416,6 +3468,16 @@
 				E44C3D6C27BF8EFB00214A2C /* Utility.swift in Sources */,
 				E44C3D6B27BF8EAD00214A2C /* Solution.swift in Sources */,
 				E44C3D6627BF8EA000214A2C /* Smallest_Index_With_Equal_Value.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44F2ABF289E2CCB00C783F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44F2ACC289E2E0900C783F5 /* Utility.swift in Sources */,
+				E44F2ACB289E2D3D00C783F5 /* Solution.swift in Sources */,
+				E44F2AC6289E2CCB00C783F5 /* Tose_1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4351,6 +4413,38 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Smallest-Index-With-Equal-Value";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E44F2AC7289E2CCC00C783F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Tose-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E44F2AC8289E2CCC00C783F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Song.Tose-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -5987,6 +6081,15 @@
 			buildConfigurations = (
 				E44C3D6727BF8EA000214A2C /* Debug */,
 				E44C3D6827BF8EA000214A2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E44F2AC9289E2CCC00C783F5 /* Build configuration list for PBXNativeTarget "Tose-1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E44F2AC7289E2CCC00C783F5 /* Debug */,
+				E44F2AC8289E2CCC00C783F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

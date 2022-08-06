@@ -224,3 +224,7 @@
 [블랙잭](https://www.acmicpc.net/problem/2798)<br/>
 [다이얼](https://www.acmicpc.net/problem/5622)<br/>
 [한수](https://www.acmicpc.net/problem/1065)
+
+### 22.8.6
+
+[전자레인지](https://www.acmicpc.net/problem/10162)
