@@ -228,3 +228,17 @@
 ### 22.8.6
 
 [전자레인지](https://www.acmicpc.net/problem/10162)
+
+### 22.8.7
+
+[킹, 퀸, 룩, 비숍, 나이트, 폰](https://www.acmicpc.net/problem/3003)<br/>
+[거스름돈](https://www.acmicpc.net/problem/5585)<br/>
+[세작소 사장 동혁](https://www.acmicpc.net/problem/2720)<br/>
+[5와 6의 차이](https://www.acmicpc.net/problem/2864)<br/>
+[하얀 칸](https://www.acmicpc.net/problem/1100)<br/>
+[별 찍기 - 3](https://www.acmicpc.net/problem/2440)<br/>
+[별 찍기 - 4](https://www.acmicpc.net/problem/2441)<br/>
+[별 찍기 - 5](https://www.acmicpc.net/problem/2442)<br/>
+[별 찍기 - 6](https://www.acmicpc.net/problem/2443)<br/>
+[별 찍기 - 7](https://www.acmicpc.net/problem/2444)<br/>
+[한별 찍기](https://www.acmicpc.net/problem/24900)
