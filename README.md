@@ -242,3 +242,8 @@
 [별 찍기 - 6](https://www.acmicpc.net/problem/2443)<br/>
 [별 찍기 - 7](https://www.acmicpc.net/problem/2444)<br/>
 [한별 찍기](https://www.acmicpc.net/problem/24900)
+
+### 22.8.8
+
+[영수증](https://www.acmicpc.net/problem/25304)
+[골드바흐의 추측](https://www.acmicpc.net/problem/9020)
