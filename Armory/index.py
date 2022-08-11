@@ -1,10 +1,31 @@
-# 최대공약수 - O(N)
+# 최대공약수 - O(N) - 브루트 포스
 def gcd(a: int, b: int) -> int:
+    answer = 1
+
     for i in range(2, min(a, b) + 1):
         if a % i == 0 and b % i == 0:
-            return i
+            answer = i
 
-    return 1
+    return answer
+
+
+# 최대공약수 - 유클리드 호제법 - 재귀(느린 버전)
+def gcd(a, b):
+    while a != b:
+        a1 = max(a, b) - min(a, b)
+        b2 = min(a, b)
+        a = a1
+        b = b2
+
+    return a
+
+
+# 최대공약수 - 유클리드 호제법 - 재귀(느린 버전)
+def gcd(a, b):
+    if a == b:
+        return a
+    else:
+        return gcd(max(a, b) - min(a, b), min(a, b))
 
 
 # 최대공약수 - 유클리드 호제법 - 재귀 O(logN)
