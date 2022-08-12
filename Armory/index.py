@@ -139,3 +139,40 @@ for i in range(2, b + 1):
 
         if i >= a:
             print(i)
+
+
+# 피보나치 수 - 재귀(Top-down) - O(2^n)
+def fibonacci(n: int) -> int:
+    if n <= 1:
+        return n
+    else:
+        # n 을 구하려면 n-1, n-2 를 구해야함(하나 구하려면 두개를 구해야하는 구조)
+        return fibonacci(n-1) + fibonacci(n-2)
+
+
+# 피보나치 수 - 재귀(optimal substructure) O(n) = 문제의 개수(n) * 문제 1개를 푸는 시간(덧셈은 O(1))
+memo = dict()
+
+
+def fibonacci(n: int) -> int:
+    global memo
+    if n <= 1:
+        return n
+    else:
+        if memo[n]:
+            return memo[n]
+
+        memo[n] = fibonacci(n-1) + fibonacci(n-2)
+        return memo[n]
+
+# 피보나치 수 - 반복문(Bottom-up)
+
+
+nums = [0, 1]
+
+
+def fibonacci(n: int) -> int:
+    global nums
+
+    for i in range(2, n + 1):
+        nums[i] = nums[i-1] + nums[i-2]

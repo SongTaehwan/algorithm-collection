@@ -267,3 +267,9 @@
 [Euclid](https://www.acmicpc.net/problem/9884)
 [Tiles of Tetris, NOT!](https://www.acmicpc.net/problem/4890)
 [최소공배수](https://www.acmicpc.net/problem/13241)
+
+### 22.8.12
+
+[알고리즘 수업 - 피보나치 수 1](https://www.acmicpc.net/problem/24416)
+[에라토스테네스의 체](https://www.acmicpc.net/problem/2960)
+[K번째 소수](https://www.acmicpc.net/problem/15965)
