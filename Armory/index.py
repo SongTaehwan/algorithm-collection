@@ -151,11 +151,12 @@ def fibonacci(n: int) -> int:
 
 
 # 피보나치 수 - 재귀(optimal substructure) O(n) = 문제의 개수(n) * 문제 1개를 푸는 시간(덧셈은 O(1))
-memo = dict()
+memo = [0, 1] * [0] * (n - 1)
 
 
 def fibonacci(n: int) -> int:
     global memo
+
     if n <= 1:
         return n
     else:
@@ -176,3 +177,17 @@ def fibonacci(n: int) -> int:
 
     for i in range(2, n + 1):
         nums[i] = nums[i-1] + nums[i-2]
+        # nums.append(nums[i-1] + nums[i-2])
+
+    return nums[n]
+
+
+# 피보나치 수 - 반복문(Bottom-up) without memoization
+def fibonacci(n: int) -> int:
+    a = 0
+    b = 1
+
+    for _ in range(n):
+        a, b = b, a + b
+
+    return a
