@@ -282,3 +282,8 @@
 [피보나치 수 4](https://www.acmicpc.net/problem/10826)<br/>
 [피보나치 수 3](https://www.acmicpc.net/problem/2749)<br/>
 [피사노 주기](https://www.acmicpc.net/problem/9471)<br/>
+[엄청난 부자 2](https://www.acmicpc.net/problem/1271)<br/>
+[긴자리 계산](https://www.acmicpc.net/problem/2338)<br/>
+[아!](https://www.acmicpc.net/problem/4999)<br/>
+[Plane](https://www.acmicpc.net/problem/8370)<br/>
+[홍익대학교](https://www.acmicpc.net/problem/16394)<br/>
