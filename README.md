@@ -287,3 +287,11 @@
 [아!](https://www.acmicpc.net/problem/4999)<br/>
 [Plane](https://www.acmicpc.net/problem/8370)<br/>
 [홍익대학교](https://www.acmicpc.net/problem/16394)<br/>
+
+### 22.8.14
+
+[피보나치 수](https://www.acmicpc.net/problem/4150)<br/>
+[피보나치 수 7](https://www.acmicpc.net/problem/15624)<br/>
+[피보나치 비스무리한 수열](https://www.acmicpc.net/problem/14495)<br/>
+[피보나치는 지겨웡~](https://www.acmicpc.net/problem/17175)<br/>
+[거스름돈](https://www.acmicpc.net/problem/14916)
