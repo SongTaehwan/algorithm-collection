@@ -295,3 +295,9 @@
 [피보나치 비스무리한 수열](https://www.acmicpc.net/problem/14495)<br/>
 [피보나치는 지겨웡~](https://www.acmicpc.net/problem/17175)<br/>
 [거스름돈](https://www.acmicpc.net/problem/14916)
+
+### 22.8.15
+
+[1로 만들기](https://www.acmicpc.net/problem/1463)<br/>
+[인공지능 시계](https://www.acmicpc.net/problem/2530)<br/>
+[0 = not cute / 1 = cute](https://www.acmicpc.net/problem/10886)
