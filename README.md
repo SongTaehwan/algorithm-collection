@@ -301,3 +301,9 @@
 [1로 만들기](https://www.acmicpc.net/problem/1463)<br/>
 [인공지능 시계](https://www.acmicpc.net/problem/2530)<br/>
 [0 = not cute / 1 = cute](https://www.acmicpc.net/problem/10886)
+
+### 22.8.16
+
+[소인수분해](https://www.acmicpc.net/problem/11653)<br/>
+[베르트랑 공준](https://www.acmicpc.net/problem/4948)<br/>
+[부녀회장이 될테야](https://www.acmicpc.net/problem/2775)
