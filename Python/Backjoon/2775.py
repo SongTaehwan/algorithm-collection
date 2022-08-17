@@ -39,6 +39,7 @@ for _ in range(int(input())):
 
     for i in range(k):
         for j in range(2, n + 1):
+            # 피보나치와 유사하나 자시자신[j] 의 값을 미리 알고 있어야 계산할 수 있음
             residence[j] = residence[j] + residence[j-1]
 
     print(residence[-1])
