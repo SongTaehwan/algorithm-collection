@@ -314,11 +314,16 @@
 
 ### 22.8.18
 
-[2xn 타일링 2](https://www.acmicpc.net/problem/11727)
-[1,2,3 더하기](https://www.acmicpc.net/problem/9095)
+[2xn 타일링 2](https://www.acmicpc.net/problem/11727)<br/>
+[1,2,3 더하기](https://www.acmicpc.net/problem/9095)<br/>
 [일곱 난쟁이](https://www.acmicpc.net/problem/2309)
 
 ### 22.8.19
 
-[카드 구매하기](https://www.acmicpc.net/problem/11052)
+[카드 구매하기](https://www.acmicpc.net/problem/11052)<br/>
 [카드 구매하기 2](https://www.acmicpc.net/problem/16194)
+
+### 22.8.20
+
+[1,2,3 더하기 3](https://www.acmicpc.net/problem/15988)
+[1,2,3 더하기 5](https://www.acmicpc.net/problem/15990)
