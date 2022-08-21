@@ -325,5 +325,11 @@
 
 ### 22.8.20
 
-[1,2,3 더하기 3](https://www.acmicpc.net/problem/15988)
+[1,2,3 더하기 3](https://www.acmicpc.net/problem/15988)<br/>
 [1,2,3 더하기 5](https://www.acmicpc.net/problem/15990)
+
+### 22.8.21
+
+[쉬운 계단 수](https://www.acmicpc.net/problem/10844)<br/>
+[다리 놓기](https://www.acmicpc.net/problem/1010)<br/>
+[돌 게임](https://www.acmicpc.net/problem/9655)
