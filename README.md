@@ -333,3 +333,7 @@
 [쉬운 계단 수](https://www.acmicpc.net/problem/10844)<br/>
 [다리 놓기](https://www.acmicpc.net/problem/1010)<br/>
 [돌 게임](https://www.acmicpc.net/problem/9655)
+
+### 22.8.22
+
+[이친수](https://www.acmicpc.net/problem/2193)
