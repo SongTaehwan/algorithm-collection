@@ -341,3 +341,7 @@
 ### 22.8.23
 
 [ABCDE](https://www.acmicpc.net/problem/13023)
+
+### 22.8.24
+
+[DFS 와 BFS](https://www.acmicpc.net/problem/1260)
