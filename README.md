@@ -345,3 +345,7 @@
 ### 22.8.24
 
 [DFS 와 BFS](https://www.acmicpc.net/problem/1260)
+
+### 22.8.25
+
+[욱제는 효도쟁이야!!](https://www.acmicpc.net/problem/14487)
