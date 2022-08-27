@@ -357,3 +357,10 @@
 [주사위 게임](https://www.acmicpc.net/problem/10103)<br/>
 [소음](https://www.acmicpc.net/problem/2935)<br/>
 [사분면](https://www.acmicpc.net/problem/9610)
+
+### 22.8.26
+
+[Baseball](https://www.acmicpc.net/problem/10214)<br/>
+[팰린드롬인지 확인하기](https://www.acmicpc.net/problem/10988)<br/>
+[!밀비 급일](https://www.acmicpc.net/problem/11365)<br/>
+[짝수를 찾아라](https://www.acmicpc.net/problem/3058)
