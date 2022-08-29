@@ -368,3 +368,7 @@
 ### 22.8.27
 
 [ISBN](https://www.acmicpc.net/problem/6810)
+
+### 22.8.28
+
+[나부 함대 데이터](https://www.acmicpc.net/problem/9654)
