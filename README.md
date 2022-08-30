@@ -372,3 +372,7 @@
 ### 22.8.28
 
 [나부 함대 데이터](https://www.acmicpc.net/problem/9654)
+
+### 22.8.29
+
+[Can you add this?](https://www.acmicpc.net/problem/7891)
