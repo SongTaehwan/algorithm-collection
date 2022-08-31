@@ -358,21 +358,25 @@
 [소음](https://www.acmicpc.net/problem/2935)<br/>
 [사분면](https://www.acmicpc.net/problem/9610)
 
-### 22.8.26
+### 22.8.27
 
 [Baseball](https://www.acmicpc.net/problem/10214)<br/>
 [팰린드롬인지 확인하기](https://www.acmicpc.net/problem/10988)<br/>
 [!밀비 급일](https://www.acmicpc.net/problem/11365)<br/>
 [짝수를 찾아라](https://www.acmicpc.net/problem/3058)
 
-### 22.8.27
+### 22.8.28
 
 [ISBN](https://www.acmicpc.net/problem/6810)
 
-### 22.8.28
+### 22.8.29
 
 [나부 함대 데이터](https://www.acmicpc.net/problem/9654)
 
-### 22.8.29
+### 22.8.30
 
 [Can you add this?](https://www.acmicpc.net/problem/7891)
+
+### 22.8.31
+
+[가희와 방어율 무시](https://www.acmicpc.net/problem/25238)
