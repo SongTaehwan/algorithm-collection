@@ -380,3 +380,7 @@
 ### 22.8.31
 
 [가희와 방어율 무시](https://www.acmicpc.net/problem/25238)
+
+### 22.9.1
+
+[상근이의 여행](https://www.acmicpc.net/problem/9372)

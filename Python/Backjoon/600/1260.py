@@ -1,7 +1,7 @@
 # https://www.acmicpc.net/problem/1260
-# 인접 행려
 import sys
 
+# 인접 행렬 - DFS
 v, m, s = map(int, sys.stdin.readline().split())
 matrix = [[0 for _ in range(v + 1)] for _ in range(v+1)]
 
@@ -29,6 +29,7 @@ dfs(s)
 
 print(*dfs_result)
 
+# 인접 행렬 - BFS
 check = [False] * (v + 1)
 check[s] = True
 queue = [s]
@@ -83,6 +84,7 @@ dfs(s)
 
 print(*dfs_result)
 
+# BFS
 check = [False] * (v+1)
 check[s] = True
 bfs_result = []
