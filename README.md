@@ -384,3 +384,7 @@
 ### 22.9.1
 
 [상근이의 여행](https://www.acmicpc.net/problem/9372)
+
+### 22.9.2
+
+[점프왕 쩰리 (Small)](https://www.acmicpc.net/problem/16173)
