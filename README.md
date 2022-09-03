@@ -388,3 +388,7 @@
 ### 22.9.2
 
 [점프왕 쩰리 (Small)](https://www.acmicpc.net/problem/16173)
+
+### 22.9.3
+
+[TGN](https://www.acmicpc.net/problem/5063)
