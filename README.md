@@ -399,3 +399,7 @@
 [나는 누구인가](https://www.acmicpc.net/problem/15733)
 [연세대학교](https://www.acmicpc.net/problem/15680)
 [Sum of Odd Sequence](https://www.acmicpc.net/problem/9713)
+
+### 22.9.5
+
+[세금](https://www.acmicpc.net/problem/20492)
