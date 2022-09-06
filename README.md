@@ -403,3 +403,7 @@
 ### 22.9.5
 
 [세금](https://www.acmicpc.net/problem/20492)
+
+### 22.9.6
+
+[5의 수난](https://www.acmicpc.net/problem/23037)
