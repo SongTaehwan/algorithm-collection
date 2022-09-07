@@ -395,9 +395,9 @@
 
 ### 22.9.4
 
-[새로운 시작](https://www.acmicpc.net/problem/15962)
-[나는 누구인가](https://www.acmicpc.net/problem/15733)
-[연세대학교](https://www.acmicpc.net/problem/15680)
+[새로운 시작](https://www.acmicpc.net/problem/15962)<br/>
+[나는 누구인가](https://www.acmicpc.net/problem/15733)<br/>
+[연세대학교](https://www.acmicpc.net/problem/15680)<br/>
 [Sum of Odd Sequence](https://www.acmicpc.net/problem/9713)
 
 ### 22.9.5
@@ -407,3 +407,8 @@
 ### 22.9.6
 
 [5의 수난](https://www.acmicpc.net/problem/23037)
+
+### 22.9.7
+[그릇](https://www.acmicpc.net/problem/7567)<br/>
+[배수와 약수](https://www.acmicpc.net/problem/5086)<br/>
+[약수들의 합](https://www.acmicpc.net/problem/9506)

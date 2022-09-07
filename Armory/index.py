@@ -1,3 +1,74 @@
+# 약수 판별 - a 가 b 의 약수인지?
+import math
+
+
+def validDivider(a: int, b: int):
+    # a 로 나머지가 0 이면 약수
+    # b 는 a 의 배수
+    return b % a == 0
+
+
+# 배수 판별 - a가 b의 배수인지?
+def validMultiplier(a: int, b: int):
+    # b 로 나눈 나머지가 0 이면 배수
+    # b 는 a 의 약수
+    return a % b == 0
+
+
+# 모든 약수 구하기 O(N)
+def findAllDivider(number: int) -> list[int]:
+    result = [1]  # 1 은 모든 수의 약수
+
+    # number 의 가장 큰 약수는 number / 2 보다 항상 작거나 같음
+    # => O(N/2) == O(N)
+    for i in range(2, number // 2 + 1):
+        if number % i == 0:
+            result.append(i)
+
+    return result
+
+
+# 참고: https://www.geeksforgeeks.org/find-all-divisors-of-a-natural-number-set-2/
+# 모든 약수 구하기 O(sqrt(N))
+def findAllDividerFaster(n: int) -> list[int]:
+    result = []
+
+    # List to store half of the divisors
+    for i in range(1, int(math.sqrt(n) + 1)):
+
+        if (n % i == 0):
+            # 100의 경우 10 * 10 으로 동일하기 때문에 한번만 넣음
+            if (n / i == i):
+                result.append(i)
+            else:
+                result.append(i)
+                result.append(n // i)
+
+    return result  # 정렬은 되어있지 않음
+
+
+# 모든 약수 구하기 O(sqrt(N)) + 정렬
+def findAllDividerFasterInOrder(n: int) -> list[int]:
+    i = 1
+    a = []
+    b = []
+
+    # i < sqrt(n)
+    # i^2 < n
+    # 약수 페어 중 작은 약수 찾기
+    while (i * i < n):
+        if n % i == 0:
+            a.append(i)
+        i += 1
+
+    # 큰 약수 찾기
+    for i in range(int(math.sqrt(n)), 0, -1):
+        if n % i == 0:
+            b.append(n // i)
+
+    return a + b
+
+
 # 최대공약수 - O(N) - 브루트 포스
 def gcd(a: int, b: int) -> int:
     answer = 1
