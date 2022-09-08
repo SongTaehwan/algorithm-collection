@@ -412,3 +412,9 @@
 [그릇](https://www.acmicpc.net/problem/7567)<br/>
 [배수와 약수](https://www.acmicpc.net/problem/5086)<br/>
 [약수들의 합](https://www.acmicpc.net/problem/9506)
+
+### 22.9.8
+[개표](https://www.acmicpc.net/problem/10102)<br/>
+[네 번째 점](https://www.acmicpc.net/problem/3009)<br/>
+[주사위 게임](https://www.acmicpc.net/problem/2476)<br/>
+[화성 수학](https://www.acmicpc.net/problem/5355)
