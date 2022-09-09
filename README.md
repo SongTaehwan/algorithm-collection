@@ -418,3 +418,8 @@
 [네 번째 점](https://www.acmicpc.net/problem/3009)<br/>
 [주사위 게임](https://www.acmicpc.net/problem/2476)<br/>
 [화성 수학](https://www.acmicpc.net/problem/5355)
+
+### 22.9.9
+[수 찾기](https://www.acmicpc.net/problem/1920)<br/>
+[수 정렬하기2](https://www.acmicpc.net/problem/2751)<br/>
+[수 정렬하기](https://www.acmicpc.net/problem/2750)
