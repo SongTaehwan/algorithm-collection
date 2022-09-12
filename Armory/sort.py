@@ -1,6 +1,6 @@
 # Merge Sort - O(Nlog(N))
 def mergeSort(items: list[int]):
-    if len(items):
+    if len(items) > 1:
         # Divide whole into two
         middle = len(items) // 2
         left = items[:middle]

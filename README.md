@@ -429,3 +429,6 @@
 
 ### 22.9.11
 [FYI](https://www.acmicpc.net/problem/17863)
+
+### 22.9.12
+[고려대는 사랑입니다](https://www.acmicpc.net/problem/11942)
