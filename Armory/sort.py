@@ -38,9 +38,12 @@ def mergeSort(items: list[int]):
 def countingSort(array: list[int]):
     size = len(array)
     output = [0] * size
-    count = [0] * 10  # 배열의 크기는 max(array) 에 따라 달라짐
+    # 문제 조건에 따라 달라짐
+    count = [0] * 10
 
-    # 중복 수 개수 카운팅
+    # 중복 수 카운팅
+    # index = element in arr
+    # value = 중복 횟수
     for num in array:
         count[num] += 1
 
@@ -53,9 +56,14 @@ def countingSort(array: list[int]):
     i = 0
 
     while i < size:
-        index = count[array[i]] - 1
-        output[index] = array[i]
-        count[array[i]] -= 1
+        # 정렬된 배열(output)에서의 인덱스
+        element = array[i]
+        # 배열의 인덱스는 0 부터 시작하기 때문에 -1
+        index = count[element] - 1
+        # 정렬된 위치에 값을 저장
+        output[index] = element
+        # 중복 수 하나를 채우면 횟수 하나 차감
+        count[element] -= 1
         i += 1
 
     for i in range(size):
