@@ -1,9 +1,4 @@
-# https://www.acmicpc.net/problem/10989
-s = []
-
-for _ in range(int(input())):
-    s.append(int(input()))
-
+# https://www.acmicpc.net/problem/1427
 
 def mergeSort(arr: list[int]):
     if len(arr) > 1:
@@ -17,13 +12,12 @@ def mergeSort(arr: list[int]):
         i = j = k = 0
 
         while i < len(left) and j < len(right):
-            if left[i] < right[j]:
+            if left[i] > right[j]:
                 arr[k] = left[i]
                 i += 1
             else:
                 arr[k] = right[j]
                 j += 1
-
             k += 1
 
         while i < len(left):
@@ -37,6 +31,6 @@ def mergeSort(arr: list[int]):
             k += 1
 
 
-mergeSort(s)
-
-print(*s, sep="\n")
+n = list(map(int, list(input())))
+mergeSort(n)
+print(*n, sep="")

@@ -421,8 +421,8 @@
 
 ### 22.9.9
 [수 찾기](https://www.acmicpc.net/problem/1920)<br/>
-[수 정렬하기2](https://www.acmicpc.net/problem/2751)<br/>
-[수 정렬하기](https://www.acmicpc.net/problem/2750)
+[수 정렬하기2](https://www.acmicpc.net/problem/2751) - Merge Sort <br/>
+[수 정렬하기](https://www.acmicpc.net/problem/2750) - Merge Sort
 
 ### 22.9.10
 [NFC West vs North](https://www.acmicpc.net/problem/10170)
@@ -432,3 +432,7 @@
 
 ### 22.9.12
 [고려대는 사랑입니다](https://www.acmicpc.net/problem/11942)
+
+### 22.9.13
+[수 정렬하기 3](https://www.acmicpc.net/problem/10989) - Counting Sort
+[소트인사이드](https://www.acmicpc.net/board/view/73399)
