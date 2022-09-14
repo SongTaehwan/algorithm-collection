@@ -436,3 +436,6 @@
 ### 22.9.13
 [수 정렬하기 3](https://www.acmicpc.net/problem/10989) - Counting Sort<br/>
 [소트인사이드](https://www.acmicpc.net/problem/1427)
+
+### 22.9.14
+[커트라인](https://www.acmicpc.net/problem/25305)
