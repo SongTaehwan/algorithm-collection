@@ -68,3 +68,40 @@ def countingSort(array: list[int]):
 
     for i in range(size):
         array[i] = output[i]
+
+
+# Quick Sort - O(Nlog(N))
+# 평균적인 경우에만 O(Nlog(N)) 이지 최악의 경우 O(N^2)
+# 실질적으로는 Bubble Sort 보다 느림
+def quickSort(array: list[int], start: int, end: int):
+    def partition(array: list[int], start: int, end: int):
+        # point for the element greater than pivot
+        pointerForLeft = start
+        # point for the element smaller than pivot
+        pointerForRight = end
+        pivot = array[(pointerForLeft + pointerForRight) // 2]
+
+        while pointerForLeft <= pointerForRight:
+            while array[pointerForLeft] < pivot:
+                pointerForLeft += 1
+            while array[pointerForRight] > pivot:
+                pointerForRight -= 1
+
+            if pointerForLeft <= pointerForRight:
+                # Swap
+                temp = array[pointerForLeft]
+                array[pointerForLeft] = array[pointerForRight]
+                array[pointerForRight] = temp
+                # start == end 일 때 크기는 start > end 로 역전됨
+                pointerForLeft += 1
+                pointerForRight -= 1
+
+        return pointerForLeft
+
+    # Termination condition
+    if start < end:
+        # 하위 배열의 요소가 1개 일 때, start 와 end 는 같기 때문에
+        # 정렬할 필요 없다. 따라서 start < end 경우에만 정렬한다.
+        firstIndexOnRight = partition(array, start, end)
+        quickSort(array, start, firstIndexOnRight - 1)
+        quickSort(array, firstIndexOnRight, end)
