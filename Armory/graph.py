@@ -1,5 +1,5 @@
-import sys
 # Graph
+import sys
 
 # DFS - 인접 행렬
 n, m = map(int, sys.stdin.readline().split())
