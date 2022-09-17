@@ -445,3 +445,7 @@
 
 ### 22.9.16
 [콘테스트](https://www.acmicpc.net/problem/5576)
+
+### 22.9.17
+[나이순 정렬](https://www.acmicpc.net/problem/10814)
+[단어 정렬](https://www.acmicpc.net/problem/1181)
