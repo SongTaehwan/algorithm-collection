@@ -449,3 +449,6 @@
 ### 22.9.17
 [나이순 정렬](https://www.acmicpc.net/problem/10814)
 [단어 정렬](https://www.acmicpc.net/problem/1181)
+
+### 22.9.18
+[좌표 정렬하기](https://www.acmicpc.net/problem/11650)
