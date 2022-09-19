@@ -447,8 +447,12 @@
 [콘테스트](https://www.acmicpc.net/problem/5576)
 
 ### 22.9.17
-[나이순 정렬](https://www.acmicpc.net/problem/10814)
+[나이순 정렬](https://www.acmicpc.net/problem/10814)<br/>
 [단어 정렬](https://www.acmicpc.net/problem/1181)
 
 ### 22.9.18
 [좌표 정렬하기](https://www.acmicpc.net/problem/11650)
+
+### 22.9.19
+[좌표 정렬하기 2](https://www.acmicpc.net/problem/11651)<br/>
+[알고리즘 수업 - 버블 정렬 1](https://www.acmicpc.net/problem/23968)
