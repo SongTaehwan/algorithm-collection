@@ -456,3 +456,7 @@
 ### 22.9.19
 [좌표 정렬하기 2](https://www.acmicpc.net/problem/11651)<br/>
 [알고리즘 수업 - 버블 정렬 1](https://www.acmicpc.net/problem/23968)
+
+### 22.9.20
+[숫자 카드](https://www.acmicpc.net/problem/10815)<br/>
+[배열 합치기](https://www.acmicpc.net/problem/11728)
