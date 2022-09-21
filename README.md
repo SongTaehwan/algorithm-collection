@@ -460,3 +460,6 @@
 ### 22.9.20
 [숫자 카드](https://www.acmicpc.net/problem/10815)<br/>
 [배열 합치기](https://www.acmicpc.net/problem/11728)
+
+### 22.9.21
+[중복 빼고 정렬하기](https://www.acmicpc.net/problem/10867)
