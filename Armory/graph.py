@@ -10,6 +10,8 @@ for _ in range(int(m)):
     matrix[a][b] = 1
     matrix[b][a] = 1
 
+check = [False] * (n+1)
+
 
 def dfs(x: int):
     check[x] = True

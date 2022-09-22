@@ -1,71 +1,71 @@
 # https://www.acmicpc.net/problem/16173
-# 브루트포스
-# import sys
-# n = int(input())
+# Brute force
+import sys
+n = int(input())
 
-# gameMap = [[0, 0, 0]]
+gameMap = [[0, 0, 0]]
 
-# for _ in range(n):
-#     gameMap.append([0]+list(map(int, input().split())))
+for _ in range(n):
+    gameMap.append([0]+list(map(int, input().split())))
 
-# row = 1
-# column = 1
+row = 1
+column = 1
 
-# reachable = False
+reachable = False
 
-# while column <= n:
-#     while row <= n:
-#         if row == n and column == n:
-#             reachable = True
-#             break
+while column <= n:
+    while row <= n:
+        if row == n and column == n:
+            reachable = True
+            break
 
-#         weight = gameMap[column][row]
+        weight = gameMap[column][row]
 
-#         if row + weight <= n:
-#             row += weight
-#             continue
-#         elif weight + column + 1 <= n:
-#             column += weight
-#             continue
-#         else:
-#             row -= 1
+        if row + weight <= n:
+            row += weight
+            continue
+        elif weight + column + 1 <= n:
+            column += weight
+            continue
+        else:
+            row -= 1
 
-#         column += 1
-#         break
+        column += 1
+        break
 
-#     if row == n and column == n:
-#         break
-
-
-# print("Hing" if not reachable else "HaruHaru")
-
-# # DFS
-# n = int(sys.stdin.readline())
-# matrix = []
-
-# for _ in range(n):
-#     matrix.append(list(map(int, sys.stdin.readline().split())))
+    if row == n and column == n:
+        break
 
 
-# def dfs(x, y):
-#     if x >= n or y >= n:
-#         return False
+print("Hing" if not reachable else "HaruHaru")
 
-#     if x == n-1 and y == n-1:
-#         return True
+# DFS
+n = int(sys.stdin.readline())
+matrix = []
 
-#     move = matrix[x][y]
-
-#     if move == 0:
-#         return False
-#     # 오른쪽, 아래쪽 각각 검사
-#     return (dfs(x + move, y) or dfs(x, y + move))
+for _ in range(n):
+    matrix.append(list(map(int, sys.stdin.readline().split())))
 
 
-# if dfs(0, 0):
-#     print("HaruHaru")
-# else:
-#     print("Hing")
+def dfs(x, y):
+    if x >= n or y >= n:
+        return False
+
+    if x == n-1 and y == n-1:
+        return True
+
+    move = matrix[x][y]
+
+    if move == 0:
+        return False
+    # 오른쪽, 아래쪽 각각 검사
+    return (dfs(x + move, y) or dfs(x, y + move))
+
+
+if dfs(0, 0):
+    print("HaruHaru")
+else:
+    print("Hing")
 
 # BFS
 n = int(input())

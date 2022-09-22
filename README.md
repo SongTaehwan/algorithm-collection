@@ -463,3 +463,6 @@
 
 ### 22.9.21
 [중복 빼고 정렬하기](https://www.acmicpc.net/problem/10867)
+
+### 22.9.22
+[알고리즘 수업 - 깊이 우선 탐색 1](https://www.acmicpc.net/problem/24479)
