@@ -469,3 +469,6 @@
 
 ### 22.9.23
 [알고리즘 수업 - 깊이 우선 탐색 2](https://www.acmicpc.net/problem/24480)
+
+### 22.9.24
+[와이버스 부릉부릉](https://www.acmicpc.net/problem/14645)
