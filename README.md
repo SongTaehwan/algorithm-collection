@@ -472,3 +472,6 @@
 
 ### 22.9.24
 [와이버스 부릉부릉](https://www.acmicpc.net/problem/14645)
+
+### 22.9.25
+[조별과제를 하려는데 조장이 사라졌다](https://www.acmicpc.net/problem/15727)
