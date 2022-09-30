@@ -486,3 +486,6 @@
 
 ### 22.9.29
 [상근날드](https://www.acmicpc.net/problem/5543)
+
+### 22.9.30
+[성택이의 은밀한 비밀번호](https://www.acmicpc.net/problem/25372)
