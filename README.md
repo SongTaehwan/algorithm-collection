@@ -491,5 +491,7 @@
 [성택이의 은밀한 비밀번호](https://www.acmicpc.net/problem/25372)
 
 ### 22.10.1
-
 [달달함이 넘쳐흘러](https://www.acmicpc.net/problem/17256)
+
+### 22.10.2
+[10부제](https://www.acmicpc.net/problem/10797)
