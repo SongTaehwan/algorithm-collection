@@ -495,3 +495,6 @@
 
 ### 22.10.2
 [10부제](https://www.acmicpc.net/problem/10797)
+
+### 22.10.3
+[심부름 가는 길](https://www.acmicpc.net/problem/5554)
