@@ -498,3 +498,6 @@
 
 ### 22.10.3
 [심부름 가는 길](https://www.acmicpc.net/problem/5554)
+
+### 22.10.4
+[파티가 끝나고 난 뒤](https://www.acmicpc.net/problem/2845)
