@@ -501,3 +501,6 @@
 
 ### 22.10.4
 [파티가 끝나고 난 뒤](https://www.acmicpc.net/problem/2845)
+
+### 22.10.5
+[공백 없는 A+B](https://www.acmicpc.net/problem/15873)
