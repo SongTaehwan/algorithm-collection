@@ -504,3 +504,6 @@
 
 ### 22.10.5
 [공백 없는 A+B](https://www.acmicpc.net/problem/15873)
+
+### 22.10.6
+[SASA 모형을 만들어보자](https://www.acmicpc.net/problem/23825)
