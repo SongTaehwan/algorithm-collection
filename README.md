@@ -507,3 +507,6 @@
 
 ### 22.10.6
 [SASA 모형을 만들어보자](https://www.acmicpc.net/problem/23825)
+
+### 22.10.7
+[카드 뽑기](https://www.acmicpc.net/problem/16204)
