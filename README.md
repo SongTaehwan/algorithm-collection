@@ -510,3 +510,6 @@
 
 ### 22.10.7
 [카드 뽑기](https://www.acmicpc.net/problem/16204)
+
+### 22.10.8
+[시험 점수](https://www.acmicpc.net/problem/5596)
