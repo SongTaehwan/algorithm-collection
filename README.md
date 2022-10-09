@@ -513,3 +513,6 @@
 
 ### 22.10.8
 [시험 점수](https://www.acmicpc.net/problem/5596)
+
+### 20.10.9
+[Site Score](https://www.acmicpc.net/problem/20254)
