@@ -514,5 +514,8 @@
 ### 22.10.8
 [시험 점수](https://www.acmicpc.net/problem/5596)
 
-### 20.10.9
+### 22.10.9
 [Site Score](https://www.acmicpc.net/problem/20254)
+
+### 22.10.10
+[Sort 마스터 배지훈](https://www.acmicpc.net/problem/17263)
