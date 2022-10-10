@@ -519,3 +519,6 @@
 
 ### 22.10.10
 [Sort 마스터 배지훈](https://www.acmicpc.net/problem/17263)
+
+### 22.10.11
+[점수 집계](https://www.acmicpc.net/problem/9076)
