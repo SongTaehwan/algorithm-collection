@@ -522,3 +522,6 @@
 
 ### 22.10.11
 [점수 집계](https://www.acmicpc.net/problem/9076)
+
+### 22.10.12
+[Zadanie próbne](https://www.acmicpc.net/problem/8545)
