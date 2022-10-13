@@ -525,3 +525,6 @@
 
 ### 22.10.12
 [Zadanie próbne](https://www.acmicpc.net/problem/8545)
+
+### 22.10.13
+[Shares](https://www.acmicpc.net/problem/3733)
