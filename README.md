@@ -531,3 +531,6 @@
 
 ### 22.10.14
 [나는 행복합니다~](https://www.acmicpc.net/problem/14652)
+
+### 22.10.15
+[金平糖 (Konpeito)](https://www.acmicpc.net/problem/22015)
