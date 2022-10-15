@@ -534,3 +534,6 @@
 
 ### 22.10.15
 [金平糖 (Konpeito)](https://www.acmicpc.net/problem/22015)
+
+### 22.10.16
+[立方体 (Cube)](https://www.acmicpc.net/problem/24082)
