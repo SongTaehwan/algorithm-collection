@@ -537,3 +537,6 @@
 
 ### 22.10.16
 [立方体 (Cube)](https://www.acmicpc.net/problem/24082)
+
+### 22.10.17
+[SciComLove](https://www.acmicpc.net/problem/21598)
