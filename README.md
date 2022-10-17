@@ -540,3 +540,6 @@
 
 ### 22.10.17
 [SciComLove](https://www.acmicpc.net/problem/21598)
+
+### 22.10.18
+[샤틀버스](https://www.acmicpc.net/problem/25625)
