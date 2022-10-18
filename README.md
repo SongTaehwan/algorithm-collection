@@ -543,3 +543,6 @@
 
 ### 22.10.18
 [샤틀버스](https://www.acmicpc.net/problem/25625)
+
+### 22.10.19
+[MBTI](https://www.acmicpc.net/problem/25640)
