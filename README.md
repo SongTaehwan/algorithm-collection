@@ -552,3 +552,6 @@
 
 ### 22.10.21
 [햄버거 만들기](https://www.acmicpc.net/problem/25628)
+
+### 22.10.22
+[큰 수 (BIG)](https://www.acmicpc.net/problem/14928)
