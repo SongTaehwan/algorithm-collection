@@ -555,3 +555,6 @@
 
 ### 22.10.22
 [큰 수 (BIG)](https://www.acmicpc.net/problem/14928)
+
+### 22.10.23
+[Rats](https://www.acmicpc.net/problem/18301)
