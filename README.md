@@ -558,3 +558,6 @@
 
 ### 22.10.23
 [Rats](https://www.acmicpc.net/problem/18301)
+
+### 22.10.24
+[코딩은 체육과목 입니다](https://www.acmicpc.net/problem/25314)
