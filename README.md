@@ -573,3 +573,6 @@
 
 ### 22.10.28
 [余り (Remainder)](https://www.acmicpc.net/problem/24078)
+
+### 22.10.29
+[Julka](https://www.acmicpc.net/problem/8437)
