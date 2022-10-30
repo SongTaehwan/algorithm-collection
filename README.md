@@ -576,3 +576,6 @@
 
 ### 22.10.29
 [Julka](https://www.acmicpc.net/problem/8437)
+
+### 22.10.30
+[身長 (Height)](https://www.acmicpc.net/problem/24086)
