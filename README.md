@@ -579,3 +579,6 @@
 
 ### 22.10.30
 [身長 (Height)](https://www.acmicpc.net/problem/24086)
+
+### 22.10.31
+[UCPC에서 가장 쉬운 문제 번호는?](https://www.acmicpc.net/problem/25311)
