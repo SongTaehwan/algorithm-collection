@@ -582,3 +582,6 @@
 
 ### 22.10.31
 [UCPC에서 가장 쉬운 문제 번호는?](https://www.acmicpc.net/problem/25311)
+
+### 22.11.1
+[Zadanie próbne 2](https://www.acmicpc.net/problem/8871)
