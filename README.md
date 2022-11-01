@@ -585,3 +585,6 @@
 
 ### 22.11.1
 [Zadanie próbne 2](https://www.acmicpc.net/problem/8871)
+
+### 22.11.2
+[Football Scoring](https://www.acmicpc.net/problem/24736)
