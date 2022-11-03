@@ -588,3 +588,6 @@
 
 ### 22.11.2
 [Football Scoring](https://www.acmicpc.net/problem/24736)
+
+### 22.11.3
+[Cupcake Party](https://www.acmicpc.net/problem/24568)
