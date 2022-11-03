@@ -591,3 +591,6 @@
 
 ### 22.11.3
 [Cupcake Party](https://www.acmicpc.net/problem/24568)
+
+### 22.11.4
+[РАВЕНСТВО](https://www.acmicpc.net/problem/24309)
