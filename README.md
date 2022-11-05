@@ -594,3 +594,6 @@
 
 ### 22.11.4
 [РАВЕНСТВО](https://www.acmicpc.net/problem/24309)
+
+### 22.11.5
+[The Fastest Sorting Algorithm In The World](https://www.acmicpc.net/problem/23235)
