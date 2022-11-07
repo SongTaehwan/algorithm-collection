@@ -600,3 +600,6 @@
 
 ### 22.11.6
 [방학 숙제](https://www.acmicpc.net/problem/5532)
+
+### 22.11.7
+[삼각형 외우기](https://www.acmicpc.net/problem/10101)
