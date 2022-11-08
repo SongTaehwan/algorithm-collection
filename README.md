@@ -603,3 +603,6 @@
 
 ### 22.11.7
 [삼각형 외우기](https://www.acmicpc.net/problem/10101)
+
+### 22.11.8
+[모음의 개수](https://www.acmicpc.net/problem/1264)
