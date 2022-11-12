@@ -615,3 +615,6 @@
 
 ### 22.11.11
 [특별한 날](https://www.acmicpc.net/problem/10768)
+
+### 22.11.12
+[과목선택](https://www.acmicpc.net/problem/11948)
