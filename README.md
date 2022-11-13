@@ -618,3 +618,6 @@
 
 ### 22.11.12
 [과목선택](https://www.acmicpc.net/problem/11948)
+
+### 22.11.13
+[Vera and Outfits](https://www.acmicpc.net/problem/15439)
