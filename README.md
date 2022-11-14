@@ -621,3 +621,6 @@
 
 ### 22.11.13
 [Vera and Outfits](https://www.acmicpc.net/problem/15439)
+
+### 22.11.14
+[뜨거운 붕어빵](https://www.acmicpc.net/problem/11945)
