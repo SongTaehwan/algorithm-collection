@@ -624,3 +624,6 @@
 
 ### 22.11.14
 [뜨거운 붕어빵](https://www.acmicpc.net/problem/11945)
+
+### 22.11.15
+[와글와글 숭고한](https://www.acmicpc.net/problem/17388)
