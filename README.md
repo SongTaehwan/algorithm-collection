@@ -627,3 +627,6 @@
 
 ### 22.11.15
 [와글와글 숭고한](https://www.acmicpc.net/problem/17388)
+
+### 22.11.16
+[팬들에게 둘러싸인 홍준](https://www.acmicpc.net/problem/14581)
