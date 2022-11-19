@@ -636,3 +636,6 @@
 
 ### 22.11.18
 [운동장 한바퀴](https://www.acmicpc.net/problem/16486)
+
+### 22.11.19
+[Арифметическая магия](https://www.acmicpc.net/problem/18096)
