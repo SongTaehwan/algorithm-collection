@@ -639,3 +639,6 @@
 
 ### 22.11.19
 [Арифметическая магия](https://www.acmicpc.net/problem/18096)
+
+### 22.11.20
+[전자레인지](https://www.acmicpc.net/problem/14470)
