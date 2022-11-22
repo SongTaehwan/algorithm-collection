@@ -645,3 +645,6 @@
 
 ### 22.11.21
 [한글 2](https://www.acmicpc.net/problem/11283)
+
+### 22.11.22
+[폰 노이만과 파리](https://www.acmicpc.net/problem/14924)
