@@ -648,3 +648,6 @@
 
 ### 22.11.22
 [폰 노이만과 파리](https://www.acmicpc.net/problem/14924)
+
+### 22.11.23
+[FA](https://www.acmicpc.net/problem/14935)
