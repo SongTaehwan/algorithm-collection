@@ -651,3 +651,6 @@
 
 ### 22.11.23
 [FA](https://www.acmicpc.net/problem/14935)
+
+### 22.11.24
+[Identifying tea](https://www.acmicpc.net/problem/11549)
