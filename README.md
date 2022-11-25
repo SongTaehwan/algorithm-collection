@@ -654,3 +654,6 @@
 
 ### 22.11.24
 [Identifying tea](https://www.acmicpc.net/problem/11549)
+
+### 22.11.25
+[입실 관리](https://www.acmicpc.net/problem/5524)
