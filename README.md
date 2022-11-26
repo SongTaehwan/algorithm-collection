@@ -657,3 +657,6 @@
 
 ### 22.11.25
 [입실 관리](https://www.acmicpc.net/problem/5524)
+
+### 22.11.26
+[Winning Score](https://www.acmicpc.net/problem/17009)
