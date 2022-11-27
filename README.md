@@ -660,3 +660,6 @@
 
 ### 22.11.26
 [Winning Score](https://www.acmicpc.net/problem/17009)
+
+### 22.11.27
+[타임 카드](https://www.acmicpc.net/problem/5575)
