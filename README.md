@@ -663,3 +663,6 @@
 
 ### 22.11.27
 [타임 카드](https://www.acmicpc.net/problem/5575)
+
+### 22.11.28
+[치킨댄스를 추는 곰곰이를 본 임스](https://www.acmicpc.net/problem/25191)
