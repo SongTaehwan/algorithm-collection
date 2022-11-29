@@ -666,3 +666,6 @@
 
 ### 22.11.28
 [치킨댄스를 추는 곰곰이를 본 임스](https://www.acmicpc.net/problem/25191)
+
+### 22.11.29
+[뉴비의 기준은 뭘까?](https://www.acmicpc.net/problem/19944)
