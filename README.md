@@ -672,3 +672,6 @@
 
 ### 22.11.30
 [헛간 청약](https://www.acmicpc.net/problem/19698)
+
+### 22.12.1
+[수학은 체육과목 입니다 2](https://www.acmicpc.net/problem/17362)
