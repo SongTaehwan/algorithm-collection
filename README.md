@@ -669,3 +669,6 @@
 
 ### 22.11.29
 [뉴비의 기준은 뭘까?](https://www.acmicpc.net/problem/19944)
+
+### 22.11.30
+[헛간 청약](https://www.acmicpc.net/problem/19698)
