@@ -675,3 +675,6 @@
 
 ### 22.12.1
 [수학은 체육과목 입니다 2](https://www.acmicpc.net/problem/17362)
+
+### 22.12.2
+[AFC 윔블던](https://www.acmicpc.net/problem/4299)
