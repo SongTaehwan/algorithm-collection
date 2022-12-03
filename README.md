@@ -678,3 +678,6 @@
 
 ### 22.12.2
 [AFC 윔블던](https://www.acmicpc.net/problem/4299)
+
+### 22.12.3
+[치킨 두 마리 (...)](https://www.acmicpc.net/problem/14489)
