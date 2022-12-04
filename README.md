@@ -684,3 +684,6 @@
 
 ### 22.12.4
 [팀 나누기](https://www.acmicpc.net/problem/13866)
+
+### 22.12.5
+[17배](https://www.acmicpc.net/problem/5893)
