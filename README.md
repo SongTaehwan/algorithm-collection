@@ -681,3 +681,6 @@
 
 ### 22.12.3
 [치킨 두 마리 (...)](https://www.acmicpc.net/problem/14489)
+
+### 22.12.4
+[팀 나누기](https://www.acmicpc.net/problem/13866)
