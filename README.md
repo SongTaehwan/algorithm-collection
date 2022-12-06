@@ -687,3 +687,6 @@
 
 ### 22.12.5
 [17배](https://www.acmicpc.net/problem/5893)
+
+### 22.12.6
+[타일 채우기 4](https://www.acmicpc.net/problem/15700)
