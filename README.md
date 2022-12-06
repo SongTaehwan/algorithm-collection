@@ -690,3 +690,6 @@
 
 ### 22.12.6
 [타일 채우기 4](https://www.acmicpc.net/problem/15700)
+
+### 22.12.7
+[나이 계산하기](https://www.acmicpc.net/problem/16199)
