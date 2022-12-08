@@ -696,3 +696,6 @@
 
 ### 22.12.8
 [한글](https://www.acmicpc.net/problem/11282)
+
+### 22.12.9
+[자동완성](https://www.acmicpc.net/problem/24883)
