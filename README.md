@@ -699,3 +699,6 @@
 
 ### 22.12.9
 [자동완성](https://www.acmicpc.net/problem/24883)
+
+### 22.12.10
+[정육각형과 삼각형](https://www.acmicpc.net/problem/14264)
