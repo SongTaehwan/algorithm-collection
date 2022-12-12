@@ -708,3 +708,6 @@
 
 ### 22.12.11
 [줄 번호](https://www.acmicpc.net/problem/4470)
+
+### 22.12.12
+[녹색거탑](https://www.acmicpc.net/problem/24723)
