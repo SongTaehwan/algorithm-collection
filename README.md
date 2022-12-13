@@ -711,3 +711,6 @@
 
 ### 22.12.12
 [녹색거탑](https://www.acmicpc.net/problem/24723)
+
+### 22.12.13
+[럭비 클럽](https://www.acmicpc.net/problem/2083)
