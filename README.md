@@ -714,3 +714,6 @@
 
 ### 22.12.13
 [럭비 클럽](https://www.acmicpc.net/problem/2083)
+
+### 22.12.14
+[이칙연산](https://www.acmicpc.net/problem/15726)
