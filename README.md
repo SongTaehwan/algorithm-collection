@@ -720,3 +720,6 @@
 
 ### 22.12.15
 [Hard choice](https://www.acmicpc.net/problem/15059)
+
+### 22.12.16
+[Who is in the middle?](https://www.acmicpc.net/problem/6840)
