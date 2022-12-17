@@ -723,3 +723,6 @@
 
 ### 22.12.16
 [Who is in the middle?](https://www.acmicpc.net/problem/6840)
+
+### 22.12.17
+[Correct](https://www.acmicpc.net/problem/26307)
