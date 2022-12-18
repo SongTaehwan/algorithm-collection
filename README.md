@@ -726,3 +726,6 @@
 
 ### 22.12.17
 [Correct](https://www.acmicpc.net/problem/26307)
+
+### 22.12.18
+[Tri-du](https://www.acmicpc.net/problem/13597)
