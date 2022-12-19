@@ -729,3 +729,6 @@
 
 ### 22.12.18
 [Tri-du](https://www.acmicpc.net/problem/13597)
+
+### 22.12.19
+[욱 제](https://www.acmicpc.net/problem/17356)
