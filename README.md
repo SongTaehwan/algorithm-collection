@@ -732,3 +732,6 @@
 
 ### 22.12.19
 [욱 제](https://www.acmicpc.net/problem/17356)
+
+### 22.12.20
+[뉴턴과 사과](https://www.acmicpc.net/problem/13118)
