@@ -735,3 +735,6 @@
 
 ### 22.12.20
 [뉴턴과 사과](https://www.acmicpc.net/problem/13118)
+
+### 22.12.21
+[단순한 문제 (Small)](https://www.acmicpc.net/problem/25494)
