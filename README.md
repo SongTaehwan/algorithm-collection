@@ -738,3 +738,6 @@
 
 ### 22.12.21
 [단순한 문제 (Small)](https://www.acmicpc.net/problem/25494)
+
+### 22.12.22
+[A+B](https://www.acmicpc.net/problem/26711)
