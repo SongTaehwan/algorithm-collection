@@ -741,3 +741,6 @@
 
 ### 22.12.22
 [A+B](https://www.acmicpc.net/problem/26711)
+
+### 22.12.23
+[치킨댄스를 추는 곰곰이를 본 임스 2](https://www.acmicpc.net/problem/26068)
