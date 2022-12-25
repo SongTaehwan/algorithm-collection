@@ -747,3 +747,6 @@
 
 ### 22.12.24
 [Hook](https://www.acmicpc.net/problem/10189)
+
+### 22.12.25
+[Wynik meczu](https://www.acmicpc.net/problem/26736)
