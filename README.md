@@ -756,3 +756,6 @@
 
 ### 22.12.27
 [Mathematics](https://www.acmicpc.net/problem/26545)
+
+### 22.12.29
+[Copier](https://www.acmicpc.net/problem/26574)
