@@ -759,3 +759,6 @@
 
 ### 22.12.29
 [Copier](https://www.acmicpc.net/problem/26574)
+
+### 22.12.30
+[빵](https://www.acmicpc.net/problem/25377)
