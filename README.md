@@ -762,3 +762,6 @@
 
 ### 22.12.30
 [빵](https://www.acmicpc.net/problem/25377)
+
+### 22.12.31
+[그대로 출력하기 2](https://www.acmicpc.net/problem/11719)
