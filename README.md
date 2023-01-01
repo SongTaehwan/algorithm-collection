@@ -765,3 +765,6 @@
 
 ### 22.12.31
 [그대로 출력하기 2](https://www.acmicpc.net/problem/11719)
+
+### 23.1.1
+[열 개씩 끊어 출력하기](https://www.acmicpc.net/problem/11721)
