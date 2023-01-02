@@ -771,3 +771,6 @@
 
 ### 23.1.2
 [ACM 호텔](https://www.acmicpc.net/problem/10250)
+
+### 23.1.3
+[택시 기하학](https://www.acmicpc.net/problem/3053)
