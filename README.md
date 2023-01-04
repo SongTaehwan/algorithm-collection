@@ -774,3 +774,6 @@
 
 ### 23.1.3
 [택시 기하학](https://www.acmicpc.net/problem/3053)
+
+### 23.1.4
+[홀수](https://www.acmicpc.net/problem/2576)
