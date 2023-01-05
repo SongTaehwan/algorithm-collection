@@ -777,3 +777,6 @@
 
 ### 23.1.4
 [홀수](https://www.acmicpc.net/problem/2576)
+
+### 23.1.5
+[가위 바위 보?](https://www.acmicpc.net/problem/4493)
