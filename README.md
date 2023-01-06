@@ -780,3 +780,6 @@
 
 ### 23.1.5
 [가위 바위 보?](https://www.acmicpc.net/problem/4493)
+
+### 23.1.6
+[사과](https://www.acmicpc.net/problem/10833)
